@@ -1,0 +1,62 @@
+---
+primary_language: zh
+is_rotation_valid: True
+rotation_correction: 0
+is_table: False
+is_diagram: False
+---
+在截面 1—1' 和 2—2' 之间对式 (3.4.28) 进行积分。式中直管摩擦系数 \( \lambda \) 为 \( Re \) 和 \( \frac{\varepsilon}{d} \) 的函数, \( Re \) 可以改写成
+
+\[
+Re = \frac{du\rho}{\mu} = \frac{dN}{\mu}
+\]
+
+当管径不变时,质量通量和管径均为常数, \( Re \) 只与气体的温度有关。因此,当流动过程为等温过程或温度变化不大时,可以认为 \( \lambda \) 沿管长不变,故可以得到
+
+\[
+N^2 \ln \frac{v_2}{v_1} + \int_{p_1}^{p_2} \frac{dp}{v} + \lambda \frac{l}{d} \frac{N^2}{2} = 0
+\]
+
+式中: \( \int_{p_1}^{p_2} \frac{dp}{v} \) 必须在已知流动过程中比体积 \( v \) 和压力 \( p \) 的关系时才能进行计算。
+
+现假定气体为理想气体,分别在等温流动和非等温流动两种情况下,讨论阻力损失的计算。
+
+(1) 理想气体的等温流动: 理想气体作等温流动,应满足
+
+\[
+p_1 v_1 = p_2 v_2 = \frac{RT}{M} = \text{常数}
+\]
+
+故可以导出
+
+\[
+\int_{p_1}^{p_2} \frac{dp}{v} = \frac{M}{RT} \int_{p_1}^{p_2} p dp = \frac{(p_2^2 - p_1^2) M}{2RT} = \frac{p_2^2 - p_1^2}{2p_1 v_1}
+\]
+
+将上式代入式 (3.4.29), 可得
+
+\[
+N^2 \ln \frac{v_2}{v_1} + \frac{p_2^2 - p_1^2}{2p_1 v_1} + \lambda l N^2 / 2d = 0
+\]
+
+若 \( p_m \) 和 \( v_m \) 分别为气体在截面 1—1' 和 2—2' 之间的平均压力和平均比体积, 则
+
+\[
+p_m = \frac{p_1 + p_2}{2}
+\]
+
+\[
+\rho_m = \rho_1 \frac{p_m}{p_1} \frac{T_1}{T_m}, \quad v_m = \frac{1}{\rho_m}
+\]
+
+所以
+
+\[
+p_1 v_1 = p_m v_m = \frac{p_1 + p_2}{2} v_m = \frac{p_2^2 - p_1^2}{p_2 - p_1} \frac{v_m}{2} = \frac{RT}{M}
+\]
+
+在等温流动中,式 (3.4.29) 可以写成
+
+\[
+N^2 \ln \frac{v_2}{v_1} + \frac{p_2 - p_1}{v_m} + \lambda l N^2 / 2d = 0
+\]

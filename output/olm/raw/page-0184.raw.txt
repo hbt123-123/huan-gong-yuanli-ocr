@@ -1,0 +1,54 @@
+---
+primary_language: zh
+is_rotation_valid: True
+rotation_correction: 0
+is_table: False
+is_diagram: False
+---
+以上两式适用于 \( T_w < 150 \) ℃的情况。
+
+2. 空气沿粗糙壁面强制对流
+当空气流速 \( u \leq 5 \) m/s 时:
+\[
+\alpha_T = 6.2 + 4.2u \tag{4.5.26}
+\]
+当空气流速 \( u > 5 \) m/s 时:
+\[
+\alpha_T = 7.8u^{0.78} \tag{4.5.27}
+\]
+
+术语中英文对照
+- 热量传递 heat transfer
+- 热传导 heat conduction
+- 热辐射 heat radiation
+- 热对流 heat convection
+- 传热速率 heat transfer rate
+- 热流密度 heat flux density
+- 导热系数 thermal conductivity coefficient
+- 温度梯度 temperature gradient
+- 导热热阻 heat conduction resistance
+- 对流传热系数 convective heat transfer coefficient
+- 冷凝传热 condensing heat transfer
+- 换热器 heat exchanger
+- 管式换热器 tubular heat exchanger
+- 板式换热器 plate heat exchanger
+- 平均温差 mean temperature difference
+- 传热单元数 number of transfer units
+- 传热效率 heat transfer efficiency
+- 黑体 black body
+- 灰体 gray body
+
+思考题与习题
+4.1 思考题
+（1）如果你赤脚走在地板上,在室内温度相同情况下,砖质地板比木地板感觉更冷,解释原因。
+（2）为什么多孔材料具有保温性能？保温材料为什么需要防潮？
+（3）若采用厚度相同、导热系数不同的两种材料为管道保温,试分析应如何布置效果最好。
+（4）分析圆直管内湍流流动的对流传热系数与流量和管径的关系,若要提高对流传热系数,采取哪种措施最有效？
+（5）在计算热传导非相变一侧流体吸收/放出的热量,换热器间壁两侧的流体主体换热及换热器的热量衡算时,所指的传热推动力(温差)各是什么?
+（6）什么情况下保温层厚度增加反而会使热损失加大?保温层的临界直径由什么决定?
+
+4.2 用平板法测定材料的导热系数,即在平板的一侧用电加热器加热,另一侧以冷水通过夹层将热量移走,同时板的两侧由热电偶测量其表面温度,电热器流经平板的热量为电热器消耗的功率。设某材料的加热面积为 0.02 m^2,厚度为 0.01 m,当电热器的电流和电压分别为 2.8 A 和 140 V 时,板两侧的温度分别为 300 ℃和 100 ℃;当电热器的电流和电压分别为 2.28 A 和 114 V 时,板两侧的温度分别为 200 ℃和 50 ℃。如果该材料的导热系数与温度的关系为线性关系,即 \( \lambda = \lambda_0 (1 + aT) \) (式中 T 的单位为 ℃),试确定导热系数与温度关系的表达式。
+
+4.3 某平壁材料的导热系数 \( \lambda = \lambda_0 (1 + aT) \) (T 的单位为 ℃)。若已知通过平壁的热通量为 \( q \) (W/m^2),平壁内表面的温度为 \( T_1 \),壁厚为 b。试求平壁内的温度分布。
+
+4.4 某燃烧炉的炉壁由 500 mm 厚的耐火砖,380 mm 厚的绝热砖及250 mm厚的普通砖砌成。其 \( \lambda \) 依

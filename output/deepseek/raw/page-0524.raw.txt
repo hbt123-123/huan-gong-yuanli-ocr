@@ -1,0 +1,43 @@
+sub_title[[87, 63, 219, 80]]
+## 10. 导热系数  
+
+table[[44, 85, 912, 194]]
+
+<table>W/(m·℃)kcal/(m·h·℃)cal/(cm·s·℃)Btu/(ft²·h·°F)10.862.389×10⁻³0.5791.16312.778×10⁻³0.672 0418.73601241.91.731.4884.134×10⁻³1</table>  
+
+sub_title[[88, 211, 219, 228]]
+## 11. 传热系数  
+
+table[[44, 233, 912, 346]]
+
+<table>W/(m²·℃)kcal/(m²·h·℃)cal/(cm²·s·℃)Btu/(ft²·h·°F)10.862.389×10⁻⁵0.1761.16312.778×10⁻⁵0.204 84.186×10⁴3.6×10⁴1737 45.6784.8821.356×10⁻⁴1</table>  
+
+sub_title[[88, 365, 176, 381]]
+## 12. 温度  
+
+equation[[87, 386, 250, 408]]
+\[\mathrm{K} = 273.2 + \mathrm{^\circ C}\]  
+
+equation[[86, 413, 249, 450]]
+\[\mathrm{\bar{C}} = (\mathrm{\bar{\Omega}}^{\circ}\mathrm{F} - 32)\times \frac{5}{9}\]  
+
+equation[[87, 454, 238, 490]]
+\[\mathrm{\bar{F}} = \mathrm{\bar{C}}\times \frac{9}{5} +32^{\circ}\]  
+
+equation[[88, 494, 209, 510]]
+\[\mathrm{\bar{R}} = 460^{\circ} + \mathrm{\bar{F}}\]  
+
+equation[[87, 515, 184, 553]]
+\[\mathrm{K} = \mathrm{\bar{R}}\times \frac{5}{9}\]  
+
+sub_title[[89, 558, 265, 575]]
+## 13. 摩尔气体常数  
+
+equation[[88, 579, 370, 707]]
+\[R = 8.314\mathrm{kJ} / (\mathrm{kmol}\cdot \mathrm{K})\] \[\quad = 1.987\mathrm{kcal} / (\mathrm{kmol}\cdot \mathrm{K})\] \[\quad = 848\mathrm{kgf}\cdot \mathrm{m} / (\mathrm{kmol}\cdot \mathrm{K})\] \[\quad = 82.06\mathrm{atm}\cdot \mathrm{cm}^{3} / (\mathrm{mol}\cdot \mathrm{C})\] \[\quad = 1.978\mathrm{Btu} / (\mathrm{lbmol}\cdot \mathrm{R})\] \[\quad = 1544\mathrm{lb}\cdot \mathrm{ft} / (\mathrm{lbmol}\cdot \mathrm{R})\]  
+
+sub_title[[90, 712, 355, 729]]
+## 14. 斯特藩一玻尔兹曼常数  
+
+equation[[89, 733, 397, 800]]
+\[\sigma_{0} = 5.67\times 10^{-8}\mathrm{W / (m^{2}\cdot K^{4})}\] \[\quad = 4.88\times 10^{-8}\mathrm{kcal / (m^{2}\cdot h\cdot K^{4})}\] \[\quad = 0.173\times 10^{-8}\mathrm{Btu / (ft^{2}\cdot h\cdot R^{4})}\]

@@ -1,0 +1,80 @@
+sub_title[[137, 94, 555, 119]]
+## 四、固相催化反应的本征动力学  
+
+text[[92, 129, 964, 214]]
+四、固相催化反应的本征动力学固相催化反应的本质是反应物分子以吸附的方式与催化剂结合,形成吸附络合物,吸附络合物之间进一步反应,生成产物,即吸附 \(\rightarrow\) 表面反应 \(\rightarrow\) 脱附的过程,这三个过程是直接与化学反应相关的过程,称为本征动力学过程。下面以气-固相反应为例,分别介绍这些过程。  
+
+sub_title[[139, 216, 488, 235]]
+## （一）反应物的化学吸附与脱附速率  
+
+text[[92, 238, 962, 279]]
+化学反应只能发生在活性中心(active site),即固体表面上能与反应物反应的原子。活性中心用符号" \(\sigma\) "表示,则化学吸附的过程可表示为:  
+
+equation[[460, 289, 960, 307]]
+\[{\bf A} + \sigma \rightleftharpoons {\bf A}\sigma \quad (13.1.9)\]  
+
+text[[92, 318, 503, 337]]
+式中: \(\mathbf{A}\sigma\) ——A与活性中心生成的络合物。  
+
+text[[137, 339, 759, 359]]
+对于气-固相催化反应,吸附速率 \(v_{\mathrm{a}}\) 和脱附速率 \(v_{\mathrm{a}}^{\prime}\) 可分别表示为  
+
+equation[[478, 367, 959, 388]]
+\[v_{\mathrm{a}} = k_{\mathrm{a}}p_{\mathrm{A}}\theta_{\mathrm{v}} \quad (13.1.10)\]  
+
+equation[[480, 390, 960, 409]]
+\[v_{\mathrm{a}}^{\prime} = k_{\mathrm{a}}^{\prime}\theta_{\mathrm{A}} \quad (13.1.11)\]  
+
+text[[92, 417, 456, 437]]
+式中: \(v_{\mathrm{a}}, v_{\mathrm{a}}^{\prime}\) ——吸附速率和脱附速率;  
+
+text[[175, 440, 475, 458]]
+\(p_{\mathrm{A}}\) ——A组分在气相中的分压;  
+
+text[[178, 462, 415, 480]]
+\(\theta_{\mathrm{v}}\) ——空位率,量纲为1;  
+
+text[[176, 484, 416, 501]]
+\(\theta_{\mathrm{A}}\) ——吸附率,量纲为1;  
+
+text[[145, 504, 545, 523]]
+\(k_{\mathrm{a}}, k_{\mathrm{a}}^{\prime}\) ——吸附速率常数和脱附速率常数。  
+
+text[[92, 525, 962, 566]]
+同反应速率常数一样, \(k_{\mathrm{a}}\) 和 \(k_{\mathrm{a}}^{\prime}\) 与温度的关系亦可用阿伦尼乌斯(Arrhenius)方程表示,即  
+
+equation[[445, 577, 959, 615]]
+\[k_{\mathrm{a}} = k_{\mathrm{a}0}\exp \left(-\frac{E_{\mathrm{a}}}{RT}\right) \quad (13.1.12)\]  
+
+equation[[444, 620, 960, 660]]
+\[k_{\mathrm{a}}^{\prime} = k_{\mathrm{a}0}^{\prime}\exp \left(-\frac{E_{\mathrm{a}}^{\prime}}{RT}\right) \quad (13.1.13)\]  
+
+text[[92, 668, 560, 689]]
+式中: \(k_{\mathrm{a}0}, k_{\mathrm{a}0}^{\prime}\) ——分别为吸附和脱附的增强因子;  
+
+text[[152, 694, 536, 713]]
+\(E_{\mathrm{a}}, E_{\mathrm{a}}^{\prime}\) ——分别为吸附和脱附的活化能。  
+
+text[[92, 718, 962, 762]]
+实际观察到的吸附速率,即净吸附速率是吸附速率 \(v_{\mathrm{a}}\) 与脱附速率 \(v_{\mathrm{a}}^{\prime}\) 之差,该速率称为表观吸附速率 \(v_{\mathrm{A}}\) ,故  
+
+equation[[449, 772, 959, 792]]
+\[v_{\mathrm{A}} = k_{\mathrm{a}}p_{\mathrm{A}}\theta_{\mathrm{v}} - k_{\mathrm{a}}^{\prime}\theta_{\mathrm{A}} \quad (13.1.14)\]  
+
+text[[138, 800, 436, 820]]
+当吸附达到平衡时, \(v_{\mathrm{A}} = 0\) ,所以  
+
+equation[[464, 828, 959, 849]]
+\[k_{\mathrm{a}}p_{\mathrm{A}}\theta_{\mathrm{v}} = k_{\mathrm{a}}^{\prime}\theta_{\mathrm{A}} \quad (13.1.15)\]  
+
+text[[138, 863, 163, 879]]
+设  
+
+equation[[470, 853, 959, 893]]
+\[K_{\mathrm{A}} = \frac{k_{\mathrm{a}}}{k_{\mathrm{a}}^{\prime}} \quad (13.1.16)\]  
+
+text[[92, 907, 119, 924]]
+则  
+
+equation[[467, 895, 959, 935]]
+\[K_{\mathrm{A}} = \frac{\theta_{\mathrm{A}}}{p_{\mathrm{A}}\theta_{\mathrm{v}}} \quad (13.1.16)\]

@@ -1,0 +1,50 @@
+table[[35, 82, 901, 225]]
+table_caption[[819, 66, 862, 80]]
+续表  
+
+<table>微生物基质Yx/S/(kg·kg-1)产气杆菌(Aerobacter aerogenes)葡萄糖(好氧)0.40产气杆菌(Aerobacter aerogenes)乳酸0.18产气杆菌(Aerobacter aerogenes)丙酮酸0.20大肠埃希氏杆菌(Escherichia coli)NH4+3.5产肮假丝酵母菌(Candida utilis)NH4+10~22</table>  
+
+text[[31, 242, 901, 283]]
+表14.2.4列出了不同废水生物处理系统中的细胞产率,即在活性污泥法处理时的污泥转化率。  
+
+table[[33, 314, 900, 469]]
+table_caption[[262, 294, 670, 311]]
+表14.2.4 不同废水生物处理系统中的细胞产率  
+
+<table>废水种类污泥转化率生活污水0.73石油精炼废水0.49~0.62化学、石油化学废水0.31~0.72酿造废水0.56制药废水0.72~0.77</table>  
+
+sub_title[[78, 494, 448, 512]]
+## （二）以碳元素为基准的细胞产率系数  
+
+text[[33, 515, 901, 578]]
+对于作为碳源的基质,无论好氧培养还是厌氧培养,从宏观的角度可以看作碳源的一部分同化为微生物细胞,剩余部分转化为 \(\mathrm{CO}_{2}\) 和其他代谢产物(异化)。以碳元素为基准的细胞产率系数 \((Y_{\mathrm{X / C}})\) [单位: \(\mathrm{kg}\) (细胞中的 \(\mathrm{C}) / \mathrm{kg}(\mathrm{C})\) ]定义为  
+
+equation[[229, 587, 898, 629]]
+\[Y_{\mathrm{X / C}} = \frac{\mathrm{细胞生长量}\times\mathrm{细胞的含碳率}}{\mathrm{碳源消耗量}\times\mathrm{碳源的含碳率}} = \frac{\Delta X\gamma_{\mathrm{X}}}{-\Delta S\gamma_{\mathrm{S}}} = Y_{\mathrm{X / S}}\frac{\gamma_{\mathrm{X}}}{\gamma_{\mathrm{S}}} \quad (14.2.10)\]  
+
+text[[33, 639, 396, 657]]
+式中: \(\gamma_{\mathrm{X}}\) ——细胞的含碳率,量纲为1;  
+
+text[[85, 661, 394, 679]]
+\(\gamma_{\mathrm{S}}\) ——碳源的含碳率,量纲为1。  
+
+text[[78, 682, 562, 701]]
+与 \(Y_{\mathrm{X / S}}\) 不同, \(Y_{\mathrm{X / C}}\) 的值只能小于1,一般为0.5\~0.7。  
+
+sub_title[[77, 704, 469, 722]]
+## （三）以氧消耗量为基准的细胞产率系数  
+
+text[[33, 725, 901, 766]]
+在工程上,利用好氧微生物时,需要向微生物供氧。对于这种情况,以氧消耗量为基准的细胞产率系数 \((Y_{\mathrm{X / O}})\) [单位: \(\mathrm{kg}\) (细胞) \(/\mathrm{kg}(\mathrm{O}_{2})\) ]定义为  
+
+equation[[405, 776, 898, 817]]
+\[Y_{\mathrm{X / O}} = \frac{\Delta X}{-\Delta m_{O_{2}}} \quad (14.2.11)\]  
+
+text[[33, 826, 407, 845]]
+式中: \(- \Delta m_{O_{2}}\) ——反应消耗的 \(O_{2}\) 量, \(\mathrm{kg}\) 。  
+
+text[[75, 848, 464, 866]]
+对于反应(14.2.2), \(Y_{\mathrm{X / O}}\) 与 \(Y_{\mathrm{X / C}}\) 的关系为  
+
+equation[[337, 875, 898, 915]]
+\[Y_{\mathrm{X / C}} = \frac{Y_{\mathrm{X / C}}(12 + x + 16y + 14z)}{32b} \quad (14.2.12)\]

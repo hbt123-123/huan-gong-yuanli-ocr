@@ -1,0 +1,63 @@
+text[[76, 60, 656, 81]]
+当 \(\mu\) 可以用莫诺(Monod)方程表达时,式(14.3.14)可改写为  
+
+equation[[342, 91, 896, 133]]
+\[-\nu_{\mathrm{s}} = \frac{\mu_{\mathrm{max}}}{Y_{\mathrm{x} / \mathrm{S}}}\frac{S}{K_{\mathrm{s}} + S} = \nu_{\mathrm{max}}\frac{S}{K_{\mathrm{s}} + S} \quad (14.3.15)\]  
+
+text[[31, 142, 562, 162]]
+式中: \(\nu_{\mathrm{max}}\) ——最大比基质消耗速率, \(\mathrm{kg / [kg(细胞)\cdot h]}\) 。  
+
+sub_title[[75, 164, 465, 183]]
+## 2. 考虑维持代谢的基质消耗速率表达式  
+
+text[[32, 185, 900, 228]]
+在微生物反应中,被消耗的基质的一部分用于微生物的生长,另一部分用于维持细胞的活性,即作为碳源和能源的基质的消耗速率有以下关系:  
+
+text[[104, 236, 828, 258]]
+基质消耗速率 \(=\) 用于微生物生长的消耗速率 \(^+\) 用于维持细胞活性的消耗速率  
+
+text[[32, 264, 58, 282]]
+即  
+
+equation[[384, 260, 897, 300]]
+\[-r_{\mathrm{S}} = \frac{1}{Y_{\mathrm{x} / \mathrm{S}}^{\ast}} r_{\mathrm{X}} + m_{\mathrm{X}}X \quad (14.3.16)\]  
+
+text[[32, 311, 668, 332]]
+式中: \(Y_{\mathrm{x} / \mathrm{S}}^{\ast}\) ——细胞真实产率系数(true growth yield), \(\mathrm{kg(细胞) / kg}\) ;  
+
+text[[92, 334, 740, 354]]
+\(m_{\mathrm{X}}\) ——维持系数(maintenance coefficient), \(\mathrm{kg(基质) / [kg(细胞)\cdot h]}\) 。  
+
+text[[33, 356, 900, 399]]
+\(Y_{\mathrm{x} / \mathrm{S}}^{\ast}\) 是从能源物质所能获取的最大细胞产率系数。 \(m_{\mathrm{X}}\) 一般为 \(0.1\sim 4\) ,与环境条件有很大的关系。维持能的大部分用于渗透功,增加培养液的盐浓度会大大增加 \(m_{\mathrm{X}}\) 。  
+
+text[[75, 401, 368, 420]]
+式(14.3.16)两边同除以 \(X\) ,得  
+
+equation[[392, 431, 897, 472]]
+\[-\nu_{\mathrm{S}} = \frac{1}{Y_{\mathrm{x} / \mathrm{S}}^{\ast}}\mu +m_{\mathrm{X}} \quad (14.3.17)\]  
+
+text[[75, 481, 452, 501]]
+将式(14.3.14)代入式(14.3.17),可得  
+
+equation[[387, 511, 897, 550]]
+\[\frac{\mu}{Y_{\mathrm{x} / \mathrm{S}}} = \frac{1}{Y_{\mathrm{x} / \mathrm{S}}^{\ast}}\mu +m_{\mathrm{X}} \quad (14.3.18)\]  
+
+equation[[384, 553, 897, 594]]
+\[\frac{1}{Y_{\mathrm{x} / \mathrm{S}}} = \frac{1}{Y_{\mathrm{x} / \mathrm{S}}^{\ast}} +\frac{1}{\mu} m_{\mathrm{X}} \quad (14.3.19)\]  
+
+text[[32, 604, 578, 672]]
+由式(14.3.19)可知, \(1 / Y_{\mathrm{x} / \mathrm{S}}\) 与 \(1 / \mu\) 成直线关系,直线的斜率为 \(m_{\mathrm{X}}\) ,截距为 \(1 / Y_{\mathrm{x} / \mathrm{S}}^{\ast}\) 。因此可以根据实验求得的 \(Y_{\mathrm{x} / \mathrm{S}}\) 与 \(\mu\) 值,用作图法得到 \(m_{\mathrm{X}}\) 和 \(Y_{\mathrm{x} / \mathrm{S}}^{\ast}\) (图14.3.4)。  
+
+sub_title[[76, 675, 220, 692]]
+## 3. 氧摄取速率  
+
+text[[32, 695, 578, 804]]
+在好氧生物反应中,碳源、能源等营养物质的消耗都伴随着氧的消耗。氧摄取速率(oxygen uptake rate,OUR)或氧消耗速率(oxygen consumption rate,OCR) \(r_{0_{2}}\) 与以氧消耗量为基准的细胞产率系数 \(Y_{\mathrm{x} / 0}^{\ast}\) 之间存在以下关系。  
+
+image[[596, 612, 868, 735]]
+image_caption[[604, 745, 873, 786]]
+<center>图14.3.4 维持系数 \(m_{\mathrm{X}}\) 与细胞真实产率系数 \(Y_{\mathrm{x} / \mathrm{S}}^{\ast}\) 的求法</center>  
+
+equation[[369, 816, 897, 900]]
+\[\begin{array}{l}{{-r_{0_{2}}=\frac{1}{Y_{\mathrm{x}/0}^{\ast}}r_{\mathrm{X}}+m_{\mathrm{X},0_{2}}X}}\\ {{-v_{0_{2}}=\frac{1}{Y_{\mathrm{x}/0}^{\ast}}\mu+m_{\mathrm{X},0_{2}}}}\end{array} \quad (14.3.21)\]

@@ -1,0 +1,68 @@
+text[[41, 60, 656, 82]]
+式中: \(c_{\mathrm{B,m}}\) ——惰性组分在相界面和气相主体间的对数平均浓度。  
+
+text[[42, 93, 909, 134]]
+则 \(N_{\mathrm{A}} = \frac{D_{\mathrm{AB}}c}{L c_{\mathrm{B,m}}} (c_{\mathrm{A,i}} - c_{\mathrm{A,o}}) \quad (5.3.10)\)  
+
+text[[82, 143, 827, 165]]
+若静止流体为理想气体,则根据理想气体状态方程 \(p = cRT\) ,式(5.3.10)可写为  
+
+equation[[362, 174, 909, 216]]
+\[N_{\mathrm{A}} = \frac{D_{\mathrm{AB}}p}{RTL p_{\mathrm{B,m}}} (p_{\mathrm{A,i}} - p_{\mathrm{A,o}}) \quad (5.3.11)\]  
+
+text[[42, 226, 254, 245]]
+式中: \(p\) ——总压强;  
+
+text[[52, 248, 654, 290]]
+\(p_{\mathrm{B,m}}\) ——惰性组分在相界面和气相主体间的对数平均分压; \(p_{\mathrm{A,i}}, p_{\mathrm{A,o}}\) ——分别为组分A在相界面和气相主体的分压。  
+
+equation[[408, 296, 544, 357]]
+\[p_{\mathrm{B,m}} = \frac{p_{\mathrm{B,o}} - p_{\mathrm{B,i}}}{\ln{\frac{p_{\mathrm{B,o}}}{p_{\mathrm{B,i}}}}}\]  
+
+sub_title[[87, 360, 234, 378]]
+### (二)浓度分布  
+
+text[[86, 381, 411, 401]]
+对于稳态扩散过程, \(N_{\mathrm{A}}\) 为常数,即  
+
+equation[[439, 412, 909, 451]]
+\[\frac{\mathrm{d}N_{\mathrm{A}}}{\mathrm{d}z} = 0 \quad (5.3.12)\]  
+
+text[[86, 464, 669, 485]]
+对于气体组分A,可将式(5.3.6)中的浓度用分压 \(p_{\mathrm{A}}\) 表示,即  
+
+equation[[376, 494, 909, 535]]
+\[N_{\mathrm{A}} = \frac{D_{\mathrm{AB}}p}{R T(p - p_{\mathrm{A}})} \frac{\mathrm{d}p_{\mathrm{A}}}{\mathrm{d}z} \quad (5.3.13)\]  
+
+text[[86, 546, 443, 565]]
+将式(5.3.13)代入式(5.3.12)中,得  
+
+equation[[362, 576, 594, 618]]
+\[\frac{\mathrm{d}}{\mathrm{d}z}\left(\frac{D_{\mathrm{AB}}p}{R T(p - p_{\mathrm{A}})} \frac{\mathrm{d}p_{\mathrm{A}}}{\mathrm{d}z}\right) = 0\]  
+
+text[[87, 627, 608, 648]]
+在等温、等压条件下, \(D_{\mathrm{AB}}, p\) 均为常数,于是上式化简为  
+
+equation[[394, 658, 563, 700]]
+\[\frac{\mathrm{d}}{\mathrm{d}z}\left(\frac{1}{p - p_{\mathrm{A}}} \frac{\mathrm{d}p_{\mathrm{A}}}{\mathrm{d}z}\right) = 0\]  
+
+text[[90, 710, 280, 728]]
+上式经两次积分,得  
+
+equation[[384, 737, 910, 760]]
+\[-\ln (p - p_{\mathrm{A}}) = C_{1}z + C_{2} \quad (5.3.14)\]  
+
+text[[44, 767, 797, 789]]
+式中: \(C_{1}, C_{2}\) ——积分常数,可由以下边界条件定出: \(z = 0, p_{\mathrm{A}} = p_{\mathrm{A,i}}\) ; \(z = L, p_{\mathrm{A}} = p_{\mathrm{A,o}}\)  
+
+text[[87, 790, 440, 810]]
+将上述边界条件代入式(5.3.14),得  
+
+equation[[399, 815, 561, 851]]
+\[C_{1} = \frac{1}{L} \ln \frac{p - p_{\mathrm{A,o}}}{p - p_{\mathrm{A,i}}}\]  
+
+equation[[400, 864, 554, 884]]
+\[C_{2} = -\ln (p - p_{\mathrm{A,i}})\]  
+
+text[[87, 894, 562, 914]]
+将 \(C_{1}, C_{2}\) 代入式(5.3.14),得出浓度分布方程,即

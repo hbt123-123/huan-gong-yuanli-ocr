@@ -1,0 +1,27 @@
+---
+primary_language: zh
+is_rotation_valid: True
+rotation_correction: 0
+is_table: False
+is_diagram: False
+---
+ε——绝对粗糙度，m；
+εμ——涡流黏度，Pa·s；
+λ——摩擦系数，量纲为1；
+μ——黏度，Pa·s；
+μ₀——塑性黏度，Pa·s；
+ν——运动黏度，m²/s；
+θ——夹角，(°)；
+ρ——密度，kg/m³；
+τ——剪应力，或称内摩擦力，N/m²；
+τ₀——屈服应力，N/m²；
+τₑ——质点脉动引起的剪应力，N/m²；
+ζ——局部阻力系数，量纲为1。
+
+下标
+eff——有效；
+0——来流；
+——标定流体；
+c——临界；
+m——平均；
+max——最大。

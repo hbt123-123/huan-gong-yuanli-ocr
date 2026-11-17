@@ -1,0 +1,65 @@
+text[[30, 64, 283, 82]]
+失的能量,称为阻力损失。  
+
+text[[72, 86, 596, 105]]
+设单位质量流体的阻力损失为 \(\Sigma h_{i}\) ,其单位为 \(\mathrm{kJ / kg}\) ,则  
+
+equation[[400, 114, 895, 135]]
+\[Q_{\mathrm{e}}^{\prime} = Q_{\mathrm{e}} + \Sigma h_{\mathrm{f}} \quad (3.1.13)\]  
+
+text[[72, 144, 542, 164]]
+将式(3.1.12)和式(3.1.13)代入式(3.1.11),得  
+
+equation[[257, 175, 895, 214]]
+\[\frac{1}{2}\Delta (\alpha u_{\mathrm{m}}^{2}) + g\Delta z + \Delta (p v) - \int_{v_{1}}^{v_{2}}p\mathrm{d}v = -W_{\mathrm{e}} - \Sigma h_{\mathrm{f}} \quad (3.1.14)\]  
+
+text[[75, 225, 122, 243]]
+由于  
+
+equation[[350, 254, 580, 293]]
+\[\Delta (p v) = \int_{v_{1}}^{v_{2}}p\mathrm{d}v + \int_{p_{1}}^{p_{2}}v\mathrm{d}p\]  
+
+text[[30, 300, 336, 319]]
+将上式代入式(3.1.14),整理得  
+
+equation[[293, 330, 895, 369]]
+\[\frac{1}{2}\Delta (\alpha u_{\mathrm{m}}^{2}) + g\Delta z + \int_{p_{1}}^{p_{2}}v\mathrm{d}p = -W_{\mathrm{e}} - \Sigma h_{\mathrm{f}} \quad (3.1.15)\]  
+
+text[[30, 378, 898, 420]]
+式(3.1.15)即为稳态流动过程中单位质量流体的机械能衡算方程,对于不可压缩流体和可压缩流体均适用。  
+
+text[[75, 427, 848, 464]]
+对于不可压缩流体,比体积 \(v\) 或密度 \(\rho\) 为常数, \(\int_{p_{1}}^{p_{2}}v\mathrm{d}p = \frac{\Delta p}{\rho}\) ,式(3.1.15)可简化为  
+
+equation[[312, 474, 896, 513]]
+\[\frac{1}{2}\Delta (\alpha u_{\mathrm{m}}^{2}) + g\Delta z + \frac{\Delta p}{\rho} = -W_{\mathrm{e}} - \Sigma h_{\mathrm{f}} \quad (3.1.16)\]  
+
+text[[75, 523, 852, 544]]
+在流体输送过程中,流体的流态几乎都为湍流,因此可令 \(\alpha = 1\) ,则式(3.1.16)变为  
+
+equation[[330, 554, 896, 593]]
+\[\frac{1}{2}\Delta u_{\mathrm{m}}^{2} + g\Delta z + \frac{\Delta p}{\rho} = -W_{\mathrm{e}} - \Sigma h_{\mathrm{f}} \quad (3.1.17)\]  
+
+text[[32, 614, 59, 632]]
+或  
+
+equation[[273, 605, 896, 645]]
+\[\frac{1}{2} u_{\mathrm{m}_{1}}^{2} + g z_{1} + \frac{p_{1}}{\rho} -W_{\mathrm{e}} = \frac{1}{2} u_{\mathrm{m}_{2}}^{2} + g z_{2} + \frac{p_{2}}{\rho} + \Sigma h_{\mathrm{f}} \quad (3.1.18)\]  
+
+text[[32, 655, 901, 720]]
+式(3.1.17)和式(3.1.18)的适用条件是连续、均质、不可压缩、处于稳态流动的流体。对于可压缩流体,当所取系统两截面之间的绝对压力变化小于原来压力的 \(20\%\) 时,方程仍可使用,此时流体密度应采用两截面之间流体的平均密度。  
+
+text[[32, 722, 900, 764]]
+对于理想流体的流动,由于不存在因黏性引起的摩擦阻力,故 \(\Sigma h_{\mathrm{f}} = 0\) ;若无外功加入, \(W_{\mathrm{e}} = 0\) ,则  
+
+equation[[371, 775, 898, 814]]
+\[\frac{1}{2}\Delta u_{\mathrm{m}}^{2} + g\Delta z + \frac{\Delta p}{\rho} = 0 \quad (3.1.19)\]  
+
+text[[32, 836, 60, 854]]
+或  
+
+equation[[321, 826, 898, 865]]
+\[\frac{1}{2} u_{\mathrm{m}_{1}}^{2} + g z_{1} + \frac{p_{1}}{\rho} = \frac{1}{2} u_{\mathrm{m}_{2}}^{2} + g z_{2} + \frac{p_{2}}{\rho} \quad (3.1.20)\]  
+
+text[[32, 876, 901, 919]]
+式(3.1.19)即为著名的伯努利(Bernoulli)方程,式中各项依次表示单位质量流体具有的动能、位能和静压能之差。式(3.1.17)也称为拓展的伯努利方程。

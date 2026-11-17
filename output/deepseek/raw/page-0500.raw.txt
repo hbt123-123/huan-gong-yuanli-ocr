@@ -1,0 +1,62 @@
+text[[86, 63, 312, 81]]
+\(S\) ——基质浓度, \(\mathrm{kg} / \mathrm{m}^{3}\) 。  
+
+text[[85, 87, 673, 105]]
+基质转化达到稳态时, \(\mathrm{d}S / \mathrm{d}t = 0\) ,代入式(15.2.1)并整理,得到  
+
+equation[[372, 114, 907, 134]]
+\[(-r_{\mathrm{ss}})a V = q_{V}(S_{0} - S_{\mathrm{e}}) \quad (15.2.2)\]  
+
+text[[85, 143, 735, 162]]
+代入式(14.3.46),整理可得到( \(S_{\mathrm{e}}\) 与生物膜表面基质浓度 \(S^{*}\) 相等):  
+
+equation[[315, 171, 907, 215]]
+\[S_{\mathrm{e}} = \frac{S_{0}}{1 + (D_{\mathrm{sf}}k X_{\mathrm{f}})^{1 / 2}a\cdot\tanh\phi_{\mathrm{m}}V / q_{V}} \quad (15.2.3)\]  
+
+text[[41, 223, 569, 242]]
+式中: \(D_{\mathrm{sf}}\) ——基质在微生物膜内的有效扩散系数, \(\mathrm{m}^{2} / \mathrm{s}\) ;  
+
+text[[112, 246, 362, 263]]
+\(k\) ——基质反应速率常数;  
+
+text[[95, 268, 408, 286]]
+\(\phi_{\mathrm{m}}\) ——修正蒂勒模数,量纲为1。  
+
+text[[42, 289, 910, 330]]
+根据式(14.3.38),当微生物膜厚度 \(\delta \gg (D_{\mathrm{sf}} / k X_{\mathrm{f}})^{1 / 2}\) 时, \(\tanh \phi_{\mathrm{m}}\) 趋近于1,式(15.2.3)可简化为  
+
+equation[[363, 340, 908, 383]]
+\[S_{\mathrm{e}} = \frac{S_{0}}{1 + (D_{\mathrm{sf}}k X_{\mathrm{f}})^{1 / 2}a V / q_{V}} \quad (15.2.4)\]  
+
+text[[42, 391, 911, 454]]
+式(15.2.4)表明,以下措施均可以降低CMBR出口的基质浓度(即提高反应器对基质的去除率):增大基质在生物膜中的反应速率常数和扩散速度、提高培养液中生物膜的比表面积及物料(培养液)在反应器中的停留时间。  
+
+text[[42, 457, 911, 498]]
+当CMBR内微生物生长达到稳态,且忽略自身衰减时,微生物细胞的物料衡算式可表示为  
+
+equation[[359, 508, 908, 528]]
+\[(-r_{\mathrm{ss}})a V\cdot Y_{\mathrm{x} / \mathrm{s}}^{\ast} - q_{V}X_{\mathrm{e}} = 0 \quad (15.2.5)\]  
+
+text[[42, 536, 680, 555]]
+式中: \(Y_{\mathrm{x} / \mathrm{s}}^{\ast}\) ——细胞真实产率系数(true growth yield), \(\mathrm{kg}\) (细胞) \(\mathrm{/kg}\) 。  
+
+text[[85, 558, 381, 576]]
+代入式(14.3.46),整理可得到  
+
+equation[[326, 584, 908, 628]]
+\[X_{\mathrm{e}} = \frac{(D_{\mathrm{sf}}k X_{\mathrm{f}})^{1 / 2}S_{\mathrm{e}}a V Y_{\mathrm{x} / \mathrm{s}}^{\ast}\tanh\phi_{\mathrm{m}}}{q_{V}} \quad (15.2.6)\]  
+
+text[[85, 637, 776, 657]]
+当微生物膜厚度 \(\delta \gg (D_{\mathrm{sf}} / k X_{\mathrm{f}})^{1 / 2}\) 时, \(\tanh \phi_{\mathrm{m}}\) 趋近于1,式(15.2.6)简化为  
+
+equation[[362, 666, 908, 709]]
+\[X_{\mathrm{e}} = \frac{(D_{\mathrm{sf}}k X_{\mathrm{f}})^{1 / 2}S_{\mathrm{e}}a V Y_{\mathrm{x} / \mathrm{s}}^{\ast}}{q_{V}} \quad (15.2.7)\]  
+
+text[[51, 725, 903, 814]]
+【例题15.2.1】某处理污水的完全混合生物膜反应器,污水中基质(BOD)的降解符合一级反应,且 \(\mathrm{BOD}_{5}\) 降解和生物膜生长达到稳态。已知进水中 \(\mathrm{BOD}_{5}\) 浓度 \(S_{0} = 800 \mathrm{mg / L}, D_{\mathrm{sf}} = 0.75 \mathrm{cm}^{2} / \mathrm{d}, X_{\mathrm{f}} = 25 \mathrm{mgVSS} / \mathrm{cm}^{3}, k = 4 \times 10^{-2} \mathrm{m}^{3} / (\mathrm{g} \cdot \mathrm{h})\) ,生物膜比表面积 \(a = 350 \mathrm{m}^{2} / \mathrm{m}^{3}\) ,厚度 \(\delta = 300 \mu \mathrm{m}, Y_{\mathrm{x} / \mathrm{s}}^{\ast} = 0.7\) ,试求不同空塔停留时间下的出口 \(\mathrm{BOD}_{5}\) 浓度及微生物浓度。  
+
+text[[88, 818, 291, 835]]
+解:根据已知条件,可得  
+
+equation[[213, 843, 742, 908]]
+\[(D_{\mathrm{sf}} / k X_{\mathrm{f}})^{1 / 2} = \left\{ \begin{array}{c c}{\frac{0.75}{24}}\\ {\frac{4\times10^{-2}\times25\times10^{3}}{}} \end{array} \right\}^{1 / 2}\mathrm{cm}\approx 0.00559\mathrm{cm} = 55.9\mu \mathrm{m}\]

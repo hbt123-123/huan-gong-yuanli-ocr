@@ -1,0 +1,56 @@
+sub_title[[140, 91, 649, 117]]
+## 二、气-固相反应的反应速率表示方法  
+
+text[[100, 125, 970, 169]]
+对于固定床催化反应器,如气一固相催化反应器,气相中反应物的反应速率与固体催化剂的量和表面积等有密切的关系,为了研究方便,经常采用以下不同基准的反应速率。  
+
+text[[99, 170, 969, 214]]
+(1)以催化剂质量为基准的反应速率:定义为单位时间内单位催化剂质量 \((m)\) 所能转化的某组分的量。反应物A的以催化剂质量为基准的反应速率 \(-r_{\mathrm{A}m}\) 表示为  
+
+equation[[464, 225, 967, 265]]
+\[-r_{\mathrm{A}m} = -\frac{1}{m}\frac{\mathrm{d}n_{\mathrm{A}}}{\mathrm{d}t} \quad (13.1.6)\]  
+
+text[[100, 277, 969, 321]]
+(2)以催化剂表面积为基准的反应速率:定义为单位时间内单位催化剂表面积 \((S)\) 所能转化的某组分的量。反应物A的以催化剂表面积为基准的反应速率 \(-r_{\mathrm{A}S}\) 表示为  
+
+equation[[464, 332, 967, 372]]
+\[-r_{\mathrm{A}S} = -\frac{1}{S}\frac{\mathrm{d}n_{\mathrm{A}}}{\mathrm{d}t} \quad (13.1.7)\]  
+
+text[[100, 384, 970, 451]]
+(3)以催化剂颗粒体积为基准的反应速率:定义为单位时间内单位催化剂颗粒体积 \((V_{\mathrm{p}})\) 所能转化的某组分的量。反应物A的以催化剂颗粒体积为基准的反应速率 \(-r_{\mathrm{A}V_{\mathrm{p}}}\) 表示为  
+
+equation[[461, 462, 967, 503]]
+\[-r_{\mathrm{A}V_{\mathrm{p}}} = -\frac{1}{V_{\mathrm{p}}}\frac{\mathrm{d}n_{\mathrm{A}}}{\mathrm{d}t} \quad (13.1.8)\]  
+
+text[[100, 515, 970, 560]]
+值得注意的是,催化剂颗粒体积 \(V_{\mathrm{p}}\) 与填充层体积 \(V\) 不同,前者不包括催化剂颗粒间的空隙体积,后者则包括颗粒体积和颗粒间的空隙体积。  
+
+text[[145, 562, 418, 581]]
+各反应速率间存在以下关系  
+
+equation[[348, 592, 729, 615]]
+\[(-r_{\mathrm{A}})V = (-r_{\mathrm{A}m})m = (-r_{\mathrm{A}S})S = (-r_{\mathrm{A}V_{\mathrm{p}}})V_{\mathrm{p}}\]  
+
+text[[110, 633, 962, 697]]
+【例题13.1.1】某气-固相催化反应在一定温度和浓度条件下反应物A的反应速率为 \(- r_{\mathrm{A}m} = 3.0\times\) \(10^{- 3}\mathrm{mol / [s\cdot g(}\) 催化剂)J。已知催化剂填充层填充密度为 \(\rho = 1.20\mathrm{g / cm}^{3}\) ,填充层空隙率 \(\epsilon = 0.40\) 。试分别计算以反应层体积和催化剂颗粒体积为基准的A的反应速率 \(- r_{\mathrm{A}}\) 和 \(- r_{\mathrm{A}V_{\mathrm{p}}}\)  
+
+text[[149, 702, 756, 752]]
+解: \(- r_{\mathrm{A}} = (- r_{\mathrm{A}m})\frac{m}{V} = - r_{\mathrm{A}m}\rho = 3.0\times 10^{- 3}\times 1.2\mathrm{mol / (s\cdot cm^{3})}\) \(= 3.6\times 10^{- 3}\mathrm{mol / (s\cdot cm^{3})}\)  
+
+text[[113, 754, 135, 770]]
+又  
+
+equation[[460, 753, 647, 815]]
+\[(-r_{\mathrm{A}V_{\mathrm{p}}})V_{\mathrm{p}} = (-r_{\mathrm{A}})V\] \[-r_{\mathrm{A}V_{\mathrm{p}}} = -r_{\mathrm{A}}\frac{V}{V_{\mathrm{p}}} = -r_{\mathrm{A}}\frac{V}{V - V_{\mathrm{空膜}}}\]  
+
+text[[113, 821, 400, 840]]
+式中: \(V_{\mathrm{空膜}}\) ——填充层空隙的体积。  
+
+text[[152, 853, 191, 870]]
+因为  
+
+equation[[502, 850, 586, 885]]
+\[\epsilon = \frac{V_{\mathrm{空膜}}}{V}\]  
+
+text[[113, 892, 800, 927]]
+故 \(- r_{\mathrm{A}V_{\mathrm{p}}} = - r_{\mathrm{A}}\frac{1}{1 - \epsilon} = \frac{3.6\times 10^{- 3}}{1 - 0.4}\mathrm{mol / (s\cdot cm^{3})} = 6.0\times 10^{- 3}\mathrm{mol / (s\cdot cm^{3})}\)

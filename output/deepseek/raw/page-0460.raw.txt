@@ -1,0 +1,49 @@
+text[[21, 61, 70, 78]]
+所以  
+
+equation[[227, 60, 886, 149]]
+\[\begin{array}{r l r} & {} & {-r_{A V_{\mathrm{L}}} = k_{G\mathrm{A}}a_{\mathrm{i}}(p_{\mathrm{A}} - p_{\mathrm{A i}}) = k_{\mathrm{L A}}a_{\mathrm{i}}(H_{\mathrm{A}}p_{\mathrm{A i}} - c_{\mathrm{A L}}) = k c_{\mathrm{A L}}c_{\mathrm{B L}}}\\ & {} & {-r_{A V_{\mathrm{L}}} = \frac{p_{\mathrm{A}} - p_{\mathrm{A i}}}{1} = \frac{p_{\mathrm{A i}} - p_{\mathrm{A}}^{*}}{1} = \frac{p_{\mathrm{A}}^{*}}{1}}\\ & {} & {\qquad \frac{k_{G\mathrm{A}}a_{\mathrm{i}}}{k_{G\mathrm{A}}a_{\mathrm{i}}} = \frac{H_{\mathrm{A}}k_{\mathrm{L A}}a_{\mathrm{i}}}{H_{\mathrm{A}}k_{\mathrm{L A}}a_{\mathrm{i}}} = \frac{H_{\mathrm{A}}k c_{\mathrm{B L}}}}{H_{\mathrm{A}}k c_{\mathrm{B L}}}} \end{array} \quad (13.2.64)\]  
+
+text[[21, 158, 584, 179]]
+式中: \(p_{\mathrm{A}}^{*}\) ——与 \(c_{\mathrm{AL}}\) 平衡的A的气相分压( \(p_{\mathrm{A}}^{*} = c_{\mathrm{AL}} / H_{\mathrm{A}}\) ), \(\mathrm{Pa}_{\mathrm{o}}\)  
+
+equation[[315, 191, 886, 254]]
+\[-r_{A V_{\mathrm{L}}} = \frac{p_{\mathrm{A}}}{1 + \frac{1}{H_{\mathrm{A}}k_{\mathrm{L A}}a_{\mathrm{i}}} + \frac{1}{H_{\mathrm{A}}k c_{\mathrm{B L}}}} \quad (13.2.65)\]  
+
+text[[64, 260, 233, 279]]
+对于极慢反应,有  
+
+equation[[377, 291, 886, 312]]
+\[c_{\mathrm{A i}} \approx c_{\mathrm{AL}} \approx H_{\mathrm{A}} p_{\mathrm{A}} \quad (13.2.66)\]  
+
+equation[[338, 314, 887, 333]]
+\[-r_{A V_{\mathrm{L}}} = k c_{\mathrm{AL}} c_{\mathrm{B L}} = k H_{\mathrm{A}} p_{\mathrm{A}} c_{\mathrm{B L}} \quad (13.2.67)\]  
+
+sub_title[[64, 349, 408, 372]]
+## 四、气-液相反应器的设计  
+
+sub_title[[66, 384, 337, 402]]
+### (一)气-液相反应器的类型  
+
+text[[65, 406, 835, 426]]
+工程上常用的气- 液相反应器有填料塔、喷淋塔、板式塔、鼓泡塔和搅拌反应器等。  
+
+text[[22, 428, 889, 471]]
+在填料塔中,液体沿填料表面下流,在填料表面形成液膜,该反应器具有气体压降小、液体返混小的特点,但液相主体量少,适用于瞬时反应或快速反应。  
+
+text[[22, 473, 889, 515]]
+喷淋塔是将液体以细小液滴的方式分散于气体中的一类反应器,气体为连续相,液相为分散相。喷淋塔的持液量小,基本没有返混,适用于快速反应或生成固体的反应。  
+
+text[[22, 517, 889, 559]]
+板式塔是气相通过塔板分散成小气泡与板上液体进行接触的一类反应器,气体为分散相,液体为连续相,该反应器的特点是持液量较多,适用于中速及慢速反应。  
+
+text[[21, 560, 890, 645]]
+鼓泡塔是反应器内充满液体,气体从底部进入,分散成气泡与液相接触进行反应的一类反应器,污水好氧生物处理可以认为是广义上的鼓泡塔。该类反应器的特点是结构简单、造价低,但返混严重,气泡易产生聚并,传质效率较低。由于反应器内存液较多,即液相主体量较多,因此适用于主体相内进行主要反应的中慢速反应。  
+
+text[[63, 648, 866, 668]]
+搅拌反应器一般是在鼓泡塔的基础上进行机械搅拌,以增大传质效率的一类反应器。  
+
+text[[64, 670, 500, 689]]
+图13.2.4为几种常用的气- 液相反应器类型。  
+
+image[[162, 700, 746, 906]]

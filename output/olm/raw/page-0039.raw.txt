@@ -1,0 +1,127 @@
+---
+primary_language: zh
+is_rotation_valid: True
+rotation_correction: 0
+is_table: False
+is_diagram: False
+---
+续表
+
+<table>
+  <tr>
+    <th>符号</th>
+    <th>名称</th>
+    <th>数值</th>
+  </tr>
+  <tr>
+    <td>e</td>
+    <td>基本电荷</td>
+    <td>1.602 176 634×10<sup>-19</sup> C</td>
+  </tr>
+  <tr>
+    <td>k</td>
+    <td>玻尔兹曼常数</td>
+    <td>1.380 649×10<sup>-23</sup> J·K<sup>-1</sup></td>
+  </tr>
+  <tr>
+    <td>N<sub>A</sub></td>
+    <td>阿伏伽德罗常数</td>
+    <td>6.022 140 76×10<sup>23</sup> mol<sup>-1</sup></td>
+  </tr>
+  <tr>
+    <td>K<sub>cd</sub></td>
+    <td>频率为540×10<sup>12</sup> Hz的单色辐射的发光效率</td>
+    <td>683 lm·W<sup>-1</sup></td>
+  </tr>
+</table>
+
+根据基本单位,可以导出很多其他物理量的单位。国际单位制规定,任何一个物理量的导出单位都是按照定义式由基本单位相乘或相除求得的,并且其导出单位的定义式中的比例系数永远取1。以力的导出单位为例,按牛顿运动定律写出力的定义式,即
+
+\[
+F = kma = km \frac{du}{dt} = km \frac{d^2 s}{dt^2}
+\]
+
+式中:F——力;
+m——质量;
+a——加速度;
+u——速度;
+t——时间;
+s——距离;
+k——比例系数。
+
+按照国际单位制规定,取k=1,则力的导出单位为kg·m/s<sup>2</sup>。
+
+当采用其他单位制时,将各物理量的单位代入定义式中,得到的k不等于1。例如,上例中,若距离的单位为cm,则k=0.01。
+
+若导出单位均用基本单位表示,会使很多单位的使用极其不方便,因此国际单位制规定了若干具有专门名称的导出单位,如表2.1.3所示。上例中,力的导出单位用SI的基本单位表示为kg·m/s<sup>2</sup>,国际单位制规定该导出单位的专门名称为牛顿(N)。规定专门名称不仅方便物理量的表示,而且更便于导出其他的导出单位。
+
+表2.1.3 国际单位制中具有专门名称的导出单位
+
+<table>
+  <tr>
+    <th>量的名称</th>
+    <th>单位名称</th>
+    <th>单位符号</th>
+    <th>其他表示示例</th>
+  </tr>
+  <tr>
+    <td>频率</td>
+    <td>赫[兹]</td>
+    <td>Hz</td>
+    <td>s<sup>-1</sup></td>
+  </tr>
+  <tr>
+    <td>力,重力</td>
+    <td>牛[顿]</td>
+    <td>N</td>
+    <td>kg·m/s<sup>2</sup></td>
+  </tr>
+  <tr>
+    <td>压力,压强;应力</td>
+    <td>帕[斯卡]</td>
+    <td>Pa</td>
+    <td>N/m<sup>2</sup></td>
+  </tr>
+  <tr>
+    <td>能量;功;热</td>
+    <td>焦[耳]</td>
+    <td>J</td>
+    <td>N·m</td>
+  </tr>
+  <tr>
+    <td>功率;辐射通量</td>
+    <td>瓦[特]</td>
+    <td>W</td>
+    <td>J/s</td>
+  </tr>
+  <tr>
+    <td>电荷量</td>
+    <td>库[仑]</td>
+    <td>C</td>
+    <td>A·s</td>
+  </tr>
+  <tr>
+    <td>电位,电压,电动势</td>
+    <td>伏[特]</td>
+    <td>V</td>
+    <td>W/A</td>
+  </tr>
+  <tr>
+    <td>电容</td>
+    <td>法[拉]</td>
+    <td>F</td>
+    <td>C/V</td>
+  </tr>
+  <tr>
+    <td>电阻</td>
+    <td>欧[姆]</td>
+    <td>Ω</td>
+    <td>V/A</td>
+  </tr>
+  <tr>
+    <td>电导</td>
+    <td>西[门子]</td>
+    <td>S</td>
+    <td>A/V</td>
+  </tr>
+</table>

@@ -1,0 +1,56 @@
+text[[26, 58, 659, 79]]
+质中,用于同化代谢的比例为 \(Y_{\mathrm{X / C}}\) ,用于能源的比例为 \((1 - Y_{\mathrm{X / C}})\) ,故  
+
+equation[[404, 88, 890, 108]]
+\[Y_{\mathrm{E}} = 1 - Y_{\mathrm{X / C}} \quad (14.2.14)\]  
+
+text[[68, 118, 445, 138]]
+将式(14.2.14)代入式(14.2.13),可得  
+
+equation[[348, 147, 890, 261]]
+\[\begin{array}{r l} & {Y_{\mathrm{X / A T P}} = \frac{Y_{\mathrm{X / S}}M_{\mathrm{s}}}{Y_{\mathrm{A T P / S}}(1 - Y_{\mathrm{X / C}})}}\\ & {Y_{\mathrm{X / A T P}} = \frac{Y_{\mathrm{X / S}}M_{\mathrm{s}}}{Y_{\mathrm{A T P / S}}\left(1 - \frac{\gamma_{\mathrm{X}}}{\gamma_{\mathrm{S}}} Y_{\mathrm{X / S}}\right)}} \end{array} \quad (14.2.16)\]  
+
+text[[26, 269, 894, 311]]
+在多数情况下, \(Y_{\mathrm{X / A T P}}\) 的值受微生物的种类、基质及好氧和厌氧条件的影响不大,为8\~11,平均值为10。  
+
+text[[70, 314, 420, 333]]
+设 \(Y_{\mathrm{X / A T P}} = 10\) ,式(14.2.16)可变形为  
+
+equation[[362, 344, 890, 409]]
+\[\begin{array}{r}Y_{\mathrm{X / S}} = \frac{10Y_{\mathrm{A T P / S}}}{M_{\mathrm{s}} + 10Y_{\mathrm{A T P / S}}\frac{\gamma_{\mathrm{X}}}{\gamma_{\mathrm{S}}}} \end{array} \quad (14.2.17)\]  
+
+text[[28, 419, 894, 462]]
+由式(14.2.17)可知,只要知道 \(Y_{\mathrm{A T P / S}}\) 的值,利用式(14.2.17)就可以计算出 \(Y_{\mathrm{X / S}}\) 。 \(Y_{\mathrm{A T P / S}}\) 可以通过基质氧化途径进行计算。  
+
+text[[32, 473, 888, 560]]
+【例题14.2.2】某假单胞菌在好氧条件下,以葡萄糖为基质时的细胞产率系数为: \(Y_{\mathrm{X / S}} = 180 \mathrm{~g}\) (细胞)/mol(葡萄糖), \(Y_{\mathrm{X / O}} = 30.4 \mathrm{~g}\) (细胞)/mol( \(\mathrm{O}_{2}\) ),若基质水平磷酸化的ATP生成量为 \(2 \mathrm{~mol}\) (ATP)/mol(葡萄糖),呼吸链反应的ATP生成量 \(Y_{\mathrm{A T P / O}}\) (每消耗 \(1 \mathrm{~mol}\) 氧原子生成的ATP的物质的量)为 \(1 \mathrm{~mol}\) 。试求出 \(Y_{\mathrm{X / A T P}}\) 。  
+
+text[[73, 563, 350, 580]]
+解: \(1 \mathrm{~mol}\) 葡萄糖生成的菌体量为  
+
+equation[[261, 587, 656, 605]]
+\[\Delta X = 1.0 \times Y_{\mathrm{X / S}} = 1.0 \times 180 \mathrm{~g} (\text{细胞}) = 180 \mathrm{~g} (\text{细胞})\]  
+
+text[[74, 615, 435, 632]]
+\(1 \mathrm{~mol}\) 葡萄糖糖酵解产生的ATP量为 \(2 \mathrm{~mol}\) 。  
+
+text[[75, 635, 397, 652]]
+\(1 \mathrm{~mol}\) 葡萄糖经呼吸链产生的ATP量为  
+
+equation[[206, 660, 727, 750]]
+\[Y_{\mathrm{A T P / S}}^{\prime} = \frac{\Delta n_{\mathrm{A T P}}}{\Delta S} = \frac{\Delta n_{\mathrm{A T P}}}{\Delta n_{\mathrm{O}_{2}}} \cdot \frac{\Delta n_{\mathrm{O}_{2}}}{\Delta S} = 2 Y_{\mathrm{A T P / O}}^{\prime} \cdot \frac{\Delta n_{\mathrm{O}_{2}}}{\Delta S} = 2 Y_{\mathrm{A T P / O}}^{\prime} \cdot \frac{\Delta X}{\Delta S} \cdot \frac{\Delta n_{\mathrm{O}_{2}}}{\Delta X}\] \[\qquad = 2 Y_{\mathrm{A T P / O}}^{\prime} \cdot \frac{Y_{\mathrm{X / S}}}{Y_{\mathrm{X / O}}} = 2 \times 1 \times \frac{180}{30.4} = 11.8 \mathrm{~mol} (\mathrm{ATP}) / \mathrm{mol} (\text{葡萄糖})\]  
+
+text[[75, 755, 398, 772]]
+\(1 \mathrm{~mol}\) 葡萄糖分解所产生的总ATP量为  
+
+equation[[355, 781, 561, 797]]
+\[2 + 11.8 = 13.8 \mathrm{~mol} (\mathrm{ATP})\]  
+
+text[[33, 807, 666, 836]]
+故 \(Y_{\mathrm{X / A T P}} = \frac{180 \mathrm{~g} (\text{细胞})}{13.8 \mathrm{~mol} (\mathrm{ATP})} = 13.0 \mathrm{~g} (\text{细胞}) / \mathrm{mol} (\mathrm{ATP})\)  
+
+sub_title[[73, 850, 493, 869]]
+## (五)以有效电子数为基准的细胞产率系数  
+
+text[[26, 871, 895, 914]]
+为了对不同的基质有一个可比的基准,有时采用有效电子(available electron)为基准的细胞产率系数 \([Y_{\mathrm{X / av.e}}]\) ,单位: \(\mathrm{kg}\) (细胞)/ \(\mathrm{kmol}\) (av. e- )]:

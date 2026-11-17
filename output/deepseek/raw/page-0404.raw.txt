@@ -1,0 +1,60 @@
+text[[32, 62, 901, 120]]
+11.3对于按反应式(1)和(2)进行的平行串联反应,设反应开始时系统中的总物质的量为 \(n_{0}\) ,A、B、Q、P的物质的量分别为 \(n_{\mathrm{A}0},n_{\mathrm{B}0},n_{\mathrm{Q}0},n_{\mathrm{P}0}\) ,A和B的摩尔分数分别为 \(z_{\mathrm{A}0}\) 和 \(z_{\mathrm{B}0}\) 。试给出 \(t\) 时刻时A和B的摩尔分数 \(z_{\mathrm{A}}\) 和 \(z_{\mathrm{B}}\) 。  
+
+equation[[411, 127, 898, 164]]
+\[\begin{array}{r}{\mathrm{A + B}\rightleftharpoons \mathrm{Q}}\\ {\mathrm{A + 2Q}\rightleftharpoons \mathrm{P}} \end{array} \quad (1)\]  
+
+text[[32, 172, 901, 230]]
+11.4气态 \(\mathrm{NH}_{3}\) 在常温高压条件下的催化分解反应 \(2\mathrm{NH}_{3}\rightleftharpoons \mathrm{N}_{2} + 3\mathrm{H}_{2}\) 可用于处理含 \(\mathrm{NH}_{3}\) 废气。现有一 \(\mathrm{NH}_{3}\) 和 \(\mathrm{CH}_{4}\) 含量分别为 \(95\%\) 和 \(5\%\) 的气体,通过 \(\mathrm{NH}_{3}\) 催化分解反应器后气体中 \(\mathrm{NH}_{3}\) 的含量减少为 \(3\%\) ,试计算 \(\mathrm{NH}_{3}\) 的转化率和反应器出口处 \(\mathrm{N}_{2} 、 \mathrm{H}_{2}\) 和 \(\mathrm{CH}_{4}\) 的摩尔分数( \(\mathrm{CH}_{4}\) 为惰性组分,不参与反应)。  
+
+text[[32, 233, 901, 270]]
+11.5对于习题11.4的反应,设反应器出口处的压力为 \(0.1013\mathrm{MPa}\) 、温度为 \(723.15\mathrm{K}(450^{\circ}\mathrm{C})\) ,试求出各组分在反应器出口处的浓度。  
+
+text[[32, 273, 901, 330]]
+11.6在连续反应器内进行的恒容平行反应(1)和(2),当反应器进口的A和B浓度均为 \(3000\mathrm{mol} / \mathrm{m}^{3}\) 时,出口反应液中的A与R的浓度分别为 \(250\mathrm{mol} / \mathrm{m}^{3}\) 和 \(2000\mathrm{mol} / \mathrm{m}^{3}\) 。试计算反应器出口处的A的转化率及B和S的浓度(进口反应液中不含R和S)。  
+
+equation[[411, 338, 898, 375]]
+\[\begin{array}{r l} & {\mathrm{A + B}\rightleftharpoons \mathrm{R}}\\ & {2\mathrm{A}\rightleftharpoons \mathrm{R} + \mathrm{S}} \end{array} \quad (1)\]  
+
+text[[32, 383, 901, 440]]
+11.7对于等温恒压气相反应 \(\alpha_{\mathrm{A}}\mathrm{A} + \alpha_{\mathrm{B}}\mathrm{B}\longrightarrow \alpha_{\mathrm{P}}\mathrm{P}\) ,已知该反应的膨胀因子为 \(\delta_{\mathrm{A}}\) ,反应开始时各组分的分压分别为 \(p_{\mathrm{A}0},p_{\mathrm{B}0},p_{\mathrm{P}0}\) 和 \(p_{\mathrm{M}0}\) ,A的摩尔分数为 \(z_{\mathrm{A}0}\) 。反应系统中含有惰性组分M。试求出反应体系中各组分的分压与A的转化率 \(x_{\mathrm{A}}\) 的关系。  
+
+text[[32, 444, 901, 480]]
+11.8对于由反应(1)和(2)构成的复杂反应,试给出反应组分A、B、Q、P的反应速率 \(- r_{\mathrm{A}} - r_{\mathrm{B}},r_{\mathrm{Q}},r_{\mathrm{P}}\) 与反应(1)和(2)的反应速率 \(r_{1}\) 和 \(r_{2}\) 的关系。  
+
+equation[[411, 489, 898, 526]]
+\[\begin{array}{r}{\mathrm{A} + 2\mathrm{B}\rightleftharpoons \mathrm{Q}}\\ {\mathrm{A} + \mathrm{Q}\rightleftharpoons \mathrm{P}} \end{array} \quad (1)\]  
+
+text[[68, 533, 835, 551]]
+11.9微生物反应一般在常温附近进行时,其反应速率常数 \(k\) 与温度的关系可以用下式表示:  
+
+equation[[420, 558, 508, 575]]
+\[k = k_{20}\alpha^{-20}\]  
+
+text[[32, 584, 348, 600]]
+式中: \(k_{20}\) —— \(20^{\circ}\mathrm{C}\) 时的反应速率常数;  
+
+text[[92, 605, 267, 620]]
+\(\alpha\) ——温度变化系数;  
+
+text[[93, 626, 218, 640]]
+\(t\) ——温度, \(^\circ \mathrm{C}\) 。  
+
+text[[32, 645, 553, 661]]
+试给出 \(\alpha\) 与阿伦尼乌斯(Arrhenius)方程中活化能 \(E_{\mathrm{a}}\) 的关系式。  
+
+text[[30, 664, 901, 700]]
+11.10在不同温度下测得的某污染物催化分解反应的反应速率常数 \(k\) 如下表所示,求出反应的活化能和频率因子。  
+
+table[[32, 709, 900, 766]]
+
+<table>温度/K413.2433.2453.2473.2493.2k/(mol·g-1·h-1)2.04.86.913.825.8</table>  
+
+text[[32, 779, 901, 817]]
+11.11在一些反应中,反应产物能对反应起催化作用,加速反应进程,此类反应称为"自催化反应"。对于由反应式(1)和(2)表示的自催化反应,试给出反应物A的速率方程(恒容反应)及其积分式。  
+
+equation[[411, 824, 898, 860]]
+\[\begin{array}{r}{\mathrm{~A~}\longrightarrow \mathrm{~P~}}\\ {\mathrm{~A + P~}\longrightarrow \mathrm{~P + P~}} \end{array} \quad (1)\]  
+
+text[[30, 869, 901, 906]]
+11.12对于表11.3.1所示的恒温恒容反应,试推导出以转化率 \(x_{\mathrm{A}}\) 为变量的反应速率方程及其积分形式。

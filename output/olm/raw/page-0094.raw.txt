@@ -1,0 +1,53 @@
+---
+primary_language: zh
+is_rotation_valid: True
+rotation_correction: 0
+is_table: False
+is_diagram: False
+---
+对于牛顿流体，有
+\[
+\tau = -\mu \frac{du}{dr}
+\] (3.4.5)
+
+将式(3.4.5)代入式(3.4.4)，整理得
+\[
+\frac{dp}{dl} r dr = 2 \mu du
+\]
+考虑边界条件：\( r = r_0 \) 时，\( u = 0 \)。对上式积分，得
+\[
+u = -\frac{1}{4 \mu} \frac{dp}{dl} (r_0^2 - r^2)
+\] (3.4.6)
+
+在管中心处，\( r = 0 \)，流体流速最大，即
+\[
+u_{\max} = u \mid_{r=0} = -\frac{1}{4 \mu} \frac{dp}{dl} r_0^2
+\] (3.4.7)
+
+将式(3.4.6)与式(3.4.7)联立，得
+\[
+u = u_{\max} \left[ 1 - \left( \frac{r}{r_0} \right)^2 \right]
+\] (3.4.8)
+
+式(3.4.8)表明，层流流动时圆管内速率分布曲线呈抛物线形。
+
+根据速率分布式可以求得截面平均流速。在管内取一环形微元体，其半径为 \( r \)，厚度为 \( dr \)，如图 3.4.4 所示。通过此环隙的流体以速率 \( u \) 向前运动，则体积流量为
+\[
+dq_v = 2 \pi r u dr
+\]
+通过圆管截面的体积流量为
+\[
+q_v = \int_0^{r_0} 2 \pi r u dr = 2 \pi \int_0^{r_0} \left[ -\frac{1}{4 \mu} \frac{dp}{dl} (r_0^2 - r^2) \right] r dr = -\frac{\pi r_0^4}{8 \mu} \frac{dp}{dl}
+\] (3.4.9)
+
+式(3.4.9)称为哈根-泊肃叶 (Hagen-Poiseuille) 方程，是计算圆管层流流动的基本方程。
+
+根据平均流速的定义，得
+\[
+u_m = \frac{q_v}{A} = -\frac{\pi r_0^4}{8 \mu} \frac{dp}{dl} = -\frac{1}{8 \mu} \frac{dp}{dl} r_0^2
+\] (3.4.10)
+
+将式(3.4.7)代入式(3.4.9)，得
+\[
+q_v = \frac{\pi r_0^2}{2} u_{\max}
+\]

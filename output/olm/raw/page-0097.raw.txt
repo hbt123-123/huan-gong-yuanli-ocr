@@ -1,0 +1,38 @@
+---
+primary_language: zh
+is_rotation_valid: True
+rotation_correction: 0
+is_table: False
+is_diagram: False
+---
+实验证明,对于均匀直管,流体流动的阻力损失与管长成正比,因此可取式中指数 b = 1,则式(3.4.17)变为
+
+\[
+\frac{\Delta p_t}{\rho u^2} = K \left( \frac{L}{d} \right) \left( \frac{du_p}{\mu} \right)^{-f} \left( \frac{\varepsilon}{d} \right)^h
+\]
+
+(3.4.18)
+
+对照范宁公式
+
+\[
+\Delta p_t = \lambda \frac{l}{d} \frac{\rho u_m^2}{2}
+\]
+
+可以得出
+
+\[
+\lambda = \varphi \left( Re, \frac{\varepsilon}{d} \right)
+\]
+
+(3.4.19)
+
+即管内湍流流动的摩擦系数与流动的雷诺数和 \( \varepsilon/d \) 有关。图 3.4.7 为通过实验获得的摩擦系数与 \( Re \) 和 \( \varepsilon/d \) 的关系。当 \( Re \leq 2000 \) 时,管内流动为层流,摩擦系数与雷诺数成反比,图中 \( \lambda \) 为直线,随 \( Re \) 的增大而减小,与 \( \varepsilon/d \) 无关;当 \( Re > 2000 \) 时, \( Re \) 对摩擦系数 \( \lambda \) 的影响可分为以下三个区域:
+
+(1) 过渡区:当 \( 2000 < Re < 4000 \) 时,管内流动随外界条件的影响出现不同的流态,摩擦系数也因之出现波动。为了保险起见,工程计算中一般按湍流处理。
+
+(2) 湍流区:当 \( Re \geq 4000 \) 时,流体进入湍流区, \( \lambda \) 随 \( Re \) 的增大而减小,当 \( Re \) 增大到一定值以后, \( \lambda \) 随 \( Re \) 的变化趋于平缓。不同的 \( \varepsilon/d \) 值对应不同的曲线。对于光滑管,可采用根据实验获得的经验关联式计算 \( \lambda \) 值,如
+
+![摩擦系数λ与雷诺数Re及相对粗糙度ε/d的关系](page_1012_1012_1012_1012.png)
+
+图 3.4.7 摩擦系数 \( \lambda \) 与雷诺数 \( Re \) 及相对粗糙度 \( \varepsilon/d \) 的关系

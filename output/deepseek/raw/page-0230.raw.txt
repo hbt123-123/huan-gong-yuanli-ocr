@@ -1,0 +1,61 @@
+equation[[242, 70, 690, 108]]
+\[u_{\mathrm{i}} = \frac{d_{c}^{2}\rho_{\mathrm{p}}u_{\mathrm{i}}^{2}}{18\mu r_{\mathrm{m}}} = \frac{(5.2\times 10^{-6})^{2}\times 4500\times 13.9^{2}}{18\times 3\times 10^{-5}\times 0.15} \mathrm{m / s} = 0.29 \mathrm{m / s}\]  
+
+equation[[293, 119, 638, 157]]
+\[R e_{\mathrm{p}} = \frac{d_{\mathrm{c}}u_{\mathrm{i}}\rho}{\mu} = \frac{5.2\times 10^{-6}\times 0.29\times 0.6}{3\times 10^{-5}} = 0.03< 2\]  
+
+text[[42, 165, 426, 182]]
+所以,在层流区,符合斯托克斯公式,计算正确。  
+
+text[[43, 203, 891, 266]]
+【例题6.3.2】已知含尘气体中颗粒的密度 \(\rho_{\mathrm{p}}\) 为 \(2300 \mathrm{kg} / \mathrm{m}^{3}\) ,气体的体积流量 \(q_{\mathrm{v}}\) 为 \(1000 \mathrm{m}^{3} / \mathrm{h}\) ,气体密度 \(\rho\) 为 \(0.674 \mathrm{kg} / \mathrm{m}^{3}\) ,黏度 \(\mu\) 为 \(3.6\times 10^{-5} \mathrm{Pa}\cdot \mathrm{s}\) ,采用与上例相同的标准旋风分离器除尘,分离器的粒级效率曲线如图6.3.3所示,烟尘颗粒的粒度分布如下表所示:  
+
+table[[44, 275, 891, 331]]
+
+<table>粒径范围/μm0~55~1010~1515~20质量分数xmi0.100.550.300.05</table>  
+
+text[[44, 342, 226, 359]]
+试计算除尘的总效率。  
+
+text[[80, 362, 471, 379]]
+解:首先计算旋风分离器分离颗粒的临界直径。  
+
+text[[82, 382, 236, 398]]
+气体的入口速率为  
+
+equation[[329, 404, 604, 453]]
+\[u_{\mathrm{i}} = \frac{q_{\mathrm{v}}}{B h_{\mathrm{i}}} = \frac{1000}{0.2\times 0.1} \mathrm{m / s} = 13.9 \mathrm{m / s}\]  
+
+text[[82, 462, 180, 479]]
+临界直径为  
+
+equation[[257, 486, 677, 524]]
+\[d_{\mathrm{c}} = \sqrt{\frac{9\mu B}{\pi u_{\mathrm{i}}\rho_{\mathrm{p}}N}} = \sqrt{\frac{9\times3.6\times 10^{-5}\times 0.1}{\pi\times5\times 13.9\times 2300}} \mathrm{m} = 8\times 10^{-6} \mathrm{m}\]  
+
+text[[82, 530, 130, 546]]
+检验:  
+
+equation[[378, 551, 556, 580]]
+\[r_{\mathrm{m}} = \frac{D - B}{2} = \frac{3}{8} D = 0.15\]  
+
+equation[[255, 587, 680, 625]]
+\[u_{\mathrm{i}} = \frac{d_{\mathrm{c}}^{2}\rho_{\mathrm{p}}u_{\mathrm{i}}^{2}}{18\mu r_{\mathrm{m}}} = \frac{(8\times 10^{-6})^{2}\times 2300\times 13.9^{2}}{18\times 3.6\times 10^{-5}\times 0.15} \mathrm{m / s} = 0.29 \mathrm{m / s}\]  
+
+equation[[290, 633, 645, 672]]
+\[R e_{\mathrm{p}} = \frac{d_{\mathrm{c}}u_{\mathrm{i}}\rho}{\mu} = \frac{8\times 10^{-6}\times 0.29\times 0.674}{3.6\times 10^{-5}} = 0.043< 2\]  
+
+text[[45, 678, 218, 695]]
+在层流区,计算正确。  
+
+text[[80, 698, 763, 715]]
+由烟尘的粒度分布和分离器的粒级效率曲线,可以计算总的除尘效率,如下表所示:  
+
+table[[45, 723, 894, 828]]
+
+<table>粒径范围/μm质量分数xmi平均粒径/μmdP/dc粒级效率ηi0~50.102.50.310.165~100.557.50.930.6910~150.3012.51.560.8215~200.0517.52.190.94</table>  
+
+text[[83, 837, 267, 853]]
+所以,总的除尘效率为  
+
+equation[[185, 860, 755, 898]]
+\[\eta_{0} = \sum_{i = 1}^{n}x_{\mathrm{mi}}\eta_{i} = 0.10\times 0.16 + 0.55\times 0.69 + 0.30\times 0.82 + 0.05\times 0.94 = 0.69\]

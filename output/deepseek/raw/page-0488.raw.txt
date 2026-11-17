@@ -1,0 +1,15 @@
+text[[82, 60, 357, 138]]
+\(S\) ——基质浓度, \(\mathrm{kg} / \mathrm{m}^{3}\) ; \(t_{\mathrm{d}}\) ——倍增时间, \(\mathrm{h}\) ; \(X\) ——微生物浓度, \(\mathrm{kg}(\mathrm{细胞}) / \mathrm{m}^{3}\) ; \(Y\) ——产率系数。  
+
+sub_title[[75, 143, 165, 159]]
+## 希腊字母  
+
+text[[82, 164, 339, 181]]
+\(\gamma\) ——碳源的含碳率,量纲为1;  
+
+text[[512, 62, 810, 158]]
+\(\delta\) ——微生物膜的厚度, \(\mathrm{m}\) ; \(\mu\) ——比生长速率, \(\mathrm{h}^{- 1}\) ; \(- \nu\) ——比基质消耗速率, \(\mathrm{kg} / (\mathrm{kg} \cdot \mathrm{h})\) ; \(\eta_{\mathrm{s}}\) ——微生物膜有效系数,量纲为1; \(\phi_{\mathrm{m}}\) ——修正蒂勒模数,量纲为1。  
+
+image[[418, 205, 518, 272]]
+image_caption[[421, 289, 520, 304]]
+<center>知识体系图</center>

@@ -1,0 +1,68 @@
+equation[[433, 82, 969, 102]]
+\[K\geqslant 3.3\times 10^{5} \quad (6.2.12)\]  
+
+text[[101, 110, 452, 129]]
+即当 \(K\geqslant 3.3\times 10^{5}\) 时,沉降属湍流区。  
+
+text[[100, 132, 971, 195]]
+应用这种方法,只要已知颗粒直径,即可求出 \(K\) ,就能判别沉降属于什么区,因而可直接选用正确的计算公式,不必再用试差法。这种方法只适用于已知颗粒直径求其沉降速率的情况。  
+
+text[[106, 208, 965, 247]]
+【例题6.2.1】求直径为 \(40\mu \mathrm{m}\) ,密度为 \(2700\mathrm{kg} / \mathrm{m}^{3}\) 的固体颗粒在 \(20^{\circ}\mathrm{C}\) 的常压空气中的自由沉降速率。已知 \(20^{\circ}\mathrm{C}\) ,常压状态下空气密度为 \(1.205\mathrm{kg} / \mathrm{m}^{3}\) ,黏度为 \(1.81\times 10^{- 5}\mathrm{Pa}\cdot \mathrm{s}\) 。  
+
+text[[146, 250, 767, 268]]
+解:(1)试差法:假设颗粒的沉降处于层流区,由于 \(\rho_{\mathrm{p}}\gg \rho\) ,由式(6.2.6),得  
+
+equation[[301, 276, 771, 315]]
+\[u_{i} = \frac{(\rho_{\mathrm{p}} - \rho)g d_{\mathrm{p}}^{2}}{18\mu}\approx \frac{2700\times9.81\times(40\times10^{-6})^{2}}{18\times1.81\times10^{-5}}\mathrm{m / s} = 0.13\mathrm{m / s}\]  
+
+text[[148, 328, 719, 363]]
+检验: \(R e_{p} = \frac{d_{p}u_{\rho}\rho}{u} = \frac{40\times10^{- 6}\times0.13\times1.205}{1.81\times10^{- 5}} = 0.346< 2\)  
+
+text[[110, 370, 450, 387]]
+沉降处在层流区,与假设相符,计算正确。  
+
+text[[148, 390, 503, 409]]
+(2)摩擦数群法:首先计算摩擦数群 \(C_{\mathrm{D}}R e_{p}^{2}\)  
+
+equation[[276, 413, 797, 451]]
+\[C_{\mathrm{D}}R e_{p}^{2} = \frac{4d_{p}^{3}\rho(\rho_{\mathrm{p}} - \rho)g}{3\mu^{2}} = \frac{4\times(40\times10^{-6})^{3}\times1.205\times2700\times9.81}{3\times(1.81\times10^{-5})^{2}} = 8.31\]  
+
+text[[148, 455, 790, 474]]
+假设颗粒的球形度为1,则由 \(C_{\mathrm{D}}R e_{p}^{2}\) 与 \(R e_{p}\) 的关系曲线,可以查得 \(R e_{p}\) 为0.32。  
+
+text[[149, 478, 240, 494]]
+因此,可得  
+
+equation[[360, 501, 713, 539]]
+\[u_{\mathrm{t}} = \frac{R e_{\mathrm{p}}\mu}{d_{\mathrm{p}}\rho} = \frac{0.32\times1.81\times10^{-5}}{40\times10^{-6}\times1.205}\mathrm{m / s} = 0.12\mathrm{m / s}\]  
+
+text[[111, 547, 961, 588]]
+由于查图得到的 \(R e_{p}\) 误差较大,一般只作为判断颗粒沉降所处区域的依据,而 \(u_{\mathrm{t}}\) 的计算仍然采用式(6.2.6),即  
+
+equation[[301, 596, 771, 634]]
+\[u_{\mathrm{t}} = \frac{(\rho_{\mathrm{p}} - \rho)g d_{\mathrm{p}}^{2}}{18\mu}\approx \frac{2700\times9.81\times(40\times10^{-6})^{2}}{18\times1.81\times10^{-5}}\mathrm{m / s} = 0.13\mathrm{m / s}\]  
+
+text[[150, 642, 376, 659]]
+(3)判据法:计算 \(K\) 判据得  
+
+equation[[291, 666, 783, 706]]
+\[K = \frac{d_{\mathrm{p}}^{3}g\rho(\rho_{\mathrm{p}} - \rho)}{\mu^{2}}\approx \frac{(40\times10^{-6})^{3}\times9.81\times1.205\times2700}{(1.81\times10^{-5})^{2}} = 6.24< 36\]  
+
+text[[111, 715, 518, 733]]
+故可判断沉降位于层流区,由斯托克斯公式,可得  
+
+equation[[304, 741, 771, 779]]
+\[u_{\mathrm{t}} = \frac{(\rho_{\mathrm{p}} - \rho)g d_{\mathrm{p}}^{2}}{18\mu}\approx \frac{2700\times9.81\times(40\times10^{-6})^{2}}{18\times1.81\times10^{-5}}\mathrm{m / s} = 0.13\mathrm{m / s}\]  
+
+text[[112, 801, 961, 840]]
+【例题6.2.2】已知密度为 \(2000\mathrm{kg} / \mathrm{m}^{3}\) 的球状颗粒在 \(20^{\circ}\mathrm{C}\) 的水中沉降,求服从斯托克斯公式的情况下,颗粒的最大直径和最大沉降速率。  
+
+text[[149, 843, 810, 862]]
+解:已知 \(20^{\circ}\mathrm{C}\) 水的物性参数如下:密度为 \(998.2\mathrm{kg} / \mathrm{m}^{3}\) ,黏度为 \(1.005\times 10^{- 3}\mathrm{Pa}\cdot \mathrm{s}\) 。  
+
+text[[150, 865, 490, 881]]
+由斯托克斯公式,可得颗粒的沉降速率为  
+
+equation[[477, 889, 600, 926]]
+\[u_{\mathrm{t}} = \frac{(\rho_{\mathrm{p}} - \rho)g d_{\mathrm{p}}^{2}}{18\mu}\]

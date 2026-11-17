@@ -1,0 +1,62 @@
+text[[28, 61, 562, 81]]
+的吸收,各传质单元的传质单元高度可以看作是相等的。  
+
+sub_title[[74, 85, 309, 103]]
+### (二)传质单元数的计算  
+
+text[[27, 105, 896, 169]]
+传质单元数的表达式中涉及气相或液相的平衡组成,需要用相平衡关系确定。根据相平衡曲线的不同,传质单元数的计算有不同的方法。以下对平衡关系是直线时的情况进行讨论。  
+
+sub_title[[73, 172, 283, 190]]
+## 1.对数平均推动力法  
+
+text[[27, 193, 896, 258]]
+低浓度气体吸收条件下,操作线和平衡线都是直线,所以操作线到平衡线的垂直距离 \(\Delta Y = Y - Y^{*}\) 与气相组成 \(Y\) 或水平距离 \(\Delta X = X^{*} - X\) 与液相组成 \(X\) 也呈直线关系,因此 \(\mathrm{d}(\Delta Y) / \mathrm{d}Y\) 或 \(\mathrm{d}(\Delta X) / \mathrm{d}X\) 为常数,令塔底截面 \(\Delta Y_{1} = Y_{1} - Y_{1}^{*}\) ,塔顶截面 \(\Delta Y_{2} = Y_{2} - Y_{2}^{*}\) ,则  
+
+equation[[269, 267, 654, 311]]
+\[\frac{\mathrm{d}\Delta Y}{\mathrm{d}Y} = \frac{\Delta Y_{1} - \Delta Y_{2}}{Y_{1} - Y_{2}} \quad \text{或} \quad \mathrm{d}Y = \frac{Y_{1} - Y_{2}}{\Delta Y_{1} - \Delta Y_{2}}\mathrm{d}\Delta Y\]  
+
+text[[29, 320, 342, 339]]
+于是气相总传质单元数可以写成  
+
+equation[[175, 348, 893, 392]]
+\[N_{\mathrm{OG}} = \int_{Y_{2}}^{Y_{1}}\frac{\mathrm{d}Y}{Y - Y^{*}} = \frac{Y_{1} - Y_{2}}{\Delta Y_{1} - \Delta Y_{2}}\int_{\Delta Y_{2}}^{\Delta Y_{1}}\frac{\mathrm{d}\Delta Y}{\Delta Y} = \frac{Y_{1} - Y_{2}}{\Delta Y_{1} - \Delta Y_{2}}\ln \frac{\Delta Y_{1}}{\Delta Y_{2}} = \frac{Y_{1} - Y_{2}}{\Delta Y_{\mathrm{m}}} \quad (8.4.17)\]  
+
+text[[27, 402, 403, 422]]
+式中: \(\Delta Y_{\mathrm{m}}\) ——气相对数平均推动力,即  
+
+equation[[388, 432, 537, 500]]
+\[\Delta Y_{m} = \frac{\Delta Y_{1} - \Delta Y_{2}}{\ln\frac{\Delta Y_{1}}{\Delta Y_{2}}}\]  
+
+text[[71, 509, 420, 528]]
+同理,可以求得液相总传质单元数为  
+
+equation[[348, 539, 893, 581]]
+\[N_{\mathrm{OL}} = \int_{X_{2}}^{Y}\frac{\mathrm{d}X}{X^{*} - X} = \frac{X_{1} - X_{2}}{\Delta X_{\mathrm{m}}} \quad (8.4.18)\]  
+
+text[[27, 592, 403, 611]]
+式中: \(\Delta X_{\mathrm{m}}\) ——液相对数平均推动力,即  
+
+equation[[386, 622, 540, 688]]
+\[\Delta X_{\mathrm{m}} = \frac{\Delta X_{1} - \Delta X_{2}}{\ln\frac{\Delta X_{1}}{\Delta X_{2}}}\]  
+
+text[[27, 696, 896, 739]]
+由以上表示可知,传质单元数为塔底和塔顶的组成差与塔底和塔顶的传质推动力对数平均值之比。  
+
+sub_title[[71, 741, 216, 759]]
+## 2.吸收因数法  
+
+text[[72, 763, 374, 782]]
+当平衡关系符合亨利定律时,有  
+
+equation[[423, 794, 505, 810]]
+\[Y^{*} = mX\]  
+
+text[[29, 823, 213, 841]]
+又操作线方程为  
+
+equation[[375, 856, 547, 894]]
+\[Y = \frac{q_{\mathrm{nL}}}{q_{\mathrm{nG}}} (X - X_{1}) + Y_{1}\]  
+
+text[[27, 897, 220, 915]]
+两式联立,可以求得

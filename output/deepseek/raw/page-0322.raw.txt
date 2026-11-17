@@ -1,0 +1,123 @@
+text[[85, 71, 364, 88]]
+当床层高度为 \(2\mathrm{m}\) 时,穿透时间为  
+
+equation[[306, 96, 632, 113]]
+\[t_{\mathrm{b}} = B z - A = (242.8\times 2 - 72.5) \mathrm{h} = 411.7 \mathrm{h}\]  
+
+text[[46, 123, 692, 140]]
+即每次吸附操作进行到 \(411.7\mathrm{h}\) 时,就应该对固定床进行再生操作,以保证出水水质。  
+
+text[[83, 143, 860, 161]]
+(2)当废水浓度变化时,吸附容量和废水浓度成正比关系,所以 \(B\) 保持不变,计算另一个参数 \(A\)  
+
+equation[[237, 169, 704, 207]]
+\[A = \frac{1}{\rho_{0}K}\mathrm{ln}\left(\frac{\rho_{0}}{\rho_{\mathrm{B}}} -1\right) = \frac{1}{100\times3.65\times10^{-4}}\mathrm{ln}\left(\frac{100}{1} -1\right)\mathrm{h} = 125.9\mathrm{h}\]  
+
+text[[85, 216, 327, 232]]
+当床层为 \(2\mathrm{m}\) 时,穿透时间为  
+
+equation[[303, 241, 637, 257]]
+\[t_{\mathrm{b}} = B z - A = (242.8\times 2 - 125.9) \mathrm{h} = 358.3 \mathrm{h}\]  
+
+text[[46, 267, 823, 286]]
+即每次吸附操作的时间减少为 \(358.3\mathrm{h}\) 。这是因为在假设条件下,固定床吸附容量减少的缘故。  
+
+sub_title[[50, 317, 360, 344]]
+## 一、术语中英文对照  
+
+text[[46, 365, 196, 380]]
+·吸附剂 adsorbent  
+
+text[[47, 386, 182, 400]]
+·解吸 desorption  
+
+text[[48, 405, 359, 420]]
+·粉末活性炭 powdered activated carbon  
+
+text[[46, 425, 284, 440]]
+·吸附容量 adsorption capacity  
+
+text[[47, 445, 300, 459]]
+·孔径分布 pore size distribution  
+
+text[[48, 465, 152, 478]]
+·沸石 zeolite  
+
+text[[46, 484, 304, 499]]
+·吸附等温线 adsorption isotherm  
+
+text[[47, 504, 340, 519]]
+·单分子层吸附 monolayer adsorption  
+
+text[[48, 524, 339, 539]]
+·多分子层吸附 multilayer adsorption  
+
+text[[46, 544, 380, 559]]
+·内(外)扩散 internal (external) diffusion  
+
+text[[496, 364, 906, 379]]
+·内(外)表面阻力 internal (external) surface resistance  
+
+text[[497, 385, 638, 399]]
+·固定床 fixed bed  
+
+text[[498, 405, 660, 419]]
+·移动床 moving bed  
+
+text[[496, 425, 666, 439]]
+·流化床 fluidized bed  
+
+text[[497, 445, 731, 460]]
+·穿透曲线 breakthrough curve  
+
+text[[498, 465, 709, 480]]
+·穿透点 breakthrough point  
+
+text[[496, 485, 814, 500]]
+·剩余吸附量 residual adsorption capacity  
+
+text[[497, 505, 815, 520]]
+·动态吸附量 dynamic adsorption capacity  
+
+text[[498, 525, 840, 540]]
+·平衡吸附量 equilibrium adsorption capacity  
+
+text[[496, 545, 824, 560]]
+·饱和吸附量 saturated adsorption capacity  
+
+sub_title[[50, 580, 319, 609]]
+## 思考题与习题  
+
+sub_title[[74, 629, 184, 644]]
+### 9.1 思考题  
+
+text[[78, 649, 511, 666]]
+(1)吸附平衡是如何定义的?平衡吸附量如何计算?  
+
+text[[77, 669, 567, 686]]
+(2)吸附等温线的物理意义是什么?温度对吸附如何影响?  
+
+text[[78, 690, 470, 705]]
+(3)如何评价不同吸附剂对污染物的吸附性能?  
+
+text[[77, 710, 596, 726]]
+(4)吸附剂颗粒外表面、内表面扩散速率方程的物理意义何在?  
+
+text[[78, 730, 625, 746]]
+(5)固定床吸附中床层可以分为几个区域?各区域的特点是什么?  
+
+text[[77, 750, 434, 765]]
+(6)固定床吸附过程的穿透时间如何计算?  
+
+text[[74, 769, 629, 785]]
+9.2 \(25^{\circ}\mathrm{C}\) 、101.3kPa下,甲醛气体被活性炭吸附的平衡数据如下:  
+
+table[[42, 793, 908, 860]]
+
+<table>q/[g(气体)·g(活性炭)-1]00.10.20.30.35气体的平衡分压/Pa02671 6005 60012 266</table>  
+
+text[[76, 878, 345, 894]]
+试判断吸附类型,并求吸附常数。  
+
+text[[74, 898, 907, 916]]
+如果 \(25^{\circ}\mathrm{C}\) 、101.3kPa下,在1L的容器中含有空气和甲醛的混合物,甲醛的分压为12kPa,向容器中

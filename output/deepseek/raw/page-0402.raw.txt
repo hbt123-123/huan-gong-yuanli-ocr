@@ -1,0 +1,84 @@
+text[[37, 61, 905, 103]]
+设A、P和Q的初始浓度分别为 \(c_{\mathrm{A0}}, c_{\mathrm{P0}}\) 和 \(c_{\mathrm{Q0}}\) ,对式(11.3.55)积分,可得反应物A的浓度与反应时间的关系式为  
+
+equation[[417, 110, 902, 132]]
+\[c_{\mathrm{A}} = c_{\mathrm{A0}}\mathrm{e}^{-k_{1}t} \quad (11.3.58)\]  
+
+text[[78, 142, 478, 161]]
+将式(11.3.58)代入式(11.3.56),整理得  
+
+equation[[374, 172, 902, 211]]
+\[\frac{\mathrm{d}c_{\mathrm{p}}}{\mathrm{d}t} +k_{2}c_{\mathrm{p}} = k_{1}c_{\mathrm{A0}}\mathrm{e}^{-k_{1}t} \quad (11.3.59)\]  
+
+text[[78, 222, 733, 243]]
+对式(11.3.59)积分,可得中间产物P的浓度与反应时间的关系式为  
+
+equation[[363, 253, 902, 293]]
+\[\frac{c_{\mathrm{p}}}{c_{\mathrm{A0}}} = \frac{k_{1}}{k_{2} - k_{1}} (\mathrm{e}^{-k_{1}t} - \mathrm{e}^{-k_{2}t}) \quad (11.3.60)\]  
+
+text[[37, 297, 85, 315]]
+因为  
+
+equation[[384, 298, 902, 318]]
+\[c_{\mathrm{Q}} = c_{\mathrm{A0}} - (c_{\mathrm{p}} + c_{\mathrm{A}}) \quad (11.3.61)\]  
+
+text[[37, 327, 393, 346]]
+故产物Q的浓度与反应时间的关系为  
+
+equation[[188, 350, 610, 391]]
+\[\frac{c_{\mathrm{Q}}}{c_{\mathrm{A0}}} = 1 - \frac{k_{2}}{k_{2} - k_{1}}\mathrm{e}^{-k_{1}t} + \frac{k_{1}}{k_{2} - k_{1}}\mathrm{e}^{-k_{2}t} \quad (11.3.62)\]  
+
+text[[37, 393, 614, 479]]
+一级串联反应中各组分的浓度一时间曲线如图11.3.8所示。由图可知,反应物浓度随反应时间呈指数型递减,中间产物P浓度存在极大值;最终产物Q随时间延长而单调增加。  
+
+text[[37, 482, 614, 524]]
+将式(11.3.60)对时间求导,并令其导数为零,则可求出 \(c_{\mathrm{p}}\) 达到最大时的反应时间 \(t_{\mathrm{max}}\) ,即  
+
+equation[[394, 534, 902, 575]]
+\[t_{\mathrm{max}} = \frac{1}{k_{2} - k_{1}}\ln \frac{k_{2}}{k_{1}} \quad (11.3.63)\]  
+
+image[[636, 355, 880, 462]]
+image_caption[[630, 472, 884, 508]]
+<center>图11.3.8一级串联反应中各组分的浓度-时间曲线</center>  
+
+text[[37, 584, 905, 648]]
+自然界(土壤、底泥和天然水体)和污水生物处理系统中的氨的生物硝化反应是一种典型的串联反应。氨首先在氨氧化菌(亚硝酸菌)的作用下生成亚硝酸根,亚硝酸根又在亚硝酸氧化菌(硝酸菌)的作用下氧化为硝酸根。  
+
+equation[[347, 658, 595, 678]]
+\[\mathrm{NH}_{3} \longrightarrow \mathrm{NO}_{2}^{-} \longrightarrow \mathrm{NO}_{3}^{-}\]  
+
+text[[37, 686, 905, 750]]
+一般情况下氨氧化成亚硝酸根的反应速率较慢,而亚硝酸根氧化成硝酸根的反应速率较快,故亚硝酸根不易积累。但当亚硝酸氧化菌的数量较少或活性较低时,也会出现亚硝酸根积累的现象。  
+
+sub_title[[53, 771, 350, 797]]
+## 一本语中英文对照  
+
+text[[43, 819, 288, 836]]
+·反应器reactor  
+
+text[[44, 839, 285, 854]]
+·化学反应器chemicalreactor  
+
+text[[42, 859, 373, 874]]
+·生物反应器bioreactor/biologicalreactor  
+
+text[[43, 879, 258, 894]]
+·间歇操作batchoperation  
+
+text[[44, 899, 296, 914]]
+·连续操作continuousoperation  
+
+text[[491, 818, 802, 834]]
+·半间歇操作semi-batchoperation  
+
+text[[492, 839, 800, 854]]
+·半连续操作semi-continuousoperation  
+
+text[[493, 859, 770, 874]]
+·分批补料操作fed-batchoperation  
+
+text[[491, 879, 738, 894]]
+·恒温操作isothermaloperation  
+
+text[[492, 899, 729, 914]]
+·绝热操作adiabaticoperation

@@ -1,0 +1,14 @@
+sub_title[[85, 131, 177, 148]]
+## 拉丁字母  
+
+text[[77, 153, 449, 636]]
+\(a\) ——颗粒的比表面积, \(\mathrm{m}^{2}\) ; \(A\) ——颗粒的表面积, \(\mathrm{m}^{2}\) ; \(A_{\mathrm{p}}\) ——沉降颗粒在垂直于运动方向水平面的投影面积, \(\mathrm{m}^{2}\) ; \(b\) ——沉淀池或降尘室的宽度, \(\mathrm{m}\) ; \(B\) ——旋风分离器进气口宽度, \(\mathrm{m}\) ; \(C_{\mathrm{D}}\) ——阻力系数,量纲为1; \(d_{\mathrm{c}}\) ——颗粒的临界直径, \(\mathrm{m}\) ; \(d_{\mathrm{es}}\) ——颗粒的等比表面积当量直径, \(\mathrm{m}\) ; \(d_{\mathrm{s}}\) ——颗粒的等表面积当量直径, \(\mathrm{m}\) ; \(d_{\mathrm{eV}}\) ——颗粒的等体积当量直径, \(\mathrm{m}\) ; \(d_{\mathrm{p}}\) ——颗粒直径, \(\mathrm{m}\) ; \(D\) ——旋风分离器直径, \(\mathrm{m}\) ; \(E\) ——电场强度, \(\mathrm{V} / \mathrm{m}\) ; \(F_{\mathrm{b}}\) ——流体浮力, \(\mathrm{N}\) ; \(F_{\mathrm{c}}\) ——离心力, \(\mathrm{N}\) ; \(F_{\mathrm{D}}\) ——流体阻力, \(\mathrm{N}\) ; \(F_{\mathrm{e}}\) ——静电力, \(\mathrm{N}\) ; \(F_{\mathrm{g}}\) ——重力, \(\mathrm{N}\) ; \(g\) ——重力加速度, \(\mathrm{m} / \mathrm{s}^{2}\) ; \(h\) ——沉淀池或降尘室的高度, \(\mathrm{m}\) ; \(h_{1}\) ——旋风分离器入口高度, \(\mathrm{m}\) ; \(K_{\mathrm{c}}\) ——离心分离因数; \(l\) ——沉淀池或降尘室的长度, \(\mathrm{m}\) ;  
+
+text[[529, 131, 905, 374]]
+\(N\) ——旋转圈数; \(q\) ——颗粒的荷电量, \(\mathrm{C}\) ; \(q_{\mathrm{v}}\) ——流体的体积流量, \(\mathrm{m}^{3} / \mathrm{s}\) ; \(t_{\mathrm{pp}}\) ——水力停留时间, \(\mathrm{s}\) ; \(t_{\mathrm{vc}}\) ——颗粒沉降时间, \(\mathrm{s}\) ; \(u\) ——颗粒与流体之间的相对运动速率, \(\mathrm{m} / \mathrm{s}\) ; \(u_{\mathrm{i}}\) ——沉降设备流体的入流速率, \(\mathrm{m} / \mathrm{s}\) ; \(u_{\mathrm{t}}\) ——颗粒终端沉降速率, \(\mathrm{m} / \mathrm{s}\) ; \(u_{\mathrm{T}}\) ——切向速率, \(\mathrm{m} / \mathrm{s}\) ; \(V\) ——沉淀池或降尘室的容积, \(\mathrm{m}^{3}\) ; \(V_{\mathrm{p}}\) ——颗粒体积, \(\mathrm{m}^{3}\) ; \(x_{\mathrm{mi}}\) ——粒径为 \(d_{i}\) 的颗粒占总颗粒的质量分数。  
+
+sub_title[[541, 374, 632, 391]]
+## 希腊字母  
+
+text[[529, 395, 908, 633]]
+\(\mu\) ——流体黏度, \(\mathrm{Pa} \cdot \mathrm{s}\) ; \(\rho\) ——流体密度, \(\mathrm{kg} / \mathrm{m}^{3}\) ; \(\rho_{1}, \rho_{2}\) ——旋风分离器入口和出口气体中的总含尘量, \(\mathrm{kg} / \mathrm{m}^{3}\) ; \(\rho_{\mathrm{i1}}, \rho_{\mathrm{2i}}\) ——粒径为 \(d_{i}\) 的颗粒在旋风分离器入口和出口气体中的含量, \(\mathrm{kg} / \mathrm{m}^{3}\) ; \(\rho_{\mathrm{p}}\) ——颗粒密度, \(\mathrm{kg} / \mathrm{m}^{3}\) ; \(\eta_{0}\) ——旋风分离器粉尘的总分离效率, \(\%\) ; \(\eta_{1}\) ——旋风分离器粒径为 \(d_{i}\) 的粉尘的粒级效率, \(\%\) ; \(\phi\) ——颗粒的球形度; \(\omega\) ——离心机旋转角速度。

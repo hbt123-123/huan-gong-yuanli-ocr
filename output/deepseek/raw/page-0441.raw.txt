@@ -1,0 +1,42 @@
+image[[305, 112, 792, 483]]
+image_caption[[312, 508, 744, 524]]
+<center>图13.1.4 球形催化剂颗粒内反应物A的浓度分布</center>  
+
+text[[138, 540, 317, 558]]
+A的反应消耗量为  
+
+equation[[451, 568, 601, 588]]
+\[(4\pi r^{2}\mathrm{d}r)(-r_{\mathrm{A}})\]  
+
+text[[92, 598, 641, 618]]
+式中: \(D_{e}\) ——颗粒外表面积为基准的有效扩散系数, \(\mathrm{m}^{2} / \mathrm{s}\) ;  
+
+text[[148, 622, 520, 640]]
+\(c_{\mathrm{A}}\) ——颗粒内部各处的浓度, \(\mathrm{kmol / m^{3}}\) 。  
+
+text[[138, 644, 528, 662]]
+积累量:对于连续稳定状态,积累量为 \(0\) 。  
+
+text[[137, 666, 317, 684]]
+A的物料衡算式为  
+
+text[[303, 695, 750, 714]]
+输入量 \(= \mathrm{A}\) 的输出量 \(+ \mathrm{A}\) 的反应消耗量 \(+\) 积累量  
+
+text[[138, 724, 465, 743]]
+令 \(z = r / R\) ,略去 \((\mathrm{d}r)^{2}\) 项,整理可得  
+
+equation[[417, 752, 957, 797]]
+\[\frac{\mathrm{d}^{2}c_{\mathrm{A}}}{\mathrm{d}z^{2}} +\frac{2}{z}\frac{\mathrm{d}c_{\mathrm{A}}}{\mathrm{d}z} = \frac{R^{2}}{D_{e}} (-r_{\mathrm{A}}) \quad (13.1.51)\]  
+
+text[[92, 808, 403, 826]]
+式中: \(R\) ——催化剂颗粒半径, \(\mathrm{m}\) 。  
+
+text[[137, 829, 655, 848]]
+式(13.1.51)为球形催化剂的基本方程,其边界条件为  
+
+equation[[422, 859, 957, 896]]
+\[r = 0,\quad z = 0,\quad \frac{\mathrm{d}c_{\mathrm{A}}}{\mathrm{d}z} = 0 \quad (13.1.52)\]  
+
+equation[[423, 903, 958, 922]]
+\[r = R,\quad z = 1,\quad c_{\mathrm{A}} = c_{\mathrm{As}} \quad (13.1.53)\]

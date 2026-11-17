@@ -1,0 +1,80 @@
+equation[[397, 80, 970, 125]]
+\[-r_{AS} = K_{GA}\left(p_{A} + \frac{1}{H_{A}\alpha_{B}}\cdot \frac{D_{\mathrm{LB}}}{D_{\mathrm{LA}}}\cdot c_{\mathrm{BL}}\right) \quad (13.2.36)\]  
+
+text[[112, 143, 965, 206]]
+【例题13.2.1】瞬间反应 \(\mathrm{A}(\mathrm{g}) + \alpha_{\mathrm{B}}\mathrm{B}(1)\longrightarrow \mathrm{P}\) 的反应平面随液相中B的浓度的升高而向气液界面移动。当B的浓度高于某临界浓度 \(c_{\mathrm{BL,c}}\) 时,反应平面与气- 液相界面重合,此时的反应称界面反应。试推导出 \(c_{\mathrm{BL,c}}\) 的表达式,并给出气- 液相界面反应的宏观速率方程。  
+
+text[[148, 209, 860, 227]]
+解:(1)根据题意,在气- 液相界面处A、B的浓度均为零,则B在液膜中的扩散速率为  
+
+equation[[465, 236, 612, 271]]
+\[N_{\mathrm{B}} = \frac{D_{\mathrm{LB}}}{\delta_{\mathrm{L}}} (c_{\mathrm{BL,c}} - 0)\]  
+
+text[[113, 285, 135, 301]]
+由  
+
+equation[[508, 280, 580, 315]]
+\[k_{\mathrm{LA}} = \frac{D_{\mathrm{LA}}}{\delta_{\mathrm{L}}}\]  
+
+text[[112, 327, 136, 343]]
+得  
+
+equation[[511, 319, 581, 353]]
+\[\delta_{\mathrm{L}} = \frac{D_{\mathrm{LA}}}{k_{\mathrm{LA}}}\]  
+
+text[[113, 367, 135, 383]]
+故  
+
+equation[[475, 362, 603, 396]]
+\[N_{\mathrm{B}} = \frac{D_{\mathrm{LB}}}{D_{\mathrm{LA}}} k_{\mathrm{LA}} c_{\mathrm{BL,c}}\]  
+
+text[[151, 404, 364, 421]]
+A在气膜中的扩散速率为  
+
+equation[[444, 430, 626, 449]]
+\[N_{\mathrm{A}} = k_{\mathrm{GA}}(p_{\mathrm{A}} - 0) = k_{\mathrm{GA}}p_{\mathrm{A}}\]  
+
+text[[151, 451, 354, 468]]
+根据 \(N_{\mathrm{A}}\) 和 \(N_{\mathrm{B}}\) 的关系式  
+
+equation[[494, 480, 570, 513]]
+\[N_{\mathrm{A}} = \frac{1}{\alpha_{\mathrm{B}}} N_{\mathrm{B}}\]  
+
+text[[113, 527, 135, 543]]
+有  
+
+equation[[444, 516, 635, 551]]
+\[k_{\mathrm{GA}}p_{\mathrm{A}} = \frac{1}{\alpha_{\mathrm{B}}}\cdot \frac{D_{\mathrm{LB}}}{D_{\mathrm{LA}}} k_{\mathrm{LA}}c_{\mathrm{BL,c}}\]  
+
+text[[113, 566, 135, 582]]
+故  
+
+equation[[465, 555, 635, 598]]
+\[c_{\mathrm{BL,c}} = \frac{\alpha_{\mathrm{B}}k_{\mathrm{GA}}D_{\mathrm{LA}}}{D_{\mathrm{LB}}k_{\mathrm{LA}}} p_{\mathrm{A}}\]  
+
+text[[151, 604, 380, 621]]
+另解(1):由式(13.2.32)得  
+
+equation[[390, 630, 676, 670]]
+\[k_{\mathrm{LA}}c_{\mathrm{Ai}}\left(1 + \frac{D_{\mathrm{LB}}}{\alpha_{\mathrm{B}}D_{\mathrm{LA}}}\cdot \frac{c_{\mathrm{BL}}}{c_{\mathrm{Ai}}}\right) = k_{\mathrm{GA}}\left(p_{\mathrm{A}} - \frac{c_{\mathrm{Ai}}}{H_{\mathrm{A}}}\right)\]  
+
+text[[151, 680, 192, 697]]
+定义  
+
+equation[[503, 672, 600, 706]]
+\[k_{\mathrm{LB}} = \frac{k_{\mathrm{LA}}D_{\mathrm{LB}}}{D_{\mathrm{LA}}}\]  
+
+text[[113, 711, 192, 727]]
+整理可得  
+
+equation[[457, 739, 620, 810]]
+\[c_{\mathrm{Ai}} = \frac{k_{\mathrm{GA}}p_{\mathrm{A}}\frac{1}{\alpha_{\mathrm{B}}}k_{\mathrm{LB}}c_{\mathrm{BL}}}{k_{\mathrm{LA}} + \frac{k_{\mathrm{GA}}}{H_{\mathrm{A}}}}\]  
+
+text[[151, 817, 337, 834]]
+对界面反应, \(c_{\mathrm{Ai}}\leqslant 0\) ,即  
+
+equation[[458, 847, 618, 880]]
+\[k_{\mathrm{GA}}p_{\mathrm{A}}\frac{1}{\alpha_{\mathrm{B}}} k_{\mathrm{LB}}c_{\mathrm{BL}}\leqslant 0\]  
+
+equation[[475, 884, 591, 917]]
+\[c_{\mathrm{BL}}\geqslant \frac{\alpha_{\mathrm{B}}k_{\mathrm{GA}}}{k_{\mathrm{LB}}} p_{\mathrm{A}}\]

@@ -1,0 +1,42 @@
+text[[121, 85, 582, 105]]
+负号表示剪应力的方向与速度梯度的方向相反。  
+
+text[[77, 107, 948, 194]]
+式(3.2.3)即为牛顿黏性定律的数学表达式。该定律指出,相邻流体层之间的剪应力 \(\tau\) 与该处垂直于流动方向的速度梯度 \(\frac{\mathrm{d}u_{x}}{\mathrm{d}y}\) 成正比。该定律适用于由分子运动引起的剪应力的计算,即流体呈层流运动的情况。  
+
+text[[75, 198, 601, 433]]
+\(\frac{\mathrm{d}u_{x}}{\mathrm{d}y}\) 反映出流体流动时的角变形速率。在流场中取一立方体微元abcd,如图3.2.2所示。当 \(t = 0\) 时,微元体相邻两边的夹角为 \(90^{\circ}\) 。流速沿 \(y\) 方向变化,由于黏性作用,使平行于 \(x\) 方向的两相对平面发生相对运动,经过dt时间后,微元体变形为 \(a^{\prime}b^{\prime}c^{\prime}d^{\prime}\) ,夹角改变了 \(\mathrm{d}\theta\) ,下层流体移动的距离为 \(u_{x}\mathrm{d}t\) ,上层流体移动的距离为 \(\left(u_{x} + \frac{\mathrm{d}u_{x}}{\mathrm{d}y}\mathrm{d}y\right)\mathrm{d}t\) ,上层流体比下层流体多移动的距离为 \(\frac{\mathrm{d}u_{x}}{\mathrm{d}y}\mathrm{d}y\mathrm{d}t\) ,则  
+
+image[[623, 211, 916, 375]]
+image_caption[[620, 378, 922, 395]]
+<center>图3.2.2 流体流动时的角变形速率</center>  
+
+equation[[407, 448, 621, 490]]
+\[\left(\frac{\mathrm{d}u_{x}}{\mathrm{d}y}\mathrm{d}y\mathrm{d}t\right) / \mathrm{d}y = \tan \mathrm{d}\theta\]  
+
+text[[122, 505, 573, 539]]
+由于 \(\mathrm{d}\theta\) 很小, \(\mathrm{d}\theta \approx \tan \mathrm{d}\theta\) ,所以角变形速率 \(\frac{\mathrm{d}\theta}{\mathrm{d}t}\) 为  
+
+equation[[392, 553, 635, 613]]
+\[\frac{\mathrm{d}\theta}{\mathrm{d}t} = \left(\frac{\mathrm{d}u_{x}}{\mathrm{d}y}\mathrm{d}y\mathrm{d}t\right) / \frac{\mathrm{d}y}{\mathrm{d}t} = \frac{\mathrm{d}u_{x}}{\mathrm{d}y}\]  
+
+text[[121, 622, 748, 666]]
+因此,牛顿黏性定律又揭示了剪应力与角变形速率成正比的规律。黏度 \(\mu\) 除以流体的密度 \(\rho\) 所得的量为运动黏度,即  
+
+equation[[483, 679, 944, 716]]
+\[\nu = \frac{\mu}{\rho} \quad (3.2.4)\]  
+
+text[[77, 725, 626, 747]]
+式中: \(\nu\) ——流体的运动黏度,也称为动量扩散系数, \(\mathrm{m}^{2} / \mathrm{s}\) ;  
+
+text[[130, 750, 383, 769]]
+\(\rho\) ——流体的密度, \(\mathrm{kg} / \mathrm{m}^{3}\) 。  
+
+text[[122, 771, 527, 791]]
+于是,牛顿黏性定律可以改写为以下形式:  
+
+equation[[448, 800, 944, 840]]
+\[\tau = -\nu \frac{\mathrm{d}(\rho u_{x})}{\mathrm{d}y} \quad (3.2.5)\]  
+
+text[[77, 851, 945, 942]]
+式中: \(\rho u_{x}\) ——单位体积流体的动量,称为动量浓度, \([\mathrm{kg} \cdot (\mathrm{m} / \mathrm{s})] / \mathrm{m}^{3}\) ; \(\frac{\mathrm{d}(\rho u_{x})}{\mathrm{d}y}\) ——单位体积流体的动量在 \(y\) 方向上的梯度,称为动量浓度梯度, \([\mathrm{kg} \cdot (\mathrm{m} / \mathrm{s})] / (\mathrm{m}^{3} \cdot \mathrm{m})\) 。

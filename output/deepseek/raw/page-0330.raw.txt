@@ -1,0 +1,61 @@
+text[[78, 60, 403, 80]]
+\(q_{0}\) ——树脂全交换容量, \(\mathrm{kmol} / \mathrm{m}^{3}\) ;  
+
+text[[79, 84, 430, 103]]
+\(q_{\mathrm{B}}\) ——树脂中 \(\mathbf{B}^{+}\) 离子浓度, \(\mathrm{kmol} / \mathrm{m}^{3}\) 。  
+
+text[[29, 111, 56, 128]]
+则  
+
+equation[[352, 110, 618, 176]]
+\[x_{\mathrm{B}} = c_{\mathrm{B}} / c_{0}, \quad y_{\mathrm{B}} = q_{\mathrm{B}} / q_{0}\] \[\frac{\left[\mathrm{R}^{+}\mathrm{B}^{+}\right]}{\left[\mathrm{R}^{+}\mathrm{A}^{+}\right]} = \frac{q_{\mathrm{B}}}{q_{0} - q_{\mathrm{B}}}, \quad \frac{\left[\mathrm{B}^{+}\right]}{\left[\mathrm{A}^{+}\right]} = \frac{c_{\mathrm{B}}}{c_{0} - c_{\mathrm{B}}}\]  
+
+text[[29, 185, 414, 204]]
+式中: \(x_{\mathrm{B}}\) ——溶液中 \(\mathbf{B}^{+}\) 离子的摩尔分数;  
+
+text[[79, 208, 413, 226]]
+\(y_{\mathrm{B}}\) ——树脂中 \(\mathbf{B}^{+}\) 离子的摩尔分数。  
+
+text[[72, 230, 245, 247]]
+式(10.1.17)变为  
+
+equation[[388, 259, 894, 300]]
+\[K_{\mathrm{A}^{+}}^{B^{+}} = \frac{y_{\mathrm{B}}(1 - x_{\mathrm{B}})}{x_{\mathrm{B}}(1 - y_{\mathrm{B}})} \quad (10.1.18)\]  
+
+text[[71, 309, 550, 327]]
+一价离子之间交换的平衡曲线,如图10.1.2所示。  
+
+text[[29, 330, 897, 374]]
+如果 \(K_{\mathrm{A}^{+}}^{B^{+}} > 1\) ,则 \(\mathbf{B}^{+}\) 优先交换到树脂相,并且随 \(K_{\mathrm{A}^{+}}^{B^{+}}\) 的增加, \(y_{\mathrm{B}}\) 增加显著。反之,如果 \(K_{\mathrm{A}^{+}}^{B^{+}} < 1\) ,则 \(\mathbf{A}^{+}\) 优先交换到树脂相。  
+
+sub_title[[71, 376, 371, 394]]
+## 2. 二价离子对一价离子的交换  
+
+text[[72, 398, 454, 416]]
+二价离子对一价离子的交换反应通式为  
+
+equation[[319, 424, 894, 445]]
+\[2\mathrm{R}^{-}\mathrm{A}^{+} + \mathrm{B}^{2 + }\rightleftharpoons \mathrm{R}_{2}^{-}\mathrm{B}^{2 + } + 2\mathrm{A}^{+} \quad (10.1.19)\]  
+
+text[[29, 454, 298, 472]]
+其离子交换的选择性系数为  
+
+equation[[293, 481, 894, 525]]
+\[K_{\mathrm{A}^{+}}^{B^{2 + }} = \frac{\left[\mathrm{R}_{2}^{-}\mathrm{B}^{2 + }\right]\left[\mathrm{A}^{+}\right]^{2}}{\left[\mathrm{R}^{-}\mathrm{A}^{+}\right]^{2}\left[\mathrm{B}^{2 + }\right]} = \frac{y_{\mathrm{B}}(1 - x_{\mathrm{B}})^{2}c_{0}}{x_{\mathrm{B}}(1 - y_{\mathrm{B}})^{2}q_{0}}\]  
+
+equation[[372, 529, 894, 572]]
+\[K_{\mathrm{A}^{+}}^{B^{2 + }} = \frac{q_{0}}{c_{0}} = \frac{y_{\mathrm{B}}(1 - x_{\mathrm{B}})^{2}}{x_{\mathrm{B}}(1 - y_{\mathrm{B}})^{2}} \quad (10.1.20)\]  
+
+text[[29, 585, 451, 620]]
+式中: \(K_{\mathrm{A}^{+}}^{B^{2 + }}\frac{q_{0}}{c_{0}}\) ——表观选择性系数,量纲为1。  
+
+text[[71, 624, 568, 643]]
+二价离子与一价离子交换的平衡曲线,见图10.1.3。  
+
+image[[100, 657, 402, 860]]
+image_caption[[122, 867, 379, 903]]
+<center>图10.1.2 一价离子之间交换的平衡曲线</center>  
+
+image[[525, 661, 822, 861]]
+image_caption[[539, 868, 815, 904]]
+<center>图10.1.3 二价离子与一价离子交换的平衡曲线</center>

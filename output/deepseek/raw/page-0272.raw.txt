@@ -1,0 +1,77 @@
+text[[73, 71, 171, 87]]
+传质速率为  
+
+equation[[165, 94, 750, 114]]
+\[N_{\mathrm{A}} = K_{\mathrm{G}}\Delta p = (1.11\times 10^{-7}\times 0.729)\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s}) = 8.09\times 10^{-8}\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s})\]  
+
+text[[35, 125, 674, 143]]
+或 \(N_{\mathrm{A}} = K_{\mathrm{L}}\Delta c = (7.115\times 10^{- 6}\times 1.136\times 10^{- 2})\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s})\)  
+
+equation[[326, 147, 536, 165]]
+\[= 8.08\times 10^{-8}\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s})\]  
+
+text[[73, 173, 400, 190]]
+(2)以分压差为推动力的总传质阻力为  
+
+equation[[330, 200, 588, 234]]
+\[\frac{1}{K_{\mathrm{G}}} = 9.012\times 10^{6}\mathrm{m}^{2}\cdot \mathrm{s}\cdot \mathrm{kPa / kmol}\]  
+
+text[[35, 243, 210, 260]]
+其中气相传质阻力为  
+
+equation[[245, 264, 670, 299]]
+\[\frac{1}{k_{\mathrm{G}}} = \frac{1}{1\times 10^{-6}}\mathrm{m}^{2}\cdot \mathrm{s}\cdot \mathrm{kPa / kmol} = 1\times 10^{6}\mathrm{m}^{2}\cdot \mathrm{s}\cdot \mathrm{kPa / kmol}\]  
+
+text[[35, 309, 228, 325]]
+占总传质阻力的 \(11.1\%\)  
+
+text[[73, 329, 210, 345]]
+液相传质阻力为  
+
+equation[[182, 353, 736, 390]]
+\[\frac{1}{H k_{\mathrm{L}}} = \frac{1}{1.56\times 10^{-2}\times 8\times 10^{-6}}\mathrm{m}^{2}\cdot \mathrm{s}\cdot \mathrm{kPa / kmol} = 8.01\times 10^{6}\mathrm{m}^{2}\cdot \mathrm{s}\cdot \mathrm{kPa / kmol}\]  
+
+text[[36, 402, 230, 419]]
+占总传质阻力的 \(88.9\%\)  
+
+text[[75, 422, 345, 439]]
+(3)题意条件下的相平衡常数为  
+
+equation[[354, 447, 561, 483]]
+\[m = \frac{E}{p} = \frac{3.55\times 10^{1}}{101.3} = 35.04\]  
+
+text[[37, 495, 327, 512]]
+所以与液相平衡的气相摩尔分数为  
+
+equation[[290, 520, 616, 540]]
+\[y_{\mathrm{A}}^{\star} = m x_{\mathrm{A}} = 35.04\times 0.65\times 10^{-3} = 2.28\times 10^{-2}\]  
+
+text[[75, 549, 422, 566]]
+以气相摩尔分数差表示的总传质推动力为  
+
+equation[[311, 575, 611, 593]]
+\[\Delta y = y_{\mathrm{A}} - y_{\mathrm{A}}^{\star} = 0.03 - 0.0228 = 0.0072\]  
+
+text[[77, 602, 365, 619]]
+与气相组成平衡的液相摩尔分数为  
+
+equation[[350, 629, 575, 663]]
+\[x_{\mathrm{A}}^{\star} = \frac{y_{\mathrm{A}}}{m} = \frac{0.03}{35.04} = 8.56\times 10^{-4}\]  
+
+text[[76, 667, 423, 684]]
+以液相摩尔分数差表示的总传质推动力为  
+
+equation[[284, 692, 640, 711]]
+\[\Delta x = x_{\mathrm{A}}^{\star} - x_{\mathrm{A}} = (8.56 - 6.5)\times 10^{-4} = 2.06\times 10^{-4}\]  
+
+text[[77, 717, 232, 734]]
+气相总传质系数为  
+
+equation[[182, 741, 739, 761]]
+\[K_{\mathrm{y}} = p K_{\mathrm{G}} = 101.3\times 1.11\times 10^{-7}\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s}) = 1.124\times 10^{-5}\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s})\]  
+
+text[[77, 770, 232, 786]]
+液相总传质系数为  
+
+equation[[175, 794, 747, 814]]
+\[K_{\mathrm{x}} = c_{0}K_{\mathrm{L}} = 55.44\times 7.115\times 10^{-6}\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s}) = 3.945\times 10^{-4}\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s})\]

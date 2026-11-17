@@ -1,0 +1,62 @@
+text[[42, 76, 64, 91]]
+故  
+
+equation[[402, 71, 525, 108]]
+\[c_{\mathrm{BL,c}} = \frac{\alpha_{\mathrm{B}}k_{\mathrm{G,A}}}{k_{\mathrm{LB}}} p_{\mathrm{A}}\]  
+
+text[[42, 117, 891, 154]]
+(2)界面反应的宏观速率等于A在气膜中的扩散速率,故以气-液相界面面积为基准的宏观反应速率方程为  
+
+equation[[397, 162, 528, 181]]
+\[-r_{AS} = N_{\mathrm{A}} = k_{\mathrm{G,A}}p_{\mathrm{A}}\]  
+
+text[[42, 202, 891, 242]]
+【例题13.2.2】废气中的 \(0.1\%\) 硫化氢用有机胺溶液( \(\mathrm{RNH}_{2},c_{\mathrm{BL}} = 1.2 \mathrm{~mol} / \mathrm{m}^{3}\) )吸收,吸收反应为瞬间反应:  
+
+equation[[310, 246, 621, 265]]
+\[\mathrm{H}_{2}\mathrm{S}(\mathrm{g}) + \mathrm{RNH}_{2}(\mathrm{l})\longrightarrow \mathrm{HS}^{-} + \mathrm{RNH}_{3}^{+}\]  
+
+text[[42, 269, 657, 287]]
+求总反应吸收速率。气相扩散阻力很小 \(\left(p_{\mathrm{Ai}} = p_{\mathrm{A}}\right)\) 时,求化学吸收增强系数。  
+
+text[[41, 291, 891, 355]]
+已知:液相传质系数 \(k_{\mathrm{LA}} = 4.3 \times 10^{- 5} \mathrm{~m / s}\) ,气相传质系数 \(k_{\mathrm{GA}} = 5.9 \times 10^{- 7} \mathrm{~mol} / (\mathrm{m}^{2} \cdot \mathrm{s} \cdot \mathrm{Pa})\) ,组分A的液相扩散系数 \(D_{\mathrm{LA}} = 1.48 \times 10^{- 9} \mathrm{~m}^{2} / \mathrm{s}\) ,组分B的液相扩散系数 \(D_{\mathrm{LB}} = 0.95 \times 10^{- 9} \mathrm{~m}^{2} / \mathrm{s}\) ,组分A的亨利常数 \(H_{\mathrm{A}} = 0.082 \mathrm{~mol} / (\mathrm{Pa} \cdot \mathrm{m}^{3})\) ,压力为 \(101.3 \mathrm{kPa}\) ,温度为 \(293 \mathrm{~K}\) 。  
+
+text[[77, 358, 702, 376]]
+解:先确定反应界面在相界面还是在液膜内,由【例题13.2.1】(1)的结果得  
+
+equation[[81, 384, 262, 430]]
+\[c_{\mathrm{BL,c}} = \frac{\alpha_{\mathrm{B}}k_{\mathrm{G,A}}D_{\mathrm{LA}}}{D_{\mathrm{LB}}k_{\mathrm{LA}}} p_{\mathrm{A}}\]  
+
+equation[[115, 431, 644, 462]]
+\[= \frac{1 \times 5.9 \times 10^{-7} \times 1.48 \times 10^{-9}}{0.95 \times 10^{-9} \times 4.3 \times 10^{-5}} \times 101.3 \times 10^{3} \times 0.001 \mathrm{~mol} / \mathrm{m}^{3} = 2.17 \mathrm{~mol} / \mathrm{m}^{3}\]  
+
+text[[81, 466, 510, 484]]
+由于 \(c_{\mathrm{BL}} = 1.2 \mathrm{~mol} / \mathrm{m}^{3} < c_{\mathrm{BL,c}}\) ,因此反应在液膜内进行。  
+
+text[[82, 488, 298, 505]]
+首先计算总传质系数 \(K_{\mathrm{GA}}\) :  
+
+equation[[228, 515, 702, 551]]
+\[\frac{1}{K_{\mathrm{GA}}} = \frac{1}{k_{\mathrm{LA}}H_{\mathrm{A}}} +\frac{1}{k_{\mathrm{GA}}} = \frac{1}{4.3 \times 10^{-5} \times 0.082} -\frac{1}{5.9 \times 10^{-7}} = \frac{1}{5.05 \times 10^{-7}}\]  
+
+text[[81, 560, 238, 576]]
+由式(13.2.36),得  
+
+equation[[62, 585, 697, 686]]
+\[-r_{\mathrm{AS}} = K_{\mathrm{GA}}\left(p_{\mathrm{A}} + \frac{1}{H_{\mathrm{A}}}\frac{D_{\mathrm{LB}}}{a_{\mathrm{B}}} c_{\mathrm{BL}}\right)\] \[\qquad = 5.05\times 10^{-7}\times \left(101.3\times 10^{3}\times 0.001 + \frac{0.95\times 10^{-9}}{0.082\times 1\times 1.48\times 10^{-9}}\times 1.2\right)\mathrm{mol}/(\mathrm{m}^{2}\cdot \mathrm{s})\] \[\qquad = 5.59\times 10^{-5}\mathrm{mol}/(\mathrm{m}^{2}\cdot \mathrm{s})\]  
+
+text[[81, 693, 238, 709]]
+由式(13.2.27),得  
+
+equation[[297, 718, 775, 798]]
+\[\beta = 1 + \frac{D_{\mathrm{LB}}}{\alpha_{\mathrm{B}}D_{\mathrm{LA}}}\cdot \frac{c_{\mathrm{BL}}}{c_{\mathrm{Ai}}} = 1 + \frac{D_{\mathrm{LB}}}{\alpha_{\mathrm{B}}D_{\mathrm{LA}}}\cdot \frac{c_{\mathrm{BL}}}{p_{\mathrm{A}}H_{\mathrm{A}}}\] \[\qquad = 1 + \frac{0.95\times 10^{-9}}{1\times 1.48\times 10^{-9}}\times \frac{1.2}{101.3\times 10^{3}\times 0.001\times 0.082} = 1.09\]  
+
+text[[81, 804, 343, 821]]
+由于反应,吸收速率增加了 \(9\%\) 。  
+
+sub_title[[78, 832, 200, 850]]
+## 2. 快速反应  
+
+text[[35, 854, 903, 914]]
+(1)快速反应的特点及其反应区域与浓度分布:A与B之间的反应速率较快,反应发生在液膜内的某一区域中,在液相主体不存在A组分,也不发生A和B之间的反应,这种情况的浓度分布如图13.2.3(c)所示。

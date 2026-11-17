@@ -1,0 +1,59 @@
+sub_title[[417, 120, 635, 154]]
+## 参考文献  
+
+text[[88, 216, 959, 257]]
+1. 纳扎洛夫 W W,阿尔瓦雷斯-科恩 L.环境工程原理[M].漆新华,刘春光,译.北京:化学工业出版社,2006.  
+
+text[[89, 260, 655, 280]]
+2. 郭仁惠.环境工程原理[M].北京:化学工业出版社,2008.  
+
+text[[88, 283, 834, 302]]
+3. 何强,井文涌,王翊亭.环境学导论[M].3版.北京:清华大学出版社,2004.  
+
+text[[89, 305, 773, 324]]
+4. 蒋展鹏,杨宏伟.环境工程学[M].3版.北京:高等教育出版社,2013.  
+
+text[[88, 327, 926, 347]]
+5. 郝吉明,马广大,王书肖.大气污染控制工程[M].4版.北京:高等教育出版社,2021.  
+
+text[[89, 350, 958, 390]]
+6. Logan B E. Environmental transport processes[M].2nd ed. New Jersey: John Wiley & Sons, Inc.,2012.  
+
+text[[88, 394, 959, 435]]
+7. Rittmann B E,McCarty P L. Environmental biotechnology: principles and applications[M]. 2nd ed. New York:McGraw Hill Education,2020.  
+
+text[[89, 438, 958, 479]]
+8. Mihelcic J R, Zimmerman J B. Environmental engineering: fundamentals, sustainability, design[M].3rd ed. New Jersey:John Wiley & Sons,Inc.,2021.  
+
+text[[88, 482, 959, 522]]
+9. Weber Jr.W J,Di Giano F A. Process dynamics in environmental systems[M].New York: John Wiley & Sons,Inc.,1996.  
+
+text[[89, 525, 958, 566]]
+10. Masters G M. Introduction to environmental engineering and science [M].2nd ed. New Jersey:Prentice Hall,1997.  
+
+text[[88, 569, 959, 609]]
+11. Fogler H S. Elements of chemical reaction engineering[M].6th ed. New Jersey:Prentice Hall PTR,2020.  
+
+text[[89, 612, 958, 653]]
+12. Bailey J E,Ollis D F. Biochemical engineering fundamentals[M].2nd ed. New York:McGraw Hill Book Company,1986.  
+
+text[[88, 656, 959, 697]]
+13. Lens P,Kennes C,Le Cloirec P,et al.Waste gas treatment for resource recovery[M].London:IWA publishing,2006.  
+
+text[[89, 700, 958, 740]]
+14. Lens P,Grotenhuis T,Malina G,et al.Soil and sediment remediation: mechanisms, technologies and applications[M].London:IWA publishing,2005.  
+
+text[[88, 743, 959, 784]]
+15. Lens P,Hamelers B,Hoitink H,et al.Resource recovery and reuse in organic solid waste management[M].London:IWA publishing,2004.  
+
+text[[89, 787, 958, 827]]
+16. Stuetz R. Principles of water and wastewater treatment processes[M].London:IWA publishing,2009.  
+
+text[[88, 831, 959, 871]]
+17. Judd S. Process science and engineering for water and wastewater treatment[M].London: IWA publishing,2008.  
+
+text[[89, 875, 958, 915]]
+18. Shannon M A,Bohn P W,Elimelech M,et al.Science and technology for water purification in the coming decades[J].Nature,2008,452,301-310.  
+
+text[[88, 918, 697, 938]]
+19. 周本省.工业水处理技术[M].北京:化学工业出版社,1997.

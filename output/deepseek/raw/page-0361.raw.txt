@@ -1,0 +1,68 @@
+sub_title[[140, 84, 286, 101]]
+## 3.过程回收率  
+
+text[[97, 105, 967, 168]]
+在反渗透过程中,由于受溶液渗透压、黏度等的影响,原料液不可能全部成为透过液,因此透过液的体积总是小于原料液体积。通常把透过液与原料液体积之比称为回收率,可由下式计算得到  
+
+equation[[504, 179, 964, 220]]
+\[\eta = \frac{V_{\mathrm{P}}}{V_{\mathrm{F}}} \quad (10.3.23)\]  
+
+text[[97, 233, 526, 252]]
+式中: \(V_{\mathrm{P}}, V_{\mathrm{F}}\) ——透过液和原料液的体积, \(\mathrm{m}^{3}\) 。  
+
+text[[140, 255, 897, 275]]
+一般情况下,海水淡化的回收率为 \(30\% \sim 45\%\) ,纯水制备的回收率为 \(70\% \sim 80\%\) 。  
+
+text[[106, 287, 958, 389]]
+【例题10.3.1】利用反渗透膜脱盐,操作温度为 \(25^{\circ}\mathrm{C}\) ,进料侧的水中 \(\mathrm{NaCl}\) 质量分数为 \(1.8\%\) ,压力为6.896MPa,渗透侧的水中 \(\mathrm{NaCl}\) 质量分数为 \(0.05\%\) ,压力为0.345MPa。所采用的特定膜对水和盐的渗透系数分别为 \(1.086 \times 10^{-7} \mathrm{~L} / (\mathrm{cm}^{2} \cdot \mathrm{s} \cdot \mathrm{MPa})\) 和 \(16 \times 10^{-6} \mathrm{~cm} / \mathrm{s}\) 。假设膜两侧的传质阻力可忽略,水的渗透压可用 \(\pi = RT \sum c_{i}\) 计算, \(c_{i}\) 为水中溶解离子或非离子物质的物质的量浓度。试分别计算出水和盐的通量。  
+
+text[[145, 392, 300, 408]]
+解:进料盐浓度为  
+
+equation[[401, 419, 666, 452]]
+\[\frac{1.8 \times 1000}{58.5 \times 98.2} \mathrm{~mol} / \mathrm{L} = 0.313 \mathrm{~mol} / \mathrm{L}\]  
+
+text[[146, 460, 285, 476]]
+透过侧盐浓度为  
+
+equation[[383, 486, 683, 518]]
+\[\frac{0.05 \times 1000}{58.5 \times 99.95} \mathrm{~mol} / \mathrm{L} = 0.00855 \mathrm{~mol} / \mathrm{L}\]  
+
+equation[[378, 522, 692, 539]]
+\[\Delta p = (6.896 - 0.345) \mathrm{MPa} = 6.551 \mathrm{MPa}\]  
+
+text[[146, 547, 391, 563]]
+若不考虑过程的浓差极化,则  
+
+equation[[330, 573, 723, 605]]
+\[\pi_{\mathrm{进料侧}} = \frac{8.314 \times 298 \times 2 \times 0.313}{1000} \mathrm{MPa} = 1.55 \mathrm{MPa}\]  
+
+equation[[330, 609, 744, 641]]
+\[\pi_{\mathrm{出料侧}} = \frac{8.314 \times 298 \times 2 \times 0.00855}{1000} \mathrm{MPa} = 0.042 \mathrm{MPa}\]  
+
+equation[[324, 645, 747, 663]]
+\[\Delta p - \Delta \pi = [6.551 - (1.55 - 0.042)] \mathrm{MPa} = 5.043 \mathrm{MPa}\]  
+
+text[[148, 670, 568, 688]]
+已知 \(K_{\mathrm{w}} = 1.086 \times 10^{- 7} \mathrm{~L} / (\mathrm{cm}^{2} \cdot \mathrm{s} \cdot \mathrm{MPa})\) ,则水通量为  
+
+equation[[328, 697, 738, 739]]
+\[N_{\mathrm{y}} = K_{\mathrm{w}}(\Delta p - \Delta \pi) = 1.086 \times 10^{-7} \times 5.043 \mathrm{~L} / (\mathrm{cm}^{2} \cdot \mathrm{s})\] \[\qquad = 5.48 \times 10^{-7} \mathrm{~L} / (\mathrm{cm}^{2} \cdot \mathrm{s})\]  
+
+text[[110, 744, 130, 759]]
+又  
+
+equation[[355, 743, 716, 760]]
+\[\Delta c = (0.313 - 0.00855) \mathrm{~mol} / \mathrm{L} = 0.304 \mathrm{~mol} / \mathrm{L}\]  
+
+text[[108, 768, 229, 784]]
+则盐的通量为  
+
+equation[[265, 793, 804, 813]]
+\[N_{\mathrm{NaCl}} = 16 \times 10^{-6} \times 0.000304 \mathrm{~mol} / (\mathrm{cm}^{2} \cdot \mathrm{s}) = 4.86 \times 10^{-12} \mathrm{~mol} / (\mathrm{cm}^{2} \cdot \mathrm{s})\]  
+
+sub_title[[145, 836, 354, 859]]
+## 四、微滤和超滤  
+
+text[[101, 871, 969, 935]]
+在微滤和超滤过程中采用的膜一般为多孔膜。超滤膜的孔径范围为 \(0.05 \mu \mathrm{m} \sim 1 \mathrm{~nm}\) ,微滤膜的分离孔径在 \(10 \sim 0.05 \mu \mathrm{m}\) 。微滤的主要分离对象是颗粒物,而超滤的主要分离对象是胶体和大分子物质。

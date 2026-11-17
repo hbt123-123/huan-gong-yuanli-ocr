@@ -1,0 +1,59 @@
+text[[85, 81, 954, 125]]
+制穿过细胞壁和细胞膜,进入细胞质。因此,细胞壁和细胞膜可以视为运输区。当被动扩散的贡献率很小,可以忽略不计时,基质通过运输区的通量 \(N\) 可概括地表示为  
+
+equation[[473, 132, 951, 170]]
+\[N = \frac{\nu^{\prime}S^{\prime}}{K^{\prime} + S^{\prime}} \quad (14.3.9)\]  
+
+text[[85, 183, 294, 202]]
+式中: \(\nu^{\prime}, K^{\prime}\) ——常数;  
+
+text[[170, 205, 540, 224]]
+\(S^{\prime}\) ——运输区外层的基质浓度, \(\mathrm{kg} / \mathrm{m}^{3}\) 。  
+
+text[[85, 227, 954, 269]]
+由式(14.3.9)可以看出,在不考虑被动扩散的情况下, \(N\) 只与运输区外表层的基质浓度有关,与细胞质内的基质浓度无关。  
+
+text[[86, 270, 953, 313]]
+\(③\) 进入细胞质(反应区)的基质,在细胞内被分解。基质的分解速率可以概括地用来氏(Michaelis-Menten)方程来表示,即  
+
+equation[[457, 320, 951, 360]]
+\[\frac{\mathrm{d}S^{\prime\prime}}{\mathrm{d}t} = \frac{\nu^{\prime\prime}S^{\prime\prime}}{K^{\prime\prime} + S^{\prime\prime}} \quad (14.3.10)\]  
+
+text[[85, 371, 296, 390]]
+式中: \(\nu^{\prime \prime}, K_{\mathrm{s}}^{\prime \prime}\) ——常数;  
+
+text[[173, 394, 520, 413]]
+\(S^{\prime \prime}\) ——反应区内的基质浓度, \(\mathrm{kg} / \mathrm{m}^{3}\) 。  
+
+text[[85, 416, 954, 458]]
+当反应处于稳定态时,通过扩散区和运输区的基质通量与反应区内基质的消耗速率相等,即  
+
+equation[[480, 465, 951, 503]]
+\[N = \frac{\mathrm{d}S^{\prime\prime}}{\mathrm{d}t} \quad (14.3.11)\]  
+
+sub_title[[132, 517, 436, 536]]
+### (二)分散体系的基质消耗速率  
+
+sub_title[[131, 539, 387, 557]]
+## 1.基质消耗速率的表达式  
+
+text[[85, 560, 955, 647]]
+由于微生物反应系统中存在着大量的细胞,而且各个细胞之间都存在着一定的差异,关注系统中单个细胞的基质消耗过程,对深入理解基质消耗机制有重要的意义,但是在实际应用中,不可能掌握每个细胞的基质消耗速率。故常不考虑细胞内的差异,而把细胞看作一个组分稳定的化学物质,对该系统的宏观消耗速率进行分析、讨论。  
+
+text[[85, 649, 954, 692]]
+微生物反应系统中单位混合物体积的基质消耗速率[volumetric substrate consumption rate, \(- r_{\mathrm{s}}\) , \(\mathrm{kg} / (\mathrm{m}^{3} \cdot \mathrm{h})\) ]与细胞表观产率系数和生长速率的关系为  
+
+equation[[428, 700, 952, 739]]
+\[-r_{\mathrm{s}} = \frac{1}{Y_{\mathrm{x} / \mathrm{S}}} r_{\mathrm{x}} = \frac{1}{Y_{\mathrm{x} / \mathrm{S}}}\mu X \quad (14.3.12)\]  
+
+text[[86, 747, 954, 791]]
+在实际应用和科研工作中,经常使用单位细胞质量的基质消耗速率,即比基质消耗速率(specific substrate consumption rate, \(- r_{\mathrm{s}}\) ,单位: \(\mathrm{h}^{- 1}\) )来表示  
+
+equation[[478, 802, 952, 840]]
+\[- \nu_{\mathrm{s}} = \frac{r_{\mathrm{s}}}{X} \quad (14.3.13)\]  
+
+equation[[479, 851, 953, 888]]
+\[-\nu_{s} = \frac{\mu}{Y_{\mathrm{x / s}}} \quad (14.3.14)\]  
+
+text[[86, 895, 954, 938]]
+在污水生物处理中,常采用BOD表示基质群,此时 \(- r_{\mathrm{s}}\) 称为BOD去除速率, \(- \nu_{\mathrm{s}}\) 称为BOD比去除速率。

@@ -1,0 +1,71 @@
+text[[35, 63, 314, 81]]
+均相应应系统为均相内反应。  
+
+text[[34, 85, 903, 126]]
+对于固相催化反应,只有被吸附在流体与固体界面上的成分才能发生反应,也就是说化学反应只发生在界面上,这类反应称界面反应。  
+
+sub_title[[78, 138, 376, 161]]
+## 三、反应进度与转化率  
+
+sub_title[[79, 174, 227, 192]]
+### (一)反应进度  
+
+text[[34, 195, 903, 260]]
+对于按式(11.2.14)进行的反应,设反应开始时系统内的各反应组分物质的量分别为 \(n_{\mathrm{A}0}\setminus n_{\mathrm{B}0}\setminus n_{\mathrm{P}0}\) 和 \(n_{\mathrm{Q}0}\) ,反应开始后 \(t\) 时刻的各组分物质的量分别为 \(n_{\mathrm{A}}\setminus n_{\mathrm{B}}\setminus n_{\mathrm{P}}\) 和 \(n_{\mathrm{Q}}\) ,因各组分的化学计量数不同,因此其反应量也不相同,所以用反应量本身不能较好地表示反应的进度。  
+
+equation[[342, 262, 900, 282]]
+\[\alpha_{\mathrm{A}}\mathrm{A} + \alpha_{\mathrm{B}}\mathrm{B}\rightleftharpoons \alpha_{\mathrm{P}}\mathrm{P} + \alpha_{\mathrm{Q}}\mathrm{Q} \quad (11.2.14)\]  
+
+equation[[255, 284, 900, 305]]
+\[(n_{\mathrm{A0}} - n_{\mathrm{A}}) \neq (n_{\mathrm{B0}} - n_{\mathrm{B}}) \neq (n_{\mathrm{P}} - n_{\mathrm{P0}}) \neq (n_{\mathrm{Q}} - n_{\mathrm{Q0}}) \quad (11.2.15)\]  
+
+text[[78, 307, 360, 325]]
+各反应量之间存在以下关系:  
+
+equation[[102, 329, 900, 350]]
+\[(n_{\mathrm{A0}} - n_{\mathrm{A}}) : (n_{\mathrm{B0}} - n_{\mathrm{B}}) : (n_{\mathrm{P}} - n_{\mathrm{P0}}) : (n_{\mathrm{Q}} - n_{\mathrm{Q0}}) = \alpha_{\mathrm{A}} : \alpha_{\mathrm{B}} : \alpha_{\mathrm{P}} : \alpha_{\mathrm{Q}} \quad (11.2.16)\]  
+
+text[[35, 352, 128, 370]]
+亦可写成  
+
+equation[[311, 375, 900, 412]]
+\[\frac{n_{\mathrm{A0}} - n_{\mathrm{A}}}{\alpha_{\mathrm{A}}} = \frac{n_{\mathrm{B0}} - n_{\mathrm{B}}}{\alpha_{\mathrm{B}}} = \frac{n_{\mathrm{P}} - n_{\mathrm{P0}}}{\alpha_{\mathrm{P}}} = \frac{n_{\mathrm{Q}} - n_{\mathrm{Q0}}}{\alpha_{\mathrm{Q}}} \quad (11.2.17)\]  
+
+text[[35, 416, 903, 459]]
+即任一组分的反应量与其化学计量数之比为相同值,不随组分而变,故该比值可以用于描述反应的进行程度,即反应进度 \(\xi\)  
+
+equation[[413, 462, 900, 504]]
+\[\xi = \frac{|n_{i} - n_{i0}|}{\alpha_{i}} \quad (11.2.18)\]  
+
+text[[35, 507, 300, 526]]
+式中: \(\xi\) ——反应进度, \(\mathrm{kmol}\) ;  
+
+text[[42, 530, 584, 549]]
+\(n_{i0}, n_{i}\) ——反应前和反应后反应组分 \(i\) 的物质的量, \(\mathrm{kmol}\) ;  
+
+text[[79, 552, 494, 571]]
+\(\alpha_{i}\) ——反应组分 \(i\) 的化学计量数,量纲为1。  
+
+text[[35, 574, 903, 615]]
+上式表示的反应进度与反应系统的大小有关,为了使其具有强度性质,亦可用单位反应体积的反应进度来表示。  
+
+equation[[409, 619, 900, 659]]
+\[\xi^{\prime} = \frac{|n_{i} - n_{i0}|}{\alpha_{i}V} \quad (11.2.19)\]  
+
+text[[35, 664, 374, 683]]
+式中: \(V\) ——反应器的有效体积, \(\mathrm{m}^{3}\) 。  
+
+sub_title[[79, 689, 204, 706]]
+### (二)转化率  
+
+sub_title[[78, 711, 239, 728]]
+## 1.转化率的定义  
+
+text[[35, 731, 904, 817]]
+工程中往往关心某一关键组分的反应进度,即该组分在反应器内的变化情况,所以经常用某关键反应物的转化率(conversion efficiency,fractional conversion)来表示反应进行的程度。在环境工程中,关键组分一般为待去除的污染物,如污水中的BOD、COD、苯、甲苯,废气中的 \(\mathrm{NO}_{x}\) 等,此时的转化率称为去除率(removal efficiency,fractional removal)。  
+
+text[[35, 820, 903, 861]]
+(1)间歇反应器的转化率:对于间歇反应器,反应物A的转化率 \(x_{\mathrm{A}}\) 定义为A的反应量与起始量之比,即  
+
+equation[[377, 874, 900, 914]]
+\[x_{\mathrm{A}} = \frac{n_{\mathrm{A0}} - n_{\mathrm{A}}}{n_{\mathrm{A0}}} = 1 - \frac{n_{\mathrm{A}}}{n_{\mathrm{A0}}} \quad (11.2.20)\]

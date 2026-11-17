@@ -1,0 +1,77 @@
+text[[33, 63, 213, 81]]
+与转化率的关系为  
+
+equation[[352, 92, 898, 132]]
+\[-r_{\mathrm{A}} = -\frac{1}{V}\frac{\mathrm{d}n_{\mathrm{A}}}{\mathrm{d}t} = \frac{n_{\mathrm{A0}}}{V}\frac{\mathrm{d}x_{\mathrm{A}}}{\mathrm{d}t} \quad (11.3.8)\]  
+
+text[[75, 145, 245, 164]]
+对于恒容反应,有  
+
+equation[[408, 175, 898, 214]]
+\[-r_{\mathrm{A}} = \frac{c_{\mathrm{A0}}\mathrm{d}x_{\mathrm{A}}}{\mathrm{d}t} \quad (11.3.9)\]  
+
+sub_title[[75, 227, 238, 245]]
+## 4. 以半衰期表示  
+
+text[[33, 249, 900, 292]]
+在实际应用中,有时用反应物浓度减少到初始浓度的 \(1 / 2\) 时所需要的时间,即半衰期 \((t_{1 / 2})\) 来表达反应速率。半衰期越长,表明反应速率越慢。  
+
+sub_title[[75, 304, 314, 326]]
+## 二、反应速率方程  
+
+sub_title[[77, 339, 380, 357]]
+### (一)反应速率方程与反应级数  
+
+text[[32, 361, 900, 403]]
+定量描述反应速率与其影响因素之间的关系式称为反应速率方程(reaction rate equation)。均相反应的反应速率是反应组分浓度 \((c)\) 和温度 \((T)\) 的函数,即  
+
+equation[[352, 413, 898, 434]]
+\[r = k(T)f(c_{\mathrm{A}},c_{\mathrm{B}},c_{\mathrm{P}},\dots) \quad (11.3.10a)\]  
+
+text[[32, 443, 900, 485]]
+在工程应用中,为了测定和使用上的方便,有时(特别是对于气相反应)把反应速率方程表示为转化率的函数,即  
+
+equation[[364, 495, 898, 516]]
+\[r = k(T)g(x_{\mathrm{A}},x_{\mathrm{B}},\dots) \quad (11.3.10b)\]  
+
+text[[32, 525, 900, 567]]
+对于均相不可逆反应 \(\alpha_{\mathrm{A}}\mathrm{A} + \alpha_{\mathrm{B}}\mathrm{B}\longrightarrow \alpha_{\mathrm{P}}\mathrm{P} + \alpha_{\mathrm{Q}}\mathrm{Q}\) ,在一定温度下,反应速率与反应物浓度之间的关系为  
+
+equation[[416, 577, 898, 598]]
+\[-r_{\mathrm{A}} = k c_{\mathrm{A}}^{a} c_{\mathrm{B}}^{b} \quad (11.3.11)\]  
+
+text[[32, 607, 597, 627]]
+式中: \(a,b\) ——反应物A和B的反应级数(order),量纲为1。  
+
+text[[33, 630, 900, 671]]
+反应级数 \(a,b\) 两者之和 \(n = a + b\) 为该反应的总反应级数。 \(k\) 称为反应速率常数(reaction rate constant), \(k\) 的量纲为(浓度) \(^{- 1}\) (时间) \(^{- 1}\) ,即取决于反应级数 \(n\) 。  
+
+text[[75, 673, 704, 693]]
+对于气相反应,反应速率方程也可以表示为反应物分压的函数,即  
+
+equation[[409, 703, 898, 724]]
+\[-r_{\mathrm{A}} = k_{p}p_{\mathrm{A}}^{a} p_{\mathrm{B}}^{b} \quad (11.3.12)\]  
+
+text[[32, 734, 460, 754]]
+式中: \(k_{p}\) 的量纲为(浓度)(时间) \(^{- 1}\) (压力) \(^{- a}\) 。  
+
+text[[75, 757, 675, 777]]
+\(n = 1\) 时,称一级反应(first-order reaction),其速率方程可表示为  
+
+equation[[426, 787, 898, 807]]
+\[-r_{\mathrm{A}} = k c_{\mathrm{A}} \quad (11.3.13)\]  
+
+text[[75, 817, 700, 837]]
+\(n = 2\) 时,称二级反应(second-order reaction),其速率方程可表示为  
+
+equation[[426, 845, 898, 866]]
+\[-r_{\mathrm{A}} = k c_{\mathrm{A}}^{2} \quad (11.3.14)\]  
+
+text[[33, 870, 62, 887]]
+或  
+
+equation[[418, 869, 900, 888]]
+\[-r_{\mathrm{A}} = k c_{\mathrm{A}} c_{\mathrm{B}} \quad (11.3.15)\]  
+
+text[[75, 899, 548, 918]]
+在一些条件下,反应速率与各组分的浓度无关,即

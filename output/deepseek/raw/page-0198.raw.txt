@@ -1,0 +1,62 @@
+text[[38, 74, 64, 91]]
+故  
+
+equation[[397, 63, 903, 104]]
+\[N_{\mathrm{A}} = \frac{D_{\mathrm{AB}}c}{1 + y_{\mathrm{A}}}\frac{\mathrm{d}y_{\mathrm{A}}}{\mathrm{d}z} \quad (5.3.23)\]  
+
+text[[79, 112, 607, 133]]
+将上式在催化剂表面和气相主体之间积分,边界条件为  
+
+equation[[398, 142, 546, 190]]
+\[z = 0,\quad y_{\mathrm{A}} = y_{\mathrm{A},\mathrm{i}}\] \[z = L,\quad y_{\mathrm{A}} = y_{\mathrm{A},\mathrm{o}}\]  
+
+equation[[352, 197, 590, 237]]
+\[N_{\mathrm{A}}\int_{0}^{L}\mathrm{d}z = -\int_{y_{\mathrm{A},\mathrm{i}}}^{y_{\mathrm{A},\mathrm{o}}}\frac{D_{\mathrm{AB}}c}{1 + y_{\mathrm{A}}}\mathrm{d}y_{\mathrm{A}}\]  
+
+text[[82, 244, 472, 264]]
+在一定操作条件下, \(D_{\mathrm{AB}}\) 和 \(c\) 为常数,所以  
+
+equation[[378, 272, 904, 314]]
+\[N_{\mathrm{A}} = \frac{D_{\mathrm{AB}}c}{L}\ln{\frac{1 + y_{\mathrm{A},\mathrm{o}}}{1 + y_{\mathrm{A},\mathrm{i}}}} \quad (5.3.24)\]  
+
+text[[82, 322, 685, 343]]
+若反应是瞬时完成的,则可认为在催化剂表面不存在组分A,即  
+
+equation[[440, 353, 507, 372]]
+\[y_{\mathrm{A},\mathrm{i}} = 0\]  
+
+text[[83, 379, 312, 398]]
+式(5.3.24)可以简化为  
+
+equation[[369, 408, 904, 447]]
+\[N_{\mathrm{A}} = \frac{D_{\mathrm{AB}}c}{L}\ln (1 + y_{\mathrm{A},\mathrm{o}}) \quad (5.3.25a)\]  
+
+text[[83, 457, 456, 476]]
+若A的浓度用物质的量浓度表示,则有  
+
+equation[[380, 486, 905, 525]]
+\[N_{\mathrm{A}} = \frac{D_{\mathrm{AB}}c}{L}\ln {\frac{c + c_{\mathrm{A},\mathrm{o}}}{c}} \quad (5.3.25b)\]  
+
+text[[40, 534, 908, 577]]
+如果在催化剂表面化学反应进行得极为缓慢,化学反应速率远远低于扩散速率,且化学反应属一级反应,则在催化剂表面(即 \(z = 0\) 处),组分A的传质通量与摩尔分数的关系为  
+
+equation[[425, 585, 906, 626]]
+\[y_{\mathrm{A},\mathrm{i}} = \frac{N_{\mathrm{A}}}{k_{1}c} \quad (5.3.26)\]  
+
+text[[40, 634, 398, 654]]
+式中: \(k_{1}\) ——一级反应速率常数, \(\mathrm{m / s}\) 。  
+
+text[[83, 656, 437, 675]]
+负号表示组分A的浓度随时间减小。  
+
+text[[84, 679, 346, 697]]
+将上式代入式(5.3.24),得  
+
+equation[[380, 707, 907, 775]]
+\[N_{\mathrm{A}} = \frac{D_{\mathrm{AB}}c}{L}\ln {\frac{1 + y_{\mathrm{A},\mathrm{o}}}{1 - \frac{N_{\mathrm{A}}}{k_{1}c}}} \quad (5.3.27)\]  
+
+text[[40, 782, 910, 838]]
+式(5.3.27)是超越方程,利用泰勒级数展开,当 \(\frac{|N_{\mathrm{A}}|}{k_{1}c} < 0.4\) 或更小时,可推导出其近似解,即  
+
+equation[[367, 848, 907, 915]]
+\[N_{\mathrm{A}} = \frac{D_{\mathrm{AB}}c}{L}\ln {\frac{(1 + y_{\mathrm{A},\mathrm{o}})}{1 + \frac{D_{\mathrm{AB}}}{k_{1}L}}} \quad (5.3.28)\]

@@ -1,0 +1,62 @@
+text[[78, 62, 462, 81]]
+同样,对液相组分B进行物料衡算,可得  
+
+equation[[355, 90, 899, 111]]
+\[-q_{\mathrm{nL1}}\mathrm{d}X_{\mathrm{B}} = \alpha_{\mathrm{B}}\left(-r_{\mathrm{AS}}\right)a_{\mathrm{i}}\mathrm{d}z \quad (13.2.72)\]  
+
+text[[34, 118, 757, 140]]
+式中: \(q_{\mathrm{nL1}}\) ——单位塔截面积上液相情性组分的物质的量流量, \(\mathrm{kmol / (m^{2}\cdot s)}\) ;  
+
+text[[92, 141, 614, 160]]
+\(X_{\mathrm{B}}\) ——液相中组分B与情性组分的摩尔比,量纲为1。  
+
+equation[[419, 172, 899, 212]]
+\[X_{\mathrm{B}} = \frac{c_{\mathrm{B}}}{c_{\mathrm{t}} - c_{\mathrm{B}}} \quad (13.2.73)\]  
+
+text[[34, 218, 362, 238]]
+式中: \(c_{\mathrm{t}}\) ——液相总浓度, \(\mathrm{kmol / m^{3}}\) 。  
+
+text[[78, 241, 330, 259]]
+对式(13.2.72)积分,可得  
+
+equation[[327, 269, 899, 312]]
+\[H = \int_{0}^{H}\mathrm{d}z = -\frac{q_{\mathrm{nL1}}}{\alpha_{\mathrm{B}}}\int_{x_{\mathrm{B1}}}^{y_{\mathrm{B2}}}\frac{\mathrm{d}X_{\mathrm{B}}}{(-r_{\mathrm{AS}})a_{\mathrm{i}}} \quad (13.2.74)\]  
+
+text[[78, 319, 432, 339]]
+由式(13.2.70)和式(13.2.73),可得  
+
+equation[[395, 350, 542, 391]]
+\[\mathrm{d}Y_{\mathrm{A}} = \frac{p_{\mathrm{t}}\mathrm{d}p_{\mathrm{A}}}{(p_{\mathrm{t}} - p_{\mathrm{A}})^{2}}\]  
+
+equation[[397, 396, 539, 437]]
+\[\mathrm{d}X_{\mathrm{B}} = \frac{c_{\mathrm{t}}\mathrm{d}c_{\mathrm{B}}}{(c_{\mathrm{t}} - c_{\mathrm{B}})^{2}}\]  
+
+text[[34, 444, 498, 464]]
+分别代入式(13.2.71)及式(13.2.74),整理可得  
+
+equation[[319, 474, 899, 516]]
+\[H = q_{\mathrm{nG1}}p_{\mathrm{t}}\int_{p_{\mathrm{A1}}}^{p_{\mathrm{A2}}}\frac{\mathrm{d}p_{\mathrm{A}}}{(p_{\mathrm{t}} - p_{\mathrm{A}})^{2}(-r_{\mathrm{AS}})a_{\mathrm{i}}} \quad (13.2.75)\]  
+
+equation[[321, 519, 899, 563]]
+\[H = \frac{q_{\mathrm{nL1}}c_{\mathrm{t}}}{\alpha_{\mathrm{B}}}\int_{c_{\mathrm{B2}}}^{c_{\mathrm{B1}}}\frac{\mathrm{d}c_{\mathrm{B}}}{(c_{\mathrm{t}} - c_{\mathrm{B}})^{2}(-r_{\mathrm{AS}})a_{\mathrm{i}}} \quad (13.2.76)\]  
+
+text[[78, 571, 336, 590]]
+对于稀薄气体和稀溶液,有  
+
+equation[[421, 600, 899, 642]]
+\[\begin{array}{c}p_{\mathrm{t}} - p_{\mathrm{A}} = p_{\mathrm{t}}\\ c_{\mathrm{t}} - c_{\mathrm{B}} = c_{\mathrm{i}} \end{array} \quad (13.2.77)\]  
+
+text[[34, 648, 464, 669]]
+则式(13.2.75)和式(13.2.76)可分别简化为  
+
+equation[[368, 678, 899, 720]]
+\[H = \frac{q_{\mathrm{nG1}}}{p_{\mathrm{t}}}\int_{p_{\mathrm{A1}}}^{p_{\mathrm{A2}}}\frac{\mathrm{d}p_{\mathrm{A}}}{(-r_{\mathrm{AS}})a_{\mathrm{i}}} \quad (13.2.79)\]  
+
+equation[[368, 722, 899, 764]]
+\[H = \frac{q_{\mathrm{nL1}}}{\alpha_{\mathrm{B}}c_{\mathrm{t}}}\int_{c_{\mathrm{B2}}}^{c_{\mathrm{B1}}}\frac{\mathrm{d}c_{\mathrm{B}}}{(-r_{\mathrm{AS}})a_{\mathrm{i}}} \quad (13.2.80)\]  
+
+text[[34, 770, 598, 791]]
+根据式(13.2.79)和式(13.2.80),即可计算出填料层高度。  
+
+text[[40, 801, 895, 908]]
+【例题13.2.3】在逆流操作的填料塔中利用化学吸收把空气中的有害气体含量从 \(0.1\%\) 降低到 \(0.02\%\) 。已知 \(k_{\mathrm{BA}}a_{\mathrm{t}} = 32\times 10^{3}\mathrm{mol / (h\cdot m^{3}\cdot atm)}\) , \(k_{\mathrm{LA}}a_{\mathrm{i}} = 0.11\mathrm{h}^{- 1}\) , \(H_{\mathrm{A}} = 0.125\times 10^{- 3}\mathrm{atm\cdot m^{3} / mol}\) ,气相流量为 \(1.0\times 10^{5}\mathrm{mol / (m^{3}\cdot h)}\) ,液相流量为 \(7.0\times 10^{5}\mathrm{mol / (m^{2}\cdot h)}\) ,气相总压 \(p_{\mathrm{t}} = 1\) atm,液相总浓度 \(c_{\mathrm{t}} = 5.6\times\) \(10^{4}\mathrm{mol / m^{3}}\) ,吸收液中吸收剂B的浓度为 \(800\mathrm{mol / m^{3}}\) ,试求塔底处液相中B的浓度并计算所需塔高 \(H\) (反应为界面反应: \(\mathrm{A} + \mathrm{B}\longrightarrow \mathrm{P}\) )。

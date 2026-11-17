@@ -1,0 +1,48 @@
+text[[32, 61, 902, 101]]
+连续培养反应器中微生物浓度、基质浓度及微生物生产速率与稀释率的关系如图15.1.6所示。  
+
+image[[262, 110, 668, 344]]
+image_caption[[237, 353, 693, 370]]
+<center>图15.1.6 连续培养反应器中微生物浓度、基质浓度及</center>  
+
+text[[328, 373, 600, 390]]
+微生物生产速率与稀释率的关系  
+
+text[[40, 416, 890, 481]]
+【例题15.1.2】某细菌连续培养的生长速率 \(r_{X}\) 与基质浓度 \(S\) 和细胞浓度 \(X\) 的关系符合Monod方程,已知 \(\mu_{\mathrm{max}} = 0.5 \mathrm{h}^{- 1}, K_{\mathrm{s}} = 2 \mathrm{g} / \mathrm{L}, Y_{\mathrm{X} / \mathrm{S}} = 0.45 \mathrm{g}\) (细胞) \(/ \mathrm{g}\) (基质), \(S_{0} = 48 \mathrm{g} / \mathrm{L}\) 。试计算在一连续培养器中培养时的最大细胞生产速率和此时的基质分解率。  
+
+text[[77, 483, 444, 500]]
+解:细胞生产速率 \(= DX\) ,由式(15.1.34)可得  
+
+equation[[366, 508, 558, 546]]
+\[DX = DY_{X / S}\left(S_{0} - \frac{K_{\mathrm{s}}D}{\mu_{\mathrm{max}} - D}\right)\]  
+
+text[[40, 554, 890, 593]]
+设细胞生产速率达到最大时的稀释率和细胞浓度分别为 \(D_{\mathrm{max}}\) 和 \(X_{\mathrm{max}}\) ,对上式求导 \(\mathrm{d}(DX) / \mathrm{d}D\) ,并令其为0,可得  
+
+equation[[364, 603, 560, 644]]
+\[D_{\mathrm{max}} = \mu_{\mathrm{max}}\left(1 - \sqrt{\frac{K_{\mathrm{s}}}{S_{0} + K_{\mathrm{s}}}}\right)\]  
+
+text[[40, 652, 398, 670]]
+将 \(\mu_{\mathrm{max}}, K_{\mathrm{s}}\) 和 \(S_{0}\) 代入可求得: \(D_{\mathrm{max}} = 0.4 \mathrm{h}^{- 1}\) 。  
+
+text[[78, 674, 438, 691]]
+由式(15.1.34)可求得: \(X_{\mathrm{max}} = 18 \mathrm{g}(\mathrm{cell}) / \mathrm{L}\) 。  
+
+text[[77, 696, 293, 712]]
+所以细胞最大生产速率为  
+
+equation[[292, 721, 635, 740]]
+\[D_{\mathrm{max}}X_{\mathrm{max}} = 0.4 \times 18 \mathrm{g} / (\mathrm{L} \cdot \mathrm{h}) = 7.2 \mathrm{g} / (\mathrm{L} \cdot \mathrm{h})\]  
+
+text[[78, 750, 246, 766]]
+由式(15.1.25)可知  
+
+equation[[321, 775, 609, 813]]
+\[S = \frac{K_{\mathrm{s}}D_{\mathrm{max}}}{\mu_{\mathrm{max}} - D_{\mathrm{max}}} = \frac{2 \times 0.4}{0.5 - 0.4} \mathrm{g} / \mathrm{L} = 8 \mathrm{g} / \mathrm{L}\]  
+
+text[[40, 823, 83, 839]]
+所以  
+
+equation[[267, 849, 661, 882]]
+\[S = \frac{S_{0} - S}{S_{0}} \times 100\% = \frac{48 - 8}{48} \times 100\% = 83.3\%\]

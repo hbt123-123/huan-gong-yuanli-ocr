@@ -1,0 +1,123 @@
+text[[81, 82, 950, 120]]
+13.6 在一实验室规模的填充床反应器中,进料速率固定为 \(q_{\mathrm{nA0}} = 10 \mathrm{kmol / h}\) ,改变催化剂质量 \(m\) ,获得反应 \(\mathrm{A} \longrightarrow \mathrm{R}\) 的下列一些动力学数据:  
+
+table[[81, 128, 950, 181]]
+
+<table>m/kg1234567xA0.120.200.270.330.370.410.44</table>  
+
+text[[120, 207, 422, 223]]
+(1)求转化率为 \(40\%\) 时的反应速率;  
+
+text[[119, 227, 931, 244]]
+(2)在设计进料速率为 \(q_{\mathrm{nA0}} = 400 \mathrm{kmol / h}\) 的大填充床反应器时,若转化率为 \(40\%\) ,需要多少催化剂?  
+
+text[[81, 247, 950, 284]]
+(3)假如采用大量产物循环的反应器, \(q_{\mathrm{nA0}} = 400 \mathrm{kmol / h}\) , \(x_{\mathrm{A}} = 0.4\) , \(-r_{\mathrm{Am}}\) 取(1)中的计算结果,则需要多少催化剂(大量产物循环的反应器可看作CSTR)?  
+
+text[[118, 286, 701, 304]]
+13.7 利用有机胺 \(\left(\mathrm{RNH}_{2}\right)\) 水溶液吸收 \(\mathrm{H}_{2} \mathrm{~S}\) 气体的反应属于瞬间反应:  
+
+equation[[360, 313, 672, 330]]
+\[\mathrm{H}_{2} \mathrm{~S}(\mathrm{~g}) + \mathrm{RNH}_{2}(\mathrm{l}) \longrightarrow \mathrm{HS}^{-} + \mathrm{RNH}_{3}^{+}\]  
+
+text[[81, 333, 950, 370]]
+在 \(20^{\circ} \mathrm{C}, 10 \mathrm{atm}\) 条件下,在气- 液相反应器内用有机胺水溶液吸收一惰性气体中的 \(\mathrm{H}_{2} \mathrm{~S}\) (摩尔分数为 \(0.2\%\) ),试计算当有机胺的物质的量浓度大于多少时该反应可视为界面反应?  
+
+text[[115, 372, 909, 392]]
+已知: \(k_{\mathrm{L}} = 4.3 \times 10^{- 5} \mathrm{~m / s}, k_{\mathrm{G}} = 0.06 \mathrm{~mol / (m^{2} \cdot s \cdot atm)}\) , \(D_{\mathrm{H}_{2} \mathrm{~S}} = 1.48 \times 10^{- 9} \mathrm{~m}^{2} / \mathrm{s}, D_{\mathrm{RNH}_{2}} = 0.95 \times 10^{- 9} \mathrm{~m}^{2} / \mathrm{s}\) 。  
+
+text[[81, 395, 950, 455]]
+13.8对于习题13.7中的 \(\mathrm{H}_{2} \mathrm{~S}\) 吸收反应,已知气-液相界面面积为 \(a_{\mathrm{i}} = 1200 \mathrm{~m}^{2} / \mathrm{m}^{3}\) (液体), \(\mathrm{H}_{2} \mathrm{~S}\) 的亨利常数为 \(H_{\mathrm{A}} = 8.3 \times 10^{3} \mathrm{~mol / (atm \cdot m^{3})}\) 。其他参数同习题13.7,试分别计算 \(\mathrm{RNH}_{2}\) 浓度为 \(30 \mathrm{~mol / m}^{3}\) 和 \(150 \mathrm{~mol / m}^{3}\) 时的以液体体积为基准的 \(\mathrm{H}_{2} \mathrm{~S}\) 吸收速率 \(- r_{\mathrm{AL}}\) 。  
+
+text[[81, 459, 950, 496]]
+13.9氨与 \(\mathrm{H}_{2} \mathrm{SO}_{4}\) 的反应为瞬时不可逆反应,若氨的分压为 \(0.006 \mathrm{MPa}\) ,硫酸浓度为 \(0.4 \mathrm{~kmol / m}^{3}\) ,试计算氨的吸收速率。  
+
+text[[81, 499, 950, 537]]
+已知: \(k_{\mathrm{G}} = 3.5 \mathrm{~kmol / (m^{3} \cdot MPa \cdot h)}\) , \(k_{\mathrm{L}} = 0.005 \mathrm{~m / h}\) ,氨在硫酸溶液中的溶解度系数 \(H_{\mathrm{A}} = 750 \mathrm{~kmol / (m^{3} \cdot MPa)}\) ,假定硫酸和氨的液相扩散系数相等,氨与硫酸的反应为  
+
+equation[[360, 545, 673, 563]]
+\[\mathrm{NH}_{3} + 0.5 \mathrm{H}_{2} \mathrm{SO}_{4} \longrightarrow 0.5 \left(\mathrm{NH}_{4}\right)_{2} \mathrm{SO}_{4}\]  
+
+sub_title[[81, 586, 430, 612]]
+## 本章主要符号说明  
+
+text[[120, 634, 213, 651]]
+拉丁字母  
+
+text[[119, 656, 316, 673]]
+\(a\) ——比表面积, \(\mathrm{m}^{2} / \mathrm{kg}\) ;  
+
+text[[129, 677, 333, 693]]
+——比相界面积, \(\mathrm{m}^{2} / \mathrm{m}^{3}\) ;  
+
+text[[120, 698, 372, 714]]
+\(c\) ——物质的量浓度, \(\mathrm{kmol / m}^{3}\) ;  
+
+text[[119, 719, 310, 734]]
+\(D\) ——扩散系数, \(\mathrm{m}^{2} / \mathrm{s}\) ;  
+
+text[[120, 739, 300, 754]]
+\(E\) ——活化能, \(\mathrm{kJ / mol}\) ;  
+
+text[[117, 759, 503, 794]]
+\(q_{\mathrm{n}}\) ——单位截面积上组分的摩尔流量, \(\mathrm{kmol / (m^{2} \cdot s)}\) ;  
+
+text[[119, 799, 406, 815]]
+\(H\) ——溶解度系数, \(\mathrm{kmol / (m^{3} \cdot Pa)}\) ;  
+
+text[[120, 820, 410, 835]]
+\(k\) ——反应速率常数, \(\mathrm{m}^{3} / (\mathrm{kmol} \cdot \mathrm{s})\) ;  
+
+text[[129, 840, 404, 855]]
+——传质系数, \(\mathrm{kmol / (m^{2} \cdot s \cdot Pa)}\) ;  
+
+text[[120, 860, 334, 875]]
+\(K\) ——平衡常数,量纲为1;  
+
+text[[101, 880, 443, 895]]
+\(K_{\mathrm{GA}}\) ——气相总传质系数, \(\mathrm{kmol / (m^{3} \cdot Pa)}\) ;  
+
+text[[119, 900, 494, 915]]
+\(N\) ——单位相界面积单位时间内的扩散速率,  
+
+equation[[169, 920, 288, 935]]
+\[\mathrm{kmol / (m^{2} \cdot s)}\]  
+
+text[[572, 635, 740, 651]]
+\(p\) ——气体压强, \(\mathrm{Pa}\) ;  
+
+text[[562, 656, 824, 672]]
+\(- r\) ——反应速率, \(\mathrm{kmol / (m^{3} \cdot s)}\) ;  
+
+text[[561, 676, 864, 692]]
+\(- R\) ——宏观反应速率, \(\mathrm{kmol / (m^{3} \cdot s)}\) ;  
+
+text[[572, 697, 800, 712]]
+\(R\) ——催化剂颗粒半径, \(\mathrm{m}\) ;  
+
+text[[573, 717, 702, 732]]
+\(S\) ——面积, \(\mathrm{m}^{2}\) ;  
+
+text[[574, 737, 872, 753]]
+\(v\) ——吸附、脱附速率, \(\mathrm{kmol / (m^{3} \cdot s)}\) ;  
+
+text[[573, 757, 702, 772]]
+\(V\) ——体积, \(\mathrm{m}^{3}\) ;  
+
+text[[572, 778, 760, 793]]
+\(m\) ——催化剂质量, \(\mathrm{kg}\) ;  
+
+text[[562, 798, 950, 832]]
+\(X_{\mathrm{B}}\) ——液相中组分B与惰性组分的摩尔比,量纲为1;  
+
+text[[563, 837, 951, 872]]
+\(Y_{\mathrm{A}}\) ——气相中组分A与惰性组分的摩尔比,量纲为1;  
+
+text[[573, 877, 792, 893]]
+\(z\) ——距相界面的距离, \(\mathrm{m}\) 。  
+
+sub_title[[574, 897, 665, 914]]
+## 希腊字母  
+
+text[[572, 919, 791, 935]]
+\(\beta\) ——增强系数,量纲为1;

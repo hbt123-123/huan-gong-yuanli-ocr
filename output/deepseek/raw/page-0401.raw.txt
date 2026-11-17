@@ -1,0 +1,60 @@
+sub_title[[142, 84, 289, 102]]
+### (三) 平行反应  
+
+text[[95, 106, 966, 192]]
+同时存在两个以上反应的复合反应,将同时产生多种产物,而通常情况下只有其中一个或某几个产物才是所需要的目标产物,其他产物均称为副产物。生成目标产物的反应称主反应,其他反应称为副反应。研究复合反应动力学的主要目的是提高主反应的反应速率,同时控制副反应的进行。  
+
+text[[95, 193, 965, 236]]
+对于一级平行反应 \(\mathrm{A}\longrightarrow \alpha_{\mathrm{P}}\mathrm{P};\mathrm{A}\longrightarrow \alpha_{\mathrm{Q}}\mathrm{Q}\) ,其反应速率常数分别为 \(k_{1}\) 和 \(k_{2}\) ,在恒温恒容条件下,反应速率方程可表示为  
+
+equation[[413, 245, 962, 280]]
+\[-\frac{\mathrm{d}c_{\mathrm{A}}}{\mathrm{d}t} = (k_{1} + k_{2})c_{\mathrm{A}} \quad (11.3.48)\]  
+
+equation[[468, 286, 961, 323]]
+\[\frac{1}{\alpha_{\mathrm{P}}}\frac{\mathrm{d}c_{\mathrm{P}}}{\mathrm{d}t} = k_{1}c_{\mathrm{A}} \quad (11.3.49)\]  
+
+equation[[467, 328, 962, 370]]
+\[\frac{1}{\alpha_{\mathrm{Q}}}\frac{\mathrm{d}c_{\mathrm{Q}}}{\mathrm{d}t} = k_{2}c_{\mathrm{A}} \quad (11.3.50)\]  
+
+text[[95, 385, 965, 428]]
+设A、P和Q的初始浓度分别为 \(c_{\mathrm{A0}},c_{\mathrm{P0}}\) 和 \(c_{00}\) ,对式(11.3.48)积分,可得反应物A的浓度与反应时间的关系为  
+
+equation[[462, 434, 962, 458]]
+\[c_{\mathrm{A}} = c_{\mathrm{A0}}\mathrm{e}^{-(k_{1} + k_{2})t} \quad (11.3.51)\]  
+
+text[[137, 466, 898, 488]]
+将式(11.3.51)代入式(11.3.49)积分,可得产物P的浓度与反应时间的关系为  
+
+equation[[422, 495, 962, 533]]
+\[\frac{c_{\mathrm{P}} - c_{\mathrm{P0}}}{\alpha_{\mathrm{P}}} = \frac{k_{1}}{\kappa_{1} + k_{2}} (c_{\mathrm{A0}} - c_{\mathrm{A}}) \quad (11.3.52)\]  
+
+equation[[260, 546, 962, 587]]
+\[\frac{c_{\mathrm{P}} - c_{\mathrm{P0}}}{\alpha_{\mathrm{P}}} = \frac{k_{1}c_{\mathrm{A0}}}{k_{1} + k_{2}}\left[1 - \mathrm{e}^{-(k_{1} + k_{2})t}\right] \quad (11.3.53)\]  
+
+text[[140, 592, 355, 611]]
+对于产物Q,同理可得  
+
+equation[[260, 621, 962, 661]]
+\[\frac{c_{\mathrm{Q}} - c_{\mathrm{Q0}}}{\alpha_{\mathrm{Q}}} = \frac{k_{2}c_{\mathrm{A0}}}{k_{1} + k_{2}}\left[1 - \mathrm{e}^{-(k_{1} + k_{2})t}\right] \quad (11.3.54)\]  
+
+text[[95, 670, 679, 713]]
+一级平行反应中各组分浓度- 时间曲线如图11.3.7所示。  
+
+image[[700, 556, 935, 658]]
+image_caption[[725, 661, 948, 696]]
+<center>图11.3.7一级平行反应中各组分的浓度-时间曲线</center>  
+
+sub_title[[142, 718, 290, 736]]
+### (四) 串联反应  
+
+text[[95, 742, 965, 787]]
+对于一级串联反应 \(\mathrm{A}\longrightarrow \mathrm{P}\longrightarrow \mathrm{Q}\) ,设 \(k_{1}\) 和 \(k_{2}\) 分别为反应A—→P和P—→Q的反应速率常数,在恒温恒容的条件下,速率方程可表示为  
+
+equation[[459, 801, 962, 835]]
+\[-\frac{\mathrm{d}c_{\mathrm{A}}}{\mathrm{d}t} = k_{1}c_{\mathrm{A}} \quad (11.3.55)\]  
+
+equation[[458, 849, 961, 881]]
+\[\frac{\mathrm{d}c_{\mathrm{P}}}{\mathrm{d}t} = k_{1}c_{\mathrm{A}} - k_{2}c_{\mathrm{P}} \quad (11.3.56)\]  
+
+equation[[462, 895, 962, 928]]
+\[\frac{\mathrm{d}c_{\mathrm{Q}}}{\mathrm{d}t} = k_{2}c_{\mathrm{P}} \quad (11.3.57)\]

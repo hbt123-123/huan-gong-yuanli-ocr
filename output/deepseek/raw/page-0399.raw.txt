@@ -1,0 +1,42 @@
+equation[[469, 83, 963, 122]]
+\[-\frac{\mathrm{d}c_{\mathrm{A}}}{\mathrm{d}t} = k c_{\mathrm{A}}^{2} \quad (11.3.33)\]  
+
+text[[140, 133, 784, 154]]
+对上式积分,可得反应物A的浓度和转化率与反应时间的关系式为  
+
+equation[[468, 162, 963, 201]]
+\[k t = -\int_{c_{\mathrm{A0}}}^{c_{\mathrm{A}}}\frac{\mathrm{d}c_{\mathrm{A}}}{c_{\mathrm{A}}^{2}} \quad (11.3.34)\]  
+
+equation[[469, 208, 962, 246]]
+\[k t = \frac{1}{c_{\mathrm{A}}} -\frac{1}{c_{\mathrm{A0}}} \quad (11.3.35)\]  
+
+text[[97, 263, 127, 281]]
+或  
+
+equation[[469, 253, 963, 291]]
+\[k t = \frac{1}{c_{\mathrm{A0}}} -\frac{x_{\mathrm{A}}}{1 - x_{\mathrm{A}}} \quad (11.3.36)\]  
+
+text[[142, 303, 347, 321]]
+二级反应的半衰期为  
+
+equation[[481, 334, 962, 371]]
+\[t_{1 / 2} = \frac{1}{k c_{\mathrm{A0}}} \quad (11.3.37)\]  
+
+text[[96, 380, 967, 470]]
+由上可知,二级反应有以下主要特点: \(①\) 反应物浓度的倒数与反应时间成直线关系,直线的斜率为 \(k\) ,如图11.3.5所示; \(②\) 达到一定的转化率所需的时间与反应物初始浓度有关,反应物的初始浓度越大,达到一定的转化率所需的时间越短; \(③\) 半衰期与 \(k\) 和 \(c_{\mathrm{A0}}\) 的积成反比, \(k\) 和 \(c_{\mathrm{A0}}\) 的值越大,半衰期越短。  
+
+image[[306, 479, 758, 578]]
+image_caption[[300, 583, 768, 601]]
+<center>图11.3.5 二级反应的反应物浓度与反应时间关系曲线</center>  
+
+text[[142, 629, 613, 649]]
+表11.3.1列出了几种单一反应的反应速率方程。  
+
+table[[97, 680, 968, 915]]
+table_caption[[335, 660, 741, 677]]
+表11.3.1单一反应（恒温恒容）的反应速率方程  
+
+<table>反应反应速率方程速率方程的积分形式半衰期t1/2A→P<br>(0级)-rA=kkt=cA0-cAcA0/2kA→P<br>(1级)-rA=kcAkt=ln cA0/cAln 2/k2A→P<br>(2级)-rA=kcA2kt=1/cA-cA01/kcA0αA A+αB B→P<br>(2级)-rA=kcA2cBkt=αA ln[(cA0/cA)(cB/cB0)]/αA cB0-αB cA01/k(αA cB0-αB cA0)/ln[2-αB cA0]nA→P<br>(n级,n≠1)-rA=kcA2nkt=1/n-1(cA/n-1-cA/n-1)2n-1/kcA0(n-1)</table>
+
+table_footnote[[132, 920, 323, 936]]
+注： \(\alpha_{\mathrm{A}},\alpha_{\mathrm{B}}\) 为化学计量数。

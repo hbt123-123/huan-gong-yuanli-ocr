@@ -1,0 +1,53 @@
+text[[35, 63, 492, 82]]
+式中: \(z_{\mathrm{A0}}\) ——反应开始时的摩尔分数,量纲为1。  
+
+text[[77, 85, 648, 104]]
+根据A的摩尔分数,由式(11.2.27)可计算出A的转化率为  
+
+equation[[388, 116, 900, 156]]
+\[x_{\mathrm{A}} = \frac{z_{\mathrm{A0}} - z_{\mathrm{A}}}{z_{\mathrm{A0}}(1 + \delta_{\mathrm{A}}z_{\mathrm{A}})} \quad (11.2.28)\]  
+
+text[[35, 164, 903, 227]]
+其他各组分的摩尔分数与A的转化率的关系见表11.2.1。由表11.2.1可知,如果知道反应开始时各组分的物质的量,根据反应后任一组分的摩尔分数就可以计算出反应物A的转化率。对于反应  
+
+equation[[372, 238, 563, 257]]
+\[\alpha_{\mathrm{A}}A + \alpha_{\mathrm{B}}\mathrm{B}\longrightarrow \alpha_{\mathrm{P}}\mathrm{P}\]  
+
+text[[35, 270, 64, 287]]
+有  
+
+equation[[271, 260, 900, 301]]
+\[x_{\mathrm{A}} = \frac{z_{\mathrm{B0}} - z_{\mathrm{B}}}{z_{\mathrm{A0}}(\alpha_{\mathrm{B}} / \alpha_{\mathrm{A}} + \delta_{\mathrm{A}}z_{\mathrm{B}})} = \frac{z_{\mathrm{P0}} - z_{\mathrm{P}}}{z_{\mathrm{A0}}(-\alpha_{\mathrm{P}} / \alpha_{\mathrm{A}} + \delta_{\mathrm{A}}z_{\mathrm{P}})} \quad (11.2.29)\]  
+
+table[[35, 328, 903, 650]]
+table_caption[[148, 310, 790, 327]]
+表11.2.1反应 \(\alpha_{\mathrm{A}}\mathrm{A} + \alpha_{\mathrm{B}}\mathrm{B}\longrightarrow \alpha_{\mathrm{P}}\mathrm{P}\) 中各组分摩尔分数与A的转化率的关系  
+
+<table><td rowspan="2">组分<td colspan="2">初始值<td colspan="2">转化率为x A时的值物质的量/mol摩尔分数物质的量/mol摩尔分数An A0z A0n A = n A0(1-x A)z A = z A0(1-x A)/1+δ A z A0x ABn B0z B0n B = n B0-α B/α Az B = z B0-α B/α A/1+δ A z A0x APn P0z P0n P = n P0+α P/α Az P = z P0+α P/α A/1+δ A z A0x AMn M0z M0n M = n M0z M = z M0/1+δ A z A0x A全体n 01n i = n 0+δ A n A0x A</table>  
+
+text[[35, 652, 903, 686]]
+注: \(①\) M为情性物质,不参与反应; \(②\) \(n_{0} = n_{\mathrm{A0}} + n_{\mathrm{B0}} + n_{\mathrm{P0}} + n_{\mathrm{M0}}\) ; \(③\) 对于理想气体的气相反应,摩尔分数与分压相等,所以把摩尔分数替换为分压时,表中的各关系式亦成立。  
+
+sub_title[[79, 698, 307, 715]]
+## 4.转化率与浓度的关系  
+
+text[[78, 719, 773, 738]]
+在反应器中, \(t\) 时刻组分 \(i\) 物质的浓度 \(c_{i}\) 与摩尔分数 \(z_{i}\) 之间存在以下关系  
+
+equation[[425, 750, 900, 769]]
+\[c_{i} = c_{\mathrm{total}}z_{i} \quad (11.2.30)\]  
+
+text[[35, 779, 450, 798]]
+式中: \(c_{\mathrm{total}}\) ——反应组分的总浓度, \(\mathrm{kmol / m}^{3}\) 。  
+
+text[[78, 801, 585, 819]]
+根据式(11.2.30),可以推导出转化率与浓度的关系。  
+
+text[[35, 822, 903, 863]]
+(1)恒容反应:设反应开始时的反应组分的总浓度为 \(c_{\mathrm{total},0}\) ,恒容反应的反应体积不变,式(11.2.25)可改写为  
+
+equation[[365, 873, 900, 893]]
+\[c_{\mathrm{total}} = c_{\mathrm{total},0}(1 + \delta_{i}z_{i0}x_{i}) \quad (11.2.31)\]  
+
+equation[[368, 896, 901, 914]]
+\[c_{i} = c_{\mathrm{total},0}(1 + \delta_{i}z_{i0}x_{i})z_{i} \quad (11.2.32)\]

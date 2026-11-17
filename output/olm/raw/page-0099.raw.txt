@@ -1,0 +1,70 @@
+---
+primary_language: zh
+is_rotation_valid: True
+rotation_correction: 0
+is_table: False
+is_diagram: False
+---
+【例题3.4.1】流体在半径为R的圆直管中流动。试计算层流和湍流情况下流体的动能，并与用平均速率表示的动能进行比较。
+
+解：在管内取一环形微元体，如图3.4.4所示，其半径为r，厚度为dr，通过此环隙的流体速率为u。单位时间内通过此环隙的流体质量为dm = 2πρurdr，单位质量流体的动能为E_{ab}。则单位时间内通过环隙的动能为
+
+\[
+d(mE_{ab}) = (2\pi\rho urdr)\left(\frac{u^2}{2}\right) = \pi\rho u^3 rdr
+\]
+
+（1）层流时：
+
+\[
+u = u_{max} \left[1 - \left(\frac{r}{R}\right)^2\right]
+\]
+
+代入式(1)，得
+
+\[
+d(mE_{ab}) = \pi\rho u_{max}^3 r \left[1 - \left(\frac{r}{R}\right)^2\right]^3 dr
+\]
+
+因为
+
+\[
+u_m = \frac{u_{max}}{2}
+\]
+
+所以式(2)变为
+
+\[
+d(mE_{ab}) = 8\pi\rho u_m^3 r \left[1 - \left(\frac{r}{R}\right)^2\right]^3 dr
+\]
+
+将式(3)积分，得单位时间通过圆管整个截面的动能，即
+
+\[
+mE_{ab} = \int_0^R 8\pi\rho u_m^3 r \left[1 - \left(\frac{r}{R}\right)^2\right]^3 dr = \pi\rho R^2 u_m^3
+\]
+
+\[
+m = \int_0^R 2\pi\rho urdr = \int_0^R 4\pi\rho u_m r \left[1 - \left(\frac{r}{R}\right)^2\right] dr = \pi\rho R^2 u_m
+\]
+
+则通过圆管整个截面的单位质量流体的动能为
+
+\[
+E_{ab} = \frac{\pi\rho R^2 u_m^3}{\pi\rho R^2 u_m} = u_m^2
+\]
+
+（2）湍流时：
+
+\[
+u = u_{max} \left(1 - \frac{r}{R}\right)^{\frac{1}{n}}
+\]
+
+\[
+d(mE_{ab}) = \pi\rho u_{max}^3 r \left(1 - \frac{r}{R}\right)^{\frac{3}{n}} dr
+\]
+
+将式(4)积分，得单位时间通过圆管整个截面的动能，即
+
+\[
+mE_{ab} = \int_0^R \pi\rho u_{max}^3 r \left(1 - \frac{r}{R}\right)^{\frac{3}{n}} dr = \frac{n^2}{(n+3)(2n+3)} \pi\rho R^2 u_{max}^3
+\]

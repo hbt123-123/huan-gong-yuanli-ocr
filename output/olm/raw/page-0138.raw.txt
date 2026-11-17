@@ -1,0 +1,42 @@
+---
+primary_language: en
+is_rotation_valid: True
+rotation_correction: 0
+is_table: False
+is_diagram: False
+---
+Q = \lambda_1 A \frac{(T_1 - T_2)}{b_1} = \frac{\Delta T_1}{R_1}
+= \lambda_2 A \frac{(T_2 - T_3)}{b_2} = \frac{\Delta T_2}{R_2}
+= \lambda_3 A \frac{(T_3 - T_4)}{b_3} = \frac{\Delta T_3}{R_3}
+
+式中: \( R_1, R_2, R_3 \) ——分别为各层的热阻。
+
+由上式可知
+
+\[
+\Delta T_1 = Q R_1, \quad \Delta T_2 = Q R_2, \quad \Delta T_3 = Q R_3
+\]
+
+将上三式相加,并整理,得
+
+\[
+Q = \frac{\Delta T_1 + \Delta T_2 + \Delta T_3}{R_1 + R_2 + R_3} = \frac{T_1 - T_4}{\frac{b_1}{\lambda_1 A} + \frac{b_2}{\lambda_2 A} + \frac{b_3}{\lambda_3 A}}
+\]
+
+推广到 \( n \) 层平壁,有
+
+\[
+Q = \frac{T_1 - T_{n+1}}{\sum_{i=1}^n R_i} = \frac{T_1 - T_{n+1}}{\sum_{i=1}^n \frac{b_i}{\lambda_i A}}
+\]
+
+由此可得,多层平壁传热过程的推动力(总温差)等于各层推动力(各层温差)之和,总热阻等于各层热阻之和,该结论称为串联热阻叠加原则,其在传热过程的分析和计算中是非常重要的。
+
+在上述分析中,假定层与层之间完全接触,两个接触面具有相同的温度。但实际上,由于物体表面都具有一定的粗糙度,使得接触面上只能是有限点的接触,在层与层之间有一层空气存在,如图 4.2.6 所示,从而形成了附加的热阻,称为接触热阻。由于空气的导热系数很小,因此两个接触面的温度将不再相等。若以 \( r_0 \) 表示单位面积传热面的接触热阻,则通过两层平壁的热量通量为
+
+\[
+q = \frac{T_1 - T_3}{\frac{b_1}{\lambda_1} + r_0 + \frac{b_2}{\lambda_2}}
+\]
+
+\( r_0 \) 与接触面的材料、接触界面的粗糙度、接触面的压紧力和空隙中的气压等有关。
+
+【例题 4.2.2】某平壁炉的炉壁由三种材料组成,分别为耐火砖 (\( \lambda_1 = 1.4 \ \mathrm{W/(m\cdot K)} \), \( b_1 = 225 \ \mathrm{mm} \))、保温砖 (\( \lambda_2 = 0.15 \ \mathrm{W/(m\cdot K)} \), \( b_2 = 115 \ \mathrm{mm} \)) 和建筑砖 (\( \lambda_3 = 0.8 \ \mathrm{W/(m\cdot K)} \), \( b_3 = 225 \ \mathrm{mm} \))。测得炉内壁温度为 930 \(^\circ\)C,外壁温度为 55 \(^\circ\)C,求单位面积炉壁的热损失及各层间界面上的温度。

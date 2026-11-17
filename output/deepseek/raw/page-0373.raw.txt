@@ -1,0 +1,90 @@
+image[[189, 90, 866, 327]]
+image_caption[[390, 334, 673, 351]]
+<center>图10.3.15 渗透汽化的操作过程</center>  
+
+text[[282, 353, 777, 370]]
+（a）真空渗透蒸发；（b）温度梯度渗透蒸发；（c）载气吹扫渗透蒸发  
+
+text[[93, 390, 964, 431]]
+（2）温度梯度渗透蒸发：通过混合料液加热或膜透过侧冷凝的方法，形成膜两侧组分的蒸气压差，如图10.3.15（b）所示。  
+
+text[[94, 433, 963, 475]]
+（3）载气吹扫渗透蒸发：用惰性气体吹扫膜透过侧，以带走透过组分，从而维持渗透组分的分压差，如图10.3.15（c）所示。  
+
+text[[93, 478, 964, 520]]
+在渗透汽化中，只要膜选择得当，可使含量极少的溶质通过膜，与大量的溶剂通过过程相比较，少量溶剂透过的渗透汽化过程更节能。  
+
+sub_title[[108, 541, 410, 569]]
+## 一木语中英文对照  
+
+text[[101, 590, 258, 604]]
+·萃取extraction  
+
+text[[102, 610, 338, 625]]
+·染料废水dyeingwastewater  
+
+text[[103, 630, 408, 646]]
+·三角形相图triangularphasediagram  
+
+text[[101, 650, 355, 665]]
+·分配系数partitioncoefficient  
+
+text[[102, 670, 520, 705]]
+·单级/多级错流萃取single-/multi-stagecrossflowextraction  
+
+text[[100, 709, 518, 725]]
+·连续逆流萃取continuouscountercurrentextraction  
+
+text[[101, 730, 347, 744]]
+·膜分离membraneseparation  
+
+text[[102, 749, 300, 763]]
+·反渗透reverseosmosis  
+
+text[[100, 768, 261, 782]]
+·纳滤nanofiltration  
+
+text[[101, 788, 260, 802]]
+·超滤ultrafiltration  
+
+text[[102, 808, 267, 822]]
+·微滤microfiltration  
+
+text[[100, 828, 376, 842]]
+·中空纤维hollowfibermembrane  
+
+text[[546, 590, 734, 605]]
+·平板膜flatmembrane  
+
+text[[547, 610, 768, 624]]
+·管式膜tubularmembrane  
+
+text[[548, 630, 785, 644]]
+·复合膜compositemembrane  
+
+text[[546, 649, 840, 664]]
+·截留率retentionrate，rejectionrate  
+
+text[[547, 669, 856, 683]]
+·溶解-扩散模型solution-diffusionmodel  
+
+text[[548, 689, 754, 703]]
+·渗透压osmoticpressure  
+
+text[[546, 708, 965, 743]]
+·优先吸附-毛细孔流机理preferentiallyadsorption-capillaryflowmechanism  
+
+text[[547, 748, 727, 762]]
+·回收率recoveryrate  
+
+text[[548, 767, 838, 782]]
+·浓差极化concentrationpolarization  
+
+text[[546, 787, 696, 801]]
+·凝胶层gellayer  
+
+text[[547, 807, 720, 821]]
+·渗透性permeability  
+
+text[[548, 827, 704, 841]]
+·选择性selectivity

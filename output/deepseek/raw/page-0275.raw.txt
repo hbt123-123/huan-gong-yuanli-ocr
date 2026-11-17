@@ -1,0 +1,71 @@
+equation[[424, 83, 967, 124]]
+\[p_{\mathrm{A}}^{*} = \frac{[\mathrm{A}]}{H} = \frac{1}{H}\frac{c_{\mathrm{A}}}{1 + K[\mathrm{B}]} \quad (8.3.7)\]  
+
+text[[98, 133, 970, 220]]
+在稀溶液条件下,溶剂量大,化学反应对溶剂浓度的影响可以忽略,[B]为常数;反应条件一定时,K也是常数,故 \(1 + K[\mathrm{B}]\) 可以认为是常数。因此, \(p_{\mathrm{A}}^{*}\) 与溶质总浓度 \(c_{\mathrm{A}}\) 之间成正比关系,在形式上仍然符合亨利定律,只不过溶解度系数增加了 \((1 + K[\mathrm{B}])\) 倍,说明化学反应强化了吸收传质。水吸收氨就是按照上述反应进行的一个吸收过程。  
+
+text[[98, 221, 969, 283]]
+如果吸收过程还涉及其他反应,就需要考虑相应反应的平衡关系,那么整个吸收过程的溶质平衡关系就会更为复杂。例如,如果反应产物发生解离反应,就需要考虑解离反应的平衡关系。设解离反应为  
+
+equation[[462, 293, 966, 313]]
+\[\mathrm{M} \rightleftharpoons \mathrm{D}^{+} + \mathrm{A}^{-} \quad (8.3.8)\]  
+
+text[[98, 323, 392, 342]]
+则相应的解离反应平衡关系为  
+
+equation[[459, 352, 966, 391]]
+\[K_{1} = \frac{[\mathrm{D}^{+}] [\mathrm{A}^{-}]}{[\mathrm{M}]} \quad (8.3.9)\]  
+
+text[[98, 401, 325, 420]]
+式中: \(K_{1}\) ——解离常数。  
+
+text[[142, 423, 418, 442]]
+溶质A在液相中的总浓度为  
+
+equation[[431, 452, 636, 473]]
+\[c_{\mathrm{A}} = [\mathrm{A}] + [\mathrm{M}] + [\mathrm{A}^{-}]\]  
+
+text[[98, 482, 390, 502]]
+而 \([\mathrm{A}^{- }] = [\mathrm{D}^{+}]\) ,所以总浓度为  
+
+equation[[411, 512, 965, 535]]
+\[c_{\mathrm{A}} = [\mathrm{A}] + [\mathrm{M}] + \sqrt{K_{1}[\mathrm{M}]} \quad (8.3.10)\]  
+
+text[[143, 544, 391, 563]]
+再根据化学反应平衡关系  
+
+equation[[379, 572, 966, 612]]
+\[K = \frac{[\mathrm{M}]}{[\mathrm{A}][\mathrm{B}]}, \quad [\mathrm{M}] = K[\mathrm{A}][\mathrm{B}] \quad (8.3.11)\]  
+
+text[[98, 625, 125, 643]]
+得  
+
+equation[[359, 623, 965, 646]]
+\[c_{\mathrm{A}} = [\mathrm{A}] + K[\mathrm{A}][\mathrm{B}] + \sqrt{K_{1}K[\mathrm{A}][\mathrm{B}]} \quad (8.3.11)\]  
+
+text[[143, 654, 359, 673]]
+由上述关系式,可解得  
+
+equation[[380, 684, 965, 725]]
+\[[\mathrm{A}] = \frac{(2c_{\mathrm{A}} + K_{\mathrm{a}}) - \sqrt{K_{\mathrm{a}}(4c_{\mathrm{A}} + K_{\mathrm{a}}})}{2(1 + K[\mathrm{B}])} \quad (8.3.12)\]  
+
+text[[98, 749, 147, 767]]
+其中  
+
+equation[[472, 737, 965, 777]]
+\[K_{\mathrm{a}} = \frac{K_{1}K[\mathrm{B}]}{1 + K[\mathrm{B}]} \quad (8.3.13)\]  
+
+text[[142, 788, 607, 808]]
+将式(8.3.12)代入亨利定律,可得相平衡关系式  
+
+equation[[342, 818, 965, 860]]
+\[p_{\mathrm{A}}^{*} = \frac{[\mathrm{A}]}{H} = \frac{1}{H}\frac{(2c_{\mathrm{A}} + K_{\mathrm{a}}) - \sqrt{K_{\mathrm{a}}(4c_{\mathrm{A}} + K_{\mathrm{a}}})}{2(1 + K[\mathrm{B}])} \quad (8.3.13)\]  
+
+text[[143, 872, 676, 892]]
+在这种情况下, \(p_{\mathrm{A}}^{*}\) 与 \(c_{\mathrm{A}}\) 不再是亨利定律的正比关系了。  
+
+sub_title[[142, 895, 486, 914]]
+## 2. 溶质与吸收剂中的活性组分反应  
+
+text[[143, 917, 370, 935]]
+反应的关系同样可写为

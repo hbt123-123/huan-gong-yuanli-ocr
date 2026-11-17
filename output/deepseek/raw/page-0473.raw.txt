@@ -1,0 +1,74 @@
+text[[106, 92, 957, 134]]
+【例题14.2.1】以葡萄糖( \(\mathrm{C}_{6}\mathrm{H}_{12}\mathrm{O}_{6}\) )为碳源, \(\mathrm{NH}_{3}\) 为氮源,在好氧条件下培养某细菌,得到的细胞的元素组成为 \(\mathrm{CH}_{1.66}\mathrm{O}_{0.273}\mathrm{N}_{0.195}\) 。设该细菌的 \(Y_{\mathrm{X/C}} = 0.65\) ,反应产物只有 \(\mathrm{CO}_{2}\) 和水。试计算 \(Y_{\mathrm{X/S}}\) 和 \(Y_{\mathrm{X/O}}\) 。  
+
+text[[143, 136, 852, 155]]
+解:将葡萄糖的元素组成式写为 \(\mathrm{CH}_{2}\mathrm{O}\) ,且根据题意 \(Y_{\mathrm{P/C}} = 0\) ,则微生物反应计量方程为  
+
+equation[[249, 160, 820, 184]]
+\[\mathrm{CH}_{2}\mathrm{O} + a\mathrm{NH}_{3} + b\mathrm{O}_{2} \longrightarrow Y_{\mathrm{X/C}}\mathrm{CH}_{1.66}\mathrm{O}_{0.273}\mathrm{N}_{0.195} + (1 - Y_{\mathrm{X/C}})\mathrm{CO}_{2} + c\mathrm{H}_{2}\mathrm{O}.\]  
+
+text[[144, 192, 427, 209]]
+根据基质和细胞的元素组成,可得  
+
+equation[[434, 220, 620, 252]]
+\[\gamma_{\mathrm{S}} = \frac{12}{12 + 1\times2 + 16\times1} = 0.4\]  
+
+equation[[345, 259, 720, 291]]
+\[\gamma_{\mathrm{X}} = \frac{12}{12 + 1.66\times1 + 0.273\times16 + 0.195\times14} = 0.578\]  
+
+text[[144, 296, 365, 313]]
+根据 \(Y_{\mathrm{X/S}}\) 与 \(Y_{\mathrm{X/C}}\) 的关系,有  
+
+equation[[341, 325, 727, 363]]
+\[Y_{\mathrm{X/S}} = Y_{\mathrm{X/C}}\frac{\gamma_{\mathrm{S}}}{\gamma_{\mathrm{X}}} = 0.65\times \frac{0.4}{0.578}\mathrm{kg / kg} = 0.450\mathrm{kg / kg}\]  
+
+text[[144, 370, 512, 387]]
+由计量方程,求得各元素的物料衡算式如下:  
+
+text[[145, 391, 270, 407]]
+O的物料衡算:  
+
+equation[[404, 415, 661, 433]]
+\[1 + 2b = 0.273Y_{\mathrm{X/C}} + 2(1 - Y_{\mathrm{X/C}}) + c\]  
+
+text[[145, 442, 270, 459]]
+N的物料衡算:  
+
+equation[[474, 467, 590, 485]]
+\[a = 0.195Y_{\mathrm{X/C}}\]  
+
+text[[144, 490, 271, 506]]
+H的物料衡算:  
+
+equation[[448, 513, 626, 531]]
+\[2 + 3a = 1.66Y_{\mathrm{X/C}} + 2c\]  
+
+text[[144, 540, 574, 558]]
+解上述联立方程得: \(a = 0.127,b = 0.264,c = 0.651\) ,故  
+
+equation[[379, 565, 680, 600]]
+\[Y_{\mathrm{X/O}} = Y_{\mathrm{X/C}}\frac{12 + x + 16y + 14z}{32b} = 1.60\mathrm{kg / kg}\]  
+
+sub_title[[144, 616, 512, 634]]
+### (四)以ATP为基准的细胞产率系数  
+
+text[[97, 636, 967, 746]]
+微生物生长所需要的能量主要来源于基质的氧化,但是,并不是基质氧化所产生的能量全部能被微生物所利用,只有转化为ATP的部分能量才能被利用,其他部分的能量以热能的形式释放到反应系统中。因此用生成的ATP量为基准表示细胞的产率更有利于理解微生物反应的定量关系。以生成的ATP量为基准的细胞产率系数 \(Y_{\mathrm{X/ATP}}\) [单位: \(\mathrm{kg}\) (细胞)/ \(\mathrm{kmol(ATP)}\) ]定义为  
+
+equation[[423, 756, 963, 797]]
+\[Y_{\mathrm{X/ATP}} = \frac{\Delta X}{\Delta n_{\mathrm{ATP}}} = \frac{Y_{\mathrm{X/S}}M_{\mathrm{S}}}{Y_{\mathrm{ATP/S}}Y_{\mathrm{E}}} \quad (14.2.13)\]  
+
+text[[98, 807, 506, 826]]
+式中: \(\Delta n_{\mathrm{ATP}}\) ——反应生成的ATP量, \(\mathrm{kmol}\) ;  
+
+text[[153, 829, 966, 871]]
+\(Y_{\mathrm{ATP/S}}\) ——全部作为能源时消耗 \(1\mathrm{kmol}\) 的基质时所能产生的ATP的物质的量, \(\mathrm{kmol}\) (ATP)/ \(\mathrm{kmol}\) (基质);  
+
+text[[181, 874, 645, 893]]
+\(Y_{\mathrm{E}}\) ——消耗的基质中用于能源的比例,量纲为1;  
+
+text[[180, 896, 557, 915]]
+\(M_{\mathrm{s}}\) ——基质的相对分子质量,量纲为1。  
+
+text[[138, 917, 966, 938]]
+无论是厌氧微生物还是好氧微生物,当基质同时作为碳源和能源利用时,反应消耗的基

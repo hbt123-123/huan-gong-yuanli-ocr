@@ -1,0 +1,65 @@
+equation[[398, 63, 521, 81]]
+\[\mathrm{A} + \mathrm{B}\rightleftharpoons \mathrm{M}\]  
+
+text[[25, 91, 468, 111]]
+此时,B代表吸收剂中与溶质反应的活性组分。  
+
+text[[26, 112, 892, 155]]
+设活性组分B的初始浓度为 \(c_{\mathrm{B}}^{0}\) ,反应平衡时的转化率为 \(R\) ,则 \(\left[\mathrm{~B~}\right] = c_{\mathrm{B}}^{0}(1 - R)\) , \(\left[\mathrm{~M~}\right] = c_{\mathrm{B}}^{0}R\) 所以化学平衡关系可写为  
+
+equation[[266, 161, 891, 205]]
+\[K = \frac{\left[\mathrm{M}\right]}{\left[\mathrm{A}\right]\left[\mathrm{B}\right]} = \frac{c_{\mathrm{B}}^{0}R}{\left[\mathrm{A}\right]c_{\mathrm{B}}^{0}(1 - R)} = \frac{R}{\left[\mathrm{A}\right](1 - R)} \quad (8.3.14)\]  
+
+text[[26, 214, 340, 233]]
+所以溶剂中未反应溶质的浓度为  
+
+equation[[387, 242, 891, 280]]
+\[\left[\mathrm{A}\right] = \frac{R}{K(1 - R)} \quad (8.3.15)\]  
+
+text[[68, 289, 652, 310]]
+将上述关系代入亨利定律,可以得到溶质的气- 液相平衡关系  
+
+equation[[357, 315, 891, 355]]
+\[p_{\mathrm{A}}^{\ast} = \frac{\left[\mathrm{A}\right]}{H} = \frac{R}{HK(1 - R)} \quad (8.3.16)\]  
+
+text[[70, 365, 229, 384]]
+由上式可以求得  
+
+equation[[401, 394, 517, 438]]
+\[R = \frac{K H p_{\mathrm{A}}^{\ast}}{1 + K H p_{\mathrm{A}}^{\ast}}\]  
+
+text[[27, 446, 296, 465]]
+所以参加反应的溶质浓度为  
+
+equation[[362, 473, 892, 515]]
+\[c_{\mathrm{A}}^{\prime} = R c_{\mathrm{B}}^{0} = c_{\mathrm{B}}^{0}\frac{K H p_{\mathrm{A}}^{\ast}}{1 + K H p_{\mathrm{A}}^{\ast}} \quad (8.3.17)\]  
+
+text[[28, 523, 896, 588]]
+如果反应平衡常数非常大,而未反应的溶质物理溶解量很小的话,这个浓度实际上反映了吸收剂对溶质的吸收能力,将会趋近但不会超过活性组分的起始浓度。这说明了活性组分起始浓度对溶剂吸收能力的一种限制。  
+
+text[[28, 588, 896, 653]]
+化学吸收过程中溶质的气- 液相平衡和化学反应平衡是交织在一起的,连接点就是在液相中未反应的溶质浓度,因此不管液相中化学反应多么复杂,都可以先根据化学反应平衡关系求出未反应溶质的浓度,然后根据亨利定律得到相平衡关系。  
+
+text[[35, 662, 888, 726]]
+【例题8.3.1】在 \(20~\mathrm{^{\circ}C}\) 下,用水吸收空气中的 \(\mathrm{SO}_{2}\) ,达到吸收平衡时, \(\mathrm{SO}_{2}\) 的平衡分压为 \(5.05\mathrm{kPa}\) 如果只考虑 \(\mathrm{SO}_{2}\) 在水中的一级解离,求此时水中 \(\mathrm{SO}_{2}\) 的溶解度。已知该条件下 \(\mathrm{SO}_{2}\) 溶解度系数 \(H =\) \(1.56\times 10^{- 2}\mathrm{kmol / (kPa\cdot m^{3})}\) ,一级解离常数 \(K_{\mathrm{l}} = 1.7\times 10^{- 2}\mathrm{kmol / m^{3}}\) 。  
+
+text[[72, 730, 528, 748]]
+解:解离情况下, \(\mathrm{SO}_{2}\) 的吸收可以表示为以下两个过程:  
+
+text[[73, 753, 201, 770]]
+扩散传质过程:  
+
+equation[[374, 778, 544, 796]]
+\[\mathrm{SO}_{2}(\mathrm{~g}) \rightleftharpoons \mathrm{SO}_{2}(1)\]  
+
+text[[73, 805, 168, 822]]
+解离过程:  
+
+equation[[350, 831, 554, 849]]
+\[\mathrm{SO}_{2} + \mathrm{H}_{2}\mathrm{O} \rightleftharpoons \mathrm{H}^{+} + \mathrm{HSO}_{3}^{-}\]  
+
+text[[75, 858, 443, 875]]
+由传质平衡可以求得吸收液中 \(\mathrm{SO}_{2}\) 的浓度为  
+
+equation[[237, 886, 684, 906]]
+\[c_{\mathrm{A}} = H p_{\mathrm{A}}^{\ast} = 1.56\times 10^{-2}\times 5.05\mathrm{kmol / m^{3}} = 0.0788\mathrm{kmol / m^{3}}\]

@@ -1,0 +1,56 @@
+text[[88, 81, 959, 145]]
+式(5.3.28)表示发生一级化学反应 \(\mathrm{A}(\mathrm{g}) + \mathrm{C}(\mathrm{s})\longrightarrow 2\mathrm{B}(\mathrm{g})\) 时化学反应与扩散联合控制的质量传递过程。对于界面上具有化学反应的扩散传质过程,化学反应式不同,对传质通量的描述也不同。  
+
+text[[132, 150, 594, 188]]
+由式(5.3.28)可知,若 \(k_{\mathrm{I}}\) 足够大或 \(\frac{D_{\mathrm{AB}}}{k_{\mathrm{I}}L} \ll 1\) ,则有  
+
+equation[[420, 199, 955, 236]]
+\[N_{\mathrm{A}} = -\frac{D_{\mathrm{AB}}c}{L}\ln (1 + y_{\mathrm{A},\mathrm{o}}) \quad (5.3.29)\]  
+
+text[[131, 249, 754, 270]]
+式(5.3.29)为扩散控制的传质通量表达式,与式(5.2.25a)相同。  
+
+text[[132, 275, 450, 312]]
+若 \(\frac{D_{\mathrm{AB}}}{k_{\mathrm{I}}L} \gg 1\) ,即扩散过程很快,则有  
+
+equation[[428, 324, 955, 346]]
+\[N_{\mathrm{A}} = -k_{\mathrm{I}}\mathrm{cln}(1 + y_{\mathrm{A},\mathrm{o}}) \quad (5.3.30)\]  
+
+text[[132, 354, 552, 374]]
+式(5.3.30)为反应控制的传质通量表达式。  
+
+text[[97, 385, 950, 486]]
+【例题5.3.2】为减少汽车尾气中NO对大气的污染,采用净化器对尾气进行净化处理。含有NO的尾气通过净化器时,NO与净化器中的催化剂接触,在净化剂表面发生还原反应。这一反应过程可看作气体NO通过静止膜的一维稳态扩散过程。若汽车尾气净化后排放温度为 \(540^{\circ}\mathrm{C}\) ,压力为 \(1.18 \times 10^{5} \mathrm{Pa}\) ,NO的摩尔分数为0.002,该温度下反应速率常数为 \(228.6 \mathrm{m / h}\) ,扩散系数为 \(0.362 \mathrm{m}^{2} / \mathrm{h}\) 。试确定NO的还原速率达到 \(4.19 \times 10^{-3} \mathrm{kmol} / (\mathrm{m}^{2} \cdot \mathrm{h})\) 时,净化反应器高度的最大值。  
+
+text[[135, 488, 833, 507]]
+解:因为NO在催化剂表面的反应过程可以看作通过静止膜的扩散,所以传质通量为  
+
+equation[[448, 513, 601, 551]]
+\[N_{\mathrm{A}} = \frac{D_{\mathrm{AB}}c}{L}\ln \frac{1 - y_{\mathrm{A},\mathrm{o}}}{1 - y_{\mathrm{A},\mathrm{i}}}\]  
+
+text[[136, 559, 648, 578]]
+因NO向催化剂表面扩散并被去除,故传质通量 \(N_{\mathrm{A}}\) 应为负值。  
+
+text[[137, 582, 332, 599]]
+同时,在催化剂表面,有  
+
+equation[[483, 606, 568, 643]]
+\[y_{\mathrm{A},\mathrm{i}} = \frac{N_{\mathrm{A}}}{k_{\mathrm{I}}c}\]  
+
+text[[138, 652, 671, 687]]
+尾气浓度 \(c = \frac{p}{RT} = \frac{1.18 \times 10^{5} \times 10^{- 3}}{8.314 \times (273 + 540)} \mathrm{kmol / m}^{3} = 0.0175 \mathrm{kmol / m}^{3}\)  
+
+equation[[232, 696, 561, 732]]
+\[y_{\mathrm{A},\mathrm{i}} = \frac{N_{\mathrm{A}}}{k_{\mathrm{I}}c} = \frac{-4.19 \times 10^{-3}}{228.6 \times 0.0175} = 1.05 \times 10^{-3}\]  
+
+equation[[232, 742, 356, 760]]
+\[y_{\mathrm{A},\mathrm{o}} = 2.0 \times 10^{-3}\]  
+
+text[[100, 771, 592, 808]]
+故 \(- 4.19 \times 10^{- 3} = \frac{0.362 \times 0.0175}{L} \ln \frac{1 - 2.0 \times 10^{- 3}}{1 - 1.05 \times 10^{- 3}}\)  
+
+equation[[232, 817, 335, 832]]
+\[L = 1.44 \mathrm{mm}\]  
+
+text[[138, 841, 611, 860]]
+可见,需要的 \(L\) 值是很小的,在实际应用中完全可以实现。

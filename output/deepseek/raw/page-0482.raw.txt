@@ -1,0 +1,77 @@
+text[[80, 61, 206, 79]]
+扩散出的量:  
+
+equation[[368, 90, 903, 130]]
+\[-D_{\mathrm{sf}}\frac{\mathrm{d}}{\mathrm{d}z}\bigg(S + \frac{\mathrm{d}S}{\mathrm{d}z}\mathrm{d}z\bigg)\mathrm{d}x\mathrm{d}y \quad (14.3.23)\]  
+
+text[[80, 141, 206, 159]]
+反应消耗量:  
+
+equation[[422, 172, 903, 191]]
+\[-r_{\mathrm{s}}\mathrm{d}x\mathrm{d}y\mathrm{d}z \quad (14.3.24)\]  
+
+text[[37, 202, 564, 222]]
+式中: \(D_{\mathrm{sf}}\) ——基质在微生物膜内的有效扩散系数, \(\mathrm{m}^{2} / \mathrm{s}\) ;  
+
+text[[85, 226, 666, 247]]
+\(- r_{\mathrm{s}}\) ——以微生物膜体积为基准的基质消耗速率, \(\mathrm{kg} / (\mathrm{m}^{3}\cdot \mathrm{s})\) 。  
+
+text[[80, 249, 250, 267]]
+在稳态状态下,有  
+
+text[[37, 309, 64, 327]]
+则  
+
+equation[[298, 279, 903, 339]]
+\[\begin{array}{r l r} & {} & {\mathrm{扩散进入量} = \mathrm{扩散出的量} + \mathrm{反应消耗量}}\\ & {} & {-D_{\mathrm{sf}}\frac{\mathrm{d}S}{\mathrm{d}z} = -D_{\mathrm{sf}}\frac{\mathrm{d}}{\mathrm{d}z}\bigg(S + \frac{\mathrm{d}S}{\mathrm{d}z}\mathrm{d}z\bigg) + (-r_{\mathrm{s}})\mathrm{d}z} \end{array} \quad (14.3.26)\]  
+
+text[[80, 351, 298, 370]]
+式(14.3.26)整理可得  
+
+equation[[415, 380, 903, 419]]
+\[D_{\mathrm{sf}}\frac{\mathrm{d}^{2}S}{\mathrm{d}z^{2}} = -r_{\mathrm{s}} \quad (14.3.27)\]  
+
+text[[80, 433, 442, 452]]
+式(14.3.27)为微生物膜的基本方程。  
+
+sub_title[[79, 456, 379, 474]]
+## 2. 微生物膜内的基质浓度分布  
+
+text[[37, 477, 904, 519]]
+微生物膜内的基质浓度各处不尽相同,若能预测、计算膜内各处的基质浓度,对于计算生物膜的反应速率、评价微生物膜的特性及指导实际应用都有重要的意义。  
+
+text[[80, 521, 685, 541]]
+在微生物膜内的基质消耗反应可视为一级反应时, \(- r_{\mathrm{s}}\) 可表示为  
+
+equation[[424, 552, 903, 572]]
+\[-r_{\mathrm{s}} = kX_{\mathrm{i}}S \quad (14.3.28)\]  
+
+text[[37, 581, 337, 600]]
+式中: \(k\) ——基质反应速率常数;  
+
+text[[80, 603, 686, 623]]
+\(X_{\mathrm{i}}\) ——微生物膜的密度,即膜内的微生物浓度, \(\mathrm{kg} / \mathrm{m}^{3}\) (生物膜)。  
+
+text[[79, 626, 456, 644]]
+将式(14.3.28)代入式(14.3.27),可得  
+
+equation[[395, 654, 903, 693]]
+\[D_{\mathrm{sf}}\frac{\mathrm{d}^{2}S}{\mathrm{d}z^{2}} -kX_{\mathrm{i}}S = 0 \quad (14.3.29)\]  
+
+equation[[400, 700, 902, 739]]
+\[\frac{\mathrm{d}^{2}S}{\mathrm{d}z^{2}} -\frac{kX_{\mathrm{f}}}{D_{\mathrm{sf}}} S = 0 \quad (14.3.30)\]  
+
+text[[80, 753, 483, 793]]
+令 \(\alpha = \frac{k X_{\mathrm{f}}}{D_{\mathrm{sf}}}, D = \frac{\mathrm{d}}{\mathrm{d}z}\) ,则式(14.3.30)可改写为  
+
+equation[[409, 806, 902, 826]]
+\[(D^{2} - \alpha)S = 0 \quad (14.3.31)\]  
+
+equation[[364, 831, 903, 852]]
+\[(D - \sqrt{\alpha})(D + \sqrt{\alpha})S = 0 \quad (14.3.32)\]  
+
+text[[80, 863, 543, 882]]
+由式(14.3.32)可求得膜内基质浓度的分布函数  
+
+equation[[388, 890, 902, 912]]
+\[S = C_{1}\mathrm{e}^{-\sqrt{\alpha}z} + C_{2}\mathrm{e}^{\sqrt{\alpha}z} \quad (14.3.33)\]

@@ -1,0 +1,14 @@
+# 渲染缓存(241MB, 可从 PDF 重生成, 不入仓库)
+output/pages/
+# 探针/临时
+output/probe/
+# 会话工作流元数据(不入库)
+.slim/
+# Python
+__pycache__/
+*.pyc
+.venv*/
+# 多机自举产物(模型 6.8GB / llama.cpp 构建 / 各节点 venv)
+external/
+# 旧日志备份
+output/log/resume.prev.log

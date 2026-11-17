@@ -1,0 +1,53 @@
+sub_title[[132, 91, 344, 115]]
+## 二、反应的分类  
+
+text[[90, 125, 960, 167]]
+从反应机理和步骤分,可以把反应分为基元反应和非基元反应。基元反应是指没有中间产物、一步完成的反应。需要两步或两步以上完成的为非基元反应。  
+
+text[[91, 169, 961, 211]]
+从反应器设计的角度可以把反应分为简单反应和复杂反应两大类。这种分类方法与反应机理无关,只是根据独立的计量方程的个数来分类。  
+
+text[[90, 212, 962, 341]]
+简单反应(single reaction),又称单一反应,是指能用一个计量方程描述的反应。即:反应系统中的反应,可以用一个计量方程来表示,它可以是基元反应,也可以是非基元反应。在简单反应体系中,一组反应物只生成一组特定的产物。对于可逆反应(reversible reaction)(正方向和逆方向都以较显著速度进行的反应),可以写出正反应和负反应的两个计量方程,但两者并不独立,用其中一个计量方程即可表达反应组分间的定量关系,因此亦可视为一种简单反应。  
+
+equation[[466, 351, 958, 370]]
+\[\mathrm{A} + \mathrm{B}\rightleftharpoons \mathrm{P} \quad (11.2.6)\]  
+
+text[[91, 378, 961, 465]]
+复杂反应(multiple reaction)又称复合反应,是指需用多个计量方程描述的反应。反应系统中同时存在多个反应,由一组反应物可以生成若干组不同的产物,各产物间的比例随反应条件以及时间的变化而变化。主要的复杂反应有并列反应、平行反应(parallel reaction)、串联反应(consecutive reaction)和平行一串联反应(parallel-consecutive reaction)等。  
+
+text[[91, 467, 960, 509]]
+并列反应是指由相互独立的若干个单一反应组成的反应(系统)。任意一个反应的应速率不受其他反应的影响。  
+
+equation[[466, 517, 958, 560]]
+\[\begin{array}{r l} & {\mathrm{A} + \mathrm{B}\longrightarrow \mathrm{P}}\\ & {\mathrm{C} + \mathrm{D}\longrightarrow \mathrm{Q}} \end{array} \quad (11.2.7)\]  
+
+text[[91, 567, 960, 609]]
+平行反应是指一组反应物同时参与多个反应,生成多种产物的反应。即反应物相同而产物不同的一类反应。  
+
+equation[[419, 618, 958, 639]]
+\[\mathrm{~A~}\longrightarrow \mathrm{~Q~},\quad \mathrm{~A~}\longrightarrow \mathrm{~P~} \quad (11.2.9)\]  
+
+equation[[386, 641, 957, 660]]
+\[\mathrm{A + B\longrightarrow Q,\quad A + 2B\longrightarrow P} \quad (11.2.10)\]  
+
+text[[91, 668, 961, 732]]
+串联反应是指反应中间产物作为反应物再继续反应产生新的中间产物或最终产物的反应。即由最初反应物到最终产物是逐步完成的。有机污染物的生物降解一般可视为串联反应。  
+
+equation[[408, 741, 957, 761]]
+\[\mathrm{~A~}\longrightarrow \mathrm{~B~}\longrightarrow \mathrm{~C~}\longrightarrow \mathrm{~P~} \quad (11.2.11)\]  
+
+text[[136, 770, 592, 789]]
+平行一串联反应是平行反应和串联反应的组合。  
+
+equation[[406, 799, 957, 819]]
+\[\mathrm{~A~}\longrightarrow \mathrm{~Q~},\quad \mathrm{~A + Q\longrightarrow P~} \quad (11.2.12)\]  
+
+equation[[313, 822, 956, 841]]
+\[\mathrm{A + B\longrightarrow Q,\quad A + 2B\longrightarrow P,\quad P + B\longrightarrow R} \quad (11.2.13)\]  
+
+text[[92, 849, 961, 913]]
+另外,根据反应系统中反应组分的相态及其数量可分为均相反应和非均相反应。均相反应是指所有反应组分都处于同一相内的反应,如液相反应、气相反应等。非均相反应中参与反应的组分处于不同的相内,如液一固相反应、气一固相反应、气一液相反应等。  
+
+text[[133, 914, 960, 935]]
+对于某些非均相反应,如气一液相反应,化学反应实质上是发生在均相内,此类反应与

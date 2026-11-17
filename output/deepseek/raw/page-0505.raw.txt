@@ -1,0 +1,45 @@
+text[[88, 83, 648, 101]]
+若该条件下微生物的生长符合莫诺方程,试求该条件下的 \(\mu_{\mathrm{max}}\) 和 \(K_{\mathrm{s}}\) 。  
+
+text[[89, 103, 958, 141]]
+15.5 用间歇培养器将某细菌从 \(0.2 \mathrm{~g} / \mathrm{L}\) 培养到 \(14 \mathrm{~g} / \mathrm{L}\) 需要 \(24 \mathrm{~h}\) ,设培养过程为对数增长期,已知 \(Y_{\mathrm{X} / \mathrm{S}} = 0.5, m_{\mathrm{X}} = 0, S_{0} = 10 \mathrm{~g} / \mathrm{L}\) 。试计算培养开始 \(10 \mathrm{~h}\) 的基质浓度。  
+
+text[[88, 143, 958, 202]]
+15.6 以葡萄糖为基质在一连续培养器中培养大肠杆菌,培养液的基质浓度为 \(5 \mathrm{~g} / \mathrm{L}\) ,当 \(D = 0.15 \mathrm{~h}^{-1}\) 时,出口处的基质浓度为 \(0.1 \mathrm{~g} / \mathrm{L}\) ,细胞浓度为 \(2.5 \mathrm{~g} / \mathrm{L}\) 。若大肠杆菌的生长符合莫诺方程,且 \(K_{\mathrm{s}} = 0.2 \mathrm{~g} / \mathrm{L}\) ,试求出 \(\mu_{\mathrm{max}}\) 和 \(Y_{\mathrm{X} / \mathrm{S}}\) 。  
+
+text[[88, 204, 957, 242]]
+15.7 在 \(10 \mathrm{~L}\) 的全混流式反应器中,于 \(30^{\circ} \mathrm{C}\) 下培养大肠杆菌。其动力学方程符合莫诺方程,其中 \(\mu_{\mathrm{max}}\) 为 \(1.0 \mathrm{~h}^{-1}, K_{\mathrm{s}}\) 为 \(0.2 \mathrm{~g} / \mathrm{L}\) 。葡萄糖的进料浓度为 \(10 \mathrm{~g} / \mathrm{L}\) ,进料流量为 \(4 \mathrm{~L} / \mathrm{h}, Y_{\mathrm{X} / \mathrm{S}} = 0.50\) 。  
+
+text[[127, 244, 561, 261]]
+(1) 试计算在反应器中的细胞浓度及细胞生产率;  
+
+text[[126, 264, 820, 281]]
+(2) 为使反应器中细胞生产速率最大,试计算最佳进料速率和细胞的最大生产速率。  
+
+text[[123, 283, 819, 301]]
+15.8 如附图所示,全混流式反应器与高速离心机相连,所进行的微生物发酵反应为  
+
+equation[[466, 310, 583, 335]]
+\[\mathrm{S} \xrightarrow{X} \mathrm{X} + \mathrm{R}\]  
+
+text[[88, 342, 957, 382]]
+在循环物料中和反应器出口处微生物浓度分别为 \(X_{3}\) 和 \(X\) ,且 \(X_{3} / X = \beta\) ,循环比 \(q_{13} / q_{1} = \gamma\) ,试求: \(X_{\mathrm{c}} / X\) , \(X_{3} / X_{\mathrm{e}}\) 。  
+
+image[[324, 391, 722, 528]]
+image_caption[[462, 531, 589, 547]]
+<center>习题15.8附图</center>  
+
+text[[127, 564, 772, 582]]
+15.9 在习题15.8中,已知所进行的微生物发酵反应符合莫诺动力学方程,即  
+
+equation[[486, 590, 567, 622]]
+\[r_{\mathrm{X}} = \frac{\mu_{\mathrm{m}} S X}{K_{\mathrm{s}} + S}\]  
+
+text[[91, 632, 959, 672]]
+已知 \(K_{\mathrm{s}} = 1 \mathrm{~g} / \mathrm{m}^{3}, \mu_{\mathrm{m}} = 2 \mathrm{~h}^{- 1}\) ,每生成 \(1 \mathrm{~g}\) 微生物菌体需要消耗 \(2 \mathrm{~g}\) 基质 \(\mathrm{S}\) ,试求 \(S_{\mathrm{e}}\) 和 \(X_{\mathrm{e}}\) 。其他已知数据有: \(q_{10} = 1 \mathrm{~m}^{3} / \mathrm{h}, S_{0} = 3 \mathrm{~g} / \mathrm{m}^{3}, X_{0} = 0, V = 1 \mathrm{~m}^{3}, \gamma = 0.5, X_{\mathrm{e}} / X_{3} = 0.25\) 。  
+
+text[[91, 675, 959, 753]]
+15.10 某好氧生物流化床可近似为CMBR,污水原水 \(\mathrm{BOD}_{5}\) 浓度 \(S_{0} = 400 \mathrm{mg} / \mathrm{L}, D_{\mathrm{sf}} = 0.7 \mathrm{~cm}^{2} / \mathrm{d}, X_{\mathrm{f}} = 30 \mathrm{mgVSS} / \mathrm{cm}^{3}, k = 2 \times 10^{-2} \mathrm{~m}^{3} / (\mathrm{g} \cdot \mathrm{h})\) ,污水在流化床中的停留时间为 \(2 \mathrm{~h}\) ,反应达到稳态后生物膜厚度对反应速率没有影响。为了使流化床对污水 \(\mathrm{BOD}_{5}\) 去除率分别达到 \(90 \%\) 和 \(95 \%\) ,求流化床中填料的最小比表面积。  
+
+text[[91, 756, 959, 835]]
+15.11 某处理污水的曝气生物滤池近似为平推流生物膜反应器。污水原水 \(\mathrm{BOD}_{5}\) 浓度 \(S_{0} = 200 \mathrm{mg} / \mathrm{L}\) ,污水流量为 \(50 \mathrm{~m}^{3} / \mathrm{h}\) ,污水中 \(\mathrm{BOD}_{5}\) 宏观反应速率常数 \(k_{\mathrm{f}} = 3.5 \mathrm{~h}^{-1}\) 。设计出水 \(\mathrm{BOD}_{5}\) 低于 \(10 \mathrm{mg} / \mathrm{L}\) ,求曝气生物滤池中污水的停留时间。如果将生物滤池设计为圆柱形,滤池滤速 \(u\) (污水流量与反应器横截面积的比值)为 \(2 \mathrm{~m} / \mathrm{h}\) ,求生物滤池填料层的有效高度 \(H\) 与占地面积 \(A\) 。

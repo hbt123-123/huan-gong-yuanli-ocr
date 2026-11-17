@@ -1,0 +1,11 @@
+---
+primary_language: zh
+is_rotation_valid: True
+rotation_correction: 0
+is_table: False
+is_diagram: False
+---
+环境工程原理
+（第四版）
+胡洪营  张旭  黄霞  王伟  席劲瑛  合编
+高等教育出版社·北京

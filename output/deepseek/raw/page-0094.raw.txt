@@ -1,0 +1,63 @@
+text[[76, 64, 245, 83]]
+对于牛顿流体,有  
+
+equation[[420, 93, 896, 129]]
+\[\tau = -\mu \frac{\mathrm{d}u}{\mathrm{d}r} \quad (3.4.5)\]  
+
+text[[75, 142, 431, 162]]
+将式(3.4.5)代入式(3.4.4),整理得  
+
+equation[[402, 173, 527, 209]]
+\[\frac{\mathrm{d}p}{\mathrm{d}l} r\mathrm{d}r = 2\mu \mathrm{d}u\]  
+
+text[[76, 221, 513, 241]]
+考虑边界条件: \(r = r_{0}\) 时, \(u = 0\) 。对上式积分,得  
+
+equation[[377, 251, 897, 291]]
+\[u = -\frac{1}{4\mu} \frac{\mathrm{d}p}{\mathrm{d}l} (r_{0}^{2} - r^{2}) \quad (3.4.6)\]  
+
+text[[76, 300, 418, 320]]
+在管中心处, \(r = 0\) ,流体流速最大,即  
+
+equation[[362, 330, 898, 370]]
+\[u_{\mathrm{max}} = u\mid_{r = 0} = -\frac{1}{4\mu} \frac{\mathrm{d}p}{\mathrm{d}l} r_{0}^{2} \quad (3.4.7)\]  
+
+text[[76, 379, 408, 399]]
+将式(3.4.6)与式(3.4.7)联立,得  
+
+equation[[378, 409, 898, 450]]
+\[u = u_{\mathrm{max}} \left[1 - \left(\frac{r}{r_{0}}\right)^{2}\right] \quad (3.4.8)\]  
+
+text[[34, 458, 578, 500]]
+式(3.4.8)表明,层流流动时圆管内速率分布曲线呈抛物线形。  
+
+text[[35, 502, 580, 566]]
+根据速率分布式可以求得截面平均流速。在管内取一环形微元体,其半径为 \(r\) ,厚度为 \(\mathrm{d}r\) ,如图3.4.4所示。通过此环隙的流体以速率 \(u\) 向前运动,则体积流量为  
+
+equation[[246, 575, 366, 596]]
+\[\mathrm{d}q_{v} = 2\pi r u\mathrm{d}r\]  
+
+text[[78, 608, 348, 627]]
+通过圆管截面的体积流量为  
+
+image[[607, 468, 870, 566]]
+image_caption[[634, 578, 840, 615]]
+<center>图3.4.4 层流流动时的环形微元体</center>  
+
+equation[[211, 642, 900, 686]]
+\[q_{v} = \int_{0}^{r_{0}}2\pi r u\mathrm{d}r = 2\pi \int_{0}^{r_{0}}\left[-\frac{1}{4\mu}\frac{\mathrm{d}p}{\mathrm{d}l} (r_{0}^{2} - r^{2})\right]\mathrm{d}r = -\frac{\pi r_{0}^{4}}{8\mu} \frac{\mathrm{d}p}{\mathrm{d}l} \quad (3.4.9)\]  
+
+text[[36, 695, 903, 739]]
+式(3.4.9)称为哈根- 泊肃叶(Hagen- Poiseuille)方程,是计算圆管层流流动的基本方程。  
+
+text[[78, 741, 315, 760]]
+根据平均流速的定义,得  
+
+equation[[328, 771, 900, 836]]
+\[u_{\mathrm{m}} = \frac{q_{v}}{A} = -\frac{\frac{\pi r_{0}^{4}}{\mathrm{d}p}}{-\frac{8\mu}{\pi r_{0}^{2}}} = -\frac{1}{8\mu} \frac{\mathrm{d}p}{\mathrm{d}l} r_{0}^{2} \quad (3.4.10)\]  
+
+text[[78, 845, 389, 865]]
+将式(3.4.7)代入式(3.4.9),得  
+
+equation[[413, 876, 527, 914]]
+\[q_{v} = \frac{\pi r_{0}^{2}}{2} u_{\mathrm{max}}\]

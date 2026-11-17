@@ -1,0 +1,71 @@
+text[[88, 62, 581, 82]]
+以反应器为对象,对微生物细胞进行物料衡算,可得  
+
+equation[[332, 92, 910, 129]]
+\[V\frac{\mathrm{d}X}{\mathrm{d}t} = \beta X\gamma q_{V} - (1 + \gamma)q_{V}X + V r_{\mathrm{x}} \quad (15.1.42)\]  
+
+text[[88, 142, 350, 161]]
+在稳态条件下, \(\mathrm{d}X / \mathrm{d}t = 0\) ,故  
+
+equation[[369, 172, 910, 192]]
+\[V r_{\mathrm{x}} = (1 + \gamma)q_{V}X - \beta X\gamma q_{V} \quad (15.1.43)\]  
+
+equation[[387, 195, 909, 232]]
+\[\frac{r_{\mathrm{X}}}{X} = \frac{(1 + \gamma)q_{V}}{V} -\frac{\beta \gamma q_{V}}{V} \quad (15.1.44)\]  
+
+equation[[392, 238, 910, 258]]
+\[\mu = (1 + \gamma)D - \beta \gamma D \quad (15.1.45)\]  
+
+equation[[387, 261, 909, 281]]
+\[\mu = D[1 - \gamma (\beta -1)] \quad (15.1.46)\]  
+
+text[[88, 283, 910, 302]]
+令 \(\omega = 1 - \gamma (\beta -1) \qquad (0 < \omega < 1)\) (15.1.47)  
+
+text[[42, 305, 911, 325]]
+则 \(\mu = \omega D\) (15.1.48)  
+
+text[[41, 334, 470, 354]]
+式(15.1.48)为细胞循环反应器的基本方程。  
+
+sub_title[[86, 357, 431, 376]]
+## 2. 反应器内基质和细胞浓度的计算  
+
+text[[42, 379, 911, 421]]
+若微生物的生长符合莫诺方程,参照不带细胞循环的连续反应器的解析方法,可得到反应器内 \(X\) 和 \(S\) 的计算式为  
+
+equation[[370, 432, 909, 526]]
+\[\begin{array}{c}{{S=\frac{K_{\mathrm{s}}\omega D}{\mu_{\mathrm{max}}-\omega D}}}\\ {{X=\frac{Y_{\mathrm{x}/S}}{\omega}\left(S_{0}-\frac{K_{\mathrm{s}}\omega D}{\mu_{\mathrm{max}}-\omega D}\right)}}\end{array} \quad (15.1.50)\]  
+
+text[[86, 529, 413, 549]]
+保持稳定运行的临界稀释率 \(D_{\mathrm{e}}\) 为  
+
+equation[[410, 560, 909, 602]]
+\[D_{\mathrm{e}} = \frac{1}{\omega}\frac{\mu_{\mathrm{max}}S_{0}}{K_{\mathrm{s}} + S_{0}} \quad (15.1.51)\]  
+
+text[[86, 611, 420, 631]]
+在 \(S_{0} \gg K_{\mathrm{s}}\) 的情况下,上式可简化为  
+
+equation[[431, 644, 909, 683]]
+\[D_{\mathrm{e}} = \frac{\mu_{\mathrm{max}}}{\omega} \quad (15.1.52)\]  
+
+text[[42, 694, 756, 714]]
+因 \(0 < \omega < 1\) ,由式(15.1.52)可知,反应器可以在大于 \(\mu_{\mathrm{max}}\) 的条件下稳定运行。  
+
+sub_title[[86, 716, 362, 734]]
+## 3. 微生物比增长速率的计算  
+
+text[[85, 737, 533, 757]]
+以分离器为对象,对微生物进行物料衡算,可得  
+
+equation[[296, 766, 908, 788]]
+\[(1 + \gamma)q_{V}X = q_{v e}X_{e} + \beta X\gamma q_{V} + \beta X(q_{V} - q_{v e}) \quad (15.1.53)\]  
+
+equation[[352, 790, 908, 836]]
+\[\beta = \frac{1 + \gamma - (q_{v e} / q_{V})(X_{e} / X)}{1 + \gamma - q_{v e} / q_{V}} \quad (15.1.54)\]  
+
+text[[84, 842, 460, 862]]
+将式(15.1.54)代入式(15.1.46),可得  
+
+equation[[287, 871, 907, 915]]
+\[\mu = D\left[1 - \gamma \left(\frac{1 + \gamma - (q_{v e} / q_{V})(X_{e} / X)}{1 + \gamma - q_{v e} / q_{V}} -1\right)\right] \quad (15.1.55)\]

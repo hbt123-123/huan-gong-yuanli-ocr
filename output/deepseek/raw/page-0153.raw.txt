@@ -1,0 +1,53 @@
+text[[143, 92, 569, 110]]
+(1)管垂直放置时,先假定为层流,则冷凝传热系数  
+
+equation[[210, 115, 846, 175]]
+\[\alpha_{\mathrm{垂直}} = 1.13\left(\frac{r\rho^{2}g\lambda^{3}}{\mu L\Delta T}\right)^{1 / 4} = 1.13\times \left[\frac{3.96\times10^{5}\times830^{2}\times9.81\times0.131^{3}}{0.34\times10^{-3}\times3\times(80 - 60)}\right]^{1 / 4}\mathrm{W} / (\mathrm{m}^{2}\cdot \mathrm{K})\] \[= 832.7\mathrm{~W} / (\mathrm{m}^{2}\cdot \mathrm{K})\]  
+
+text[[142, 184, 217, 200]]
+验算 \(R e\) .  
+
+equation[[430, 209, 632, 246]]
+\[R e = \frac{4M}{\mu} = \frac{4q_{m}}{\pi d_{0}\mu} = \frac{4Q}{\pi d_{0}r\mu}\]  
+
+text[[143, 255, 263, 271]]
+因为 \(Q = \alpha A\Delta T\)  
+
+equation[[142, 279, 725, 318]]
+\[所以 \(R e = \frac{4\alpha\pi d_{0}L\Delta T}{\pi d_{0}r\mu} = \frac{4\alpha L\Delta T}{r\mu} = \frac{4\times832.7\times3\times(80 - 60)}{3.96\times10^{5}\times0.34\times10^{-3}} = 1484.3< 2000\)\]  
+
+text[[105, 327, 260, 343]]
+为层流,假定正确。  
+
+text[[143, 347, 329, 364]]
+(2)管水平放置时,则  
+
+equation[[362, 371, 763, 476]]
+\[\alpha_{\mathrm{水平}} = 0.725\left(\frac{r\rho^{2}g\lambda^{3}}{\mu d_{0}\Delta T}\right)^{1 / 4}\] \[\alpha_{\mathrm{水平}} = \frac{0.725}{1.13}\times \left(\frac{L}{d_{0}}\right)^{1 / 4} = \frac{0.725}{1.13}\times \left(\frac{3}{0.03}\right)^{1 / 4} = 2.03\] \[\alpha_{\mathrm{水平}} = 2.03\times \alpha_{\mathrm{垂直}} = 1690.4\mathrm{~W} / (\mathrm{m}^{2}\cdot \mathrm{K})\]  
+
+text[[142, 482, 883, 500]]
+可见,当液膜流动为层流时,垂直放置时的冷凝传热系数小于水平放置时的冷凝传热系数。  
+
+sub_title[[139, 520, 438, 545]]
+## 五、保温层的临界直径  
+
+text[[95, 554, 965, 641]]
+当设备或管道与环境存在温差时,为了保持其内部物料的温度,常需在设备或管道外部包裹保温材料。一般情况下,热损失随保温层厚度的增加而减小。但对于小直径的管道,则可能出现相反的情况,即随保温层厚度的增加,热损失加大。这是由对流传热的影响造成的。  
+
+text[[95, 643, 964, 707]]
+设保温层的内表面温度为 \(T_{\mathrm{c1}}\) ,周围环境温度为 \(T_{\mathrm{f}}\) 。保温层的内、外径分别为 \(d_{1}\) 和 \(d_{2}\) ,保温层外表面对环境的对流传热系数为 \(\alpha\) 。在稳态传热时,根据串联热阻叠加原则,传热的热阻为保温层的导热热阻和保温层与环境间对流传热热阻之和,管道的热损失可写成  
+
+equation[[380, 715, 961, 777]]
+\[Q = \frac{T_{\mathrm{c1}} - T_{\mathrm{f}}}{\ln\left(d_{2} / d_{1}\right)} +\frac{1}{1 + \pi d_{2}L\alpha} = \frac{T_{\mathrm{c1}} - T_{\mathrm{f}}}{R_{1} + R_{2}} \quad (4.3.19)\]  
+
+equation[[380, 787, 551, 826]]
+\[R_{1} = \frac{\ln\left(d_{2} / d_{1}\right)}{2\pi\lambda L}\]  
+
+equation[[381, 841, 492, 880]]
+\[R_{2} = \frac{1}{\pi d_{2}L\alpha}\]  
+
+text[[97, 891, 445, 910]]
+式中: \(R_{1}\) ——保温层导热热阻,K/W;  
+
+text[[150, 913, 647, 933]]
+\(R_{2}\) ——保温层外表面对环境的对流传热热阻,K/W。

@@ -1,0 +1,59 @@
+equation[[375, 65, 893, 154]]
+\[\begin{array}{l}\theta_{\mathrm{A}} = \frac{K_{\mathrm{A}}p_{\mathrm{A}}}{1 + K_{\mathrm{A}}p_{\mathrm{A}} + K_{\mathrm{P}}p_{\mathrm{P}}} \\ \displaystyle \theta_{\mathrm{P}} = \frac{K_{\mathrm{P}}p_{\mathrm{P}}}{1 + K_{\mathrm{A}}p_{\mathrm{A}} + K_{\mathrm{P}}p_{\mathrm{P}}} \end{array} \quad (13.1.40)\]  
+
+text[[27, 160, 252, 179]]
+则本征反应速率方程为  
+
+equation[[340, 188, 893, 231]]
+\[-r_{\mathrm{A}} = k_{\mathrm{s}}\frac{K_{\mathrm{A}}p_{\mathrm{A}} - (K_{\mathrm{P}} / K_{\mathrm{S}})p_{\mathrm{P}}}{1 + K_{\mathrm{A}}p_{\mathrm{A}} + K_{\mathrm{P}}p_{\mathrm{P}}} \quad (13.1.41)\]  
+
+sub_title[[71, 240, 282, 258]]
+## 3. 产物脱附过程控制  
+
+text[[72, 262, 777, 283]]
+当产物P的脱附过程为控制步骤时,本征反应速率可以用脱附速率表示为  
+
+equation[[359, 291, 893, 313]]
+\[-r_{\mathrm{A}} = v_{\mathrm{P}} = k_{\mathrm{p}}\theta_{\mathrm{P}} - k_{\mathrm{P}}^{\prime}p_{\mathrm{P}}\theta_{\mathrm{v}} \quad (13.1.42)\]  
+
+text[[71, 321, 483, 340]]
+由于A的吸附和表面反应过程达到平衡,有  
+
+equation[[405, 350, 893, 393]]
+\[\begin{array}{r}\theta_{\mathrm{A}} = K_{\mathrm{A}}p_{\mathrm{A}}\theta_{\mathrm{v}} \\ \theta_{\mathrm{P}} = K_{\mathrm{S}}\theta_{\mathrm{A}} = K_{\mathrm{A}}p_{\mathrm{A}}K_{\mathrm{S}}\theta_{\mathrm{v}} \end{array} \quad (13.1.43)\]  
+
+text[[28, 401, 75, 419]]
+所以  
+
+equation[[364, 430, 893, 464]]
+\[\theta_{\mathrm{v}} = \frac{1}{1 + K_{\mathrm{A}}p_{\mathrm{A}} + K_{\mathrm{S}}K_{\mathrm{A}}p_{\mathrm{A}}} \quad (13.1.45)\]  
+
+equation[[364, 471, 893, 506]]
+\[\theta_{\mathrm{A}} = \frac{K_{\mathrm{A}}p_{\mathrm{A}}}{1 + K_{\mathrm{A}}p_{\mathrm{A}} + K_{\mathrm{S}}K_{\mathrm{A}}p_{\mathrm{A}}} \quad (13.1.46)\]  
+
+equation[[364, 512, 893, 558]]
+\[\theta_{\mathrm{P}} = \frac{K_{\mathrm{S}}K_{\mathrm{A}}p_{\mathrm{A}}}{1 + K_{\mathrm{A}}p_{\mathrm{A}} + K_{\mathrm{S}}K_{\mathrm{A}}p_{\mathrm{A}}} \quad (13.1.47)\]  
+
+text[[28, 567, 252, 586]]
+则本征反应速率方程为  
+
+equation[[352, 596, 893, 639]]
+\[-r_{\mathrm{A}} = k_{\mathrm{p}}\frac{K_{\mathrm{S}}K_{\mathrm{A}}p_{\mathrm{A}} - p_{\mathrm{P}}K_{\mathrm{P}}}{1 + K_{\mathrm{A}}p_{\mathrm{A}}(1 + K_{\mathrm{S}})} \quad (13.1.48)\]  
+
+text[[28, 648, 897, 712]]
+以上介绍的是以豪根- 沃森(Hougen-Watson)模型推导出的双曲线型本征动力学方程,在实际应用中,有时利用幂函数型的方程。表面反应为控制步骤时的幂函数型速率方程可表示为  
+
+equation[[394, 721, 532, 742]]
+\[-r_{\mathrm{A}} = k p_{\mathrm{A}}^{m} - k^{\prime}p_{\mathrm{P}}^{n}\]  
+
+text[[28, 745, 492, 764]]
+式中: \(m,n\) ——实验获得的幂函数指数,量纲为1。  
+
+text[[29, 766, 897, 808]]
+幂函数型的速率方程形式简单,计算方便,特别是在反应控制方面比较适用,但不如双曲线型的速率方程那样能清楚地反映反应的机理过程。  
+
+sub_title[[75, 810, 398, 828]]
+### (四)本征动力学方程的实验测定  
+
+text[[28, 832, 899, 919]]
+固相催化反应本征动力学方程的实验测定可以用第十五章所介绍的方法进行。最重要的是要测定真实的反应速率,必须排除外扩散和内扩散过程的影响。在消除内、外扩散影响的条件下,各组分在流体主体,固体催化剂表面、微孔内部的浓度相同,可以较简单地确定本征动力学方程。在实验过程中,需要做一些预实验以确定消除扩散影响的实验条件。

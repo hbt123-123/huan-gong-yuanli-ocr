@@ -1,0 +1,57 @@
+text[[37, 72, 890, 113]]
+\(\delta = 100 \mu \mathrm{m}\) ,不符合 \(\delta > > (D_{\mathrm{sf}} / k X_{\mathrm{f}})^{1 / 2}\) 的条件,因此需要考虑生物膜厚度的影响。根据式(14.3.38)可得  
+
+equation[[181, 120, 748, 185]]
+\[\tanh \phi_{\mathrm{m}} = \tanh \left(\delta \sqrt{\frac{k X_{\mathrm{f}}}{D_{\mathrm{sf}}}}\right) = \tanh \left(100 \times 10^{-4} \times \sqrt{\frac{2 \times 10^{-2} \times 25 \times 10^{3}}{0.75 / 24}}\right) = 0.85\]  
+
+text[[78, 191, 304, 208]]
+根据式(15.2.3),整理可得  
+
+equation[[120, 216, 812, 298]]
+\[\tau = \frac{V}{q_{V}} = \frac{\frac{S_{0}}{S_{e}} - 1}{\left(D_{\mathrm{sf}}k X_{\mathrm{f}}\right)^{1 / 2}a \cdot \tanh \phi_{\mathrm{m}}} = \frac{\frac{500}{60} - 1}{\left(\frac{0.75}{24} \times 2 \times 10^{-2} \times 25 \times 10^{3}\right)^{1 / 2}} = \frac{h = 1.1 h}{x_{10}^{-2} \times 200 \times 0.85}\]  
+
+equation[[396, 295, 532, 311]]
+\[D = 1 / \tau = 0.9 \mathrm{~h}^{-1}\]  
+
+text[[42, 314, 891, 355]]
+因此,为了使出水BOD浓度低于 \(60 \mathrm{mg} / \mathrm{L}\) ,流化床的空塔停留时间不能低于 \(1.1 \mathrm{~h}\) ,即稀释率 \(D\) 不能大于 \(0.9 \mathrm{~h}^{- 1}\) 。  
+
+sub_title[[75, 375, 403, 400]]
+## 二、平推流生物膜反应器  
+
+text[[33, 410, 900, 432]]
+在固体填料固定填充在反应器中,物料(培养液)在附着有生物膜的固体填料层中流  
+
+text[[32, 433, 588, 518]]
+动,且符合平推流特征(轴向不存在返混)时,可以将这类反应器视为平推流生物膜反应器,如图15.2.3所示。对于平推流生物膜反应器,轴向不同位置物料中基质浓度 \((S_{x})\) 存在显著差异。  
+
+text[[32, 521, 588, 628]]
+假设平推流生物膜反应器内生物膜生长达到稳态,且生物膜密度 \(X_{\mathrm{f}}\) 、比表面积 \(\alpha\) 和生物膜厚度 \(\delta\) 均为常数。在平推流生物膜反应器填料层(截面积为 \(A\) ,总长为 \(H\) ,体积为 \(V\) )轴向距进口 \(x\) 处取一高度为dx的"微元",其基质的物料平衡方程可表示为  
+
+equation[[206, 635, 586, 657]]
+\[q_{f} \mathrm{~d} S_{x} + (-r_{\mathrm{SS}}) a A \mathrm{~d} x = 0 \quad (15.2.8)\]  
+
+text[[32, 667, 304, 686]]
+代入式(14.3.46),整理可得  
+
+image[[615, 435, 869, 650]]
+image_caption[[604, 654, 880, 671]]
+<center>图15.2.3 平推流生物膜反应器</center>  
+
+equation[[320, 694, 898, 737]]
+\[\frac{\mathrm{d} S_{x}}{S_{x}} = \frac{\tanh \phi_{\mathrm{m}}(D_{\mathrm{sf}}k X_{\mathrm{f}})^{1 / 2} a A}{q_{V}} \mathrm{~d} x \quad (15.2.9)\]  
+
+text[[72, 746, 673, 767]]
+边界条件为: \(x = 0\) 时, \(S_{x} = S_{0}\) ; \(x = H\) 时, \(S_{x} = S_{\mathrm{e}}\) 。积分上式,可得  
+
+equation[[248, 774, 898, 797]]
+\[S_{\mathrm{e}} = S_{0} \mathrm{e}^{-\tanh \phi_{\mathrm{m}}(D_{\mathrm{sf}}k X_{\mathrm{f}})^{1 / 2} a A H / q_{V}} = S_{0} \mathrm{e}^{-\tanh \phi_{\mathrm{m}}(D_{\mathrm{sf}}k X_{\mathrm{f}})^{1 / 2} a V / q_{V}} \quad (15.2.10)\]  
+
+text[[32, 807, 782, 828]]
+式中: \(V / q_{V}\) ——物料(培养液)在生物膜反应器的空塔停留时间,可以用 \(\tau\) 表示。  
+
+sub_title[[75, 836, 582, 861]]
+## 三、生物膜反应器设计计算方程的简化  
+
+text[[31, 871, 901, 916]]
+如果根据式(15.2.3)和式(15.2.10)对生物膜反应器进行设计计算,需要考虑 \(D_{\mathrm{sf}} / k\) 、 \(X_{\mathrm{f}}\) 、 \(\alpha\) 和 \(\delta\) 等诸多参数的影响,在实际工程中获取这些参数比较困难。与第十三章中固相催

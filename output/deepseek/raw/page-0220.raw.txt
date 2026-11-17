@@ -1,0 +1,50 @@
+text[[33, 61, 901, 106]]
+如果颗粒直径和其他参数已知,先按式(6.2.9)计算摩擦数群,再根据图6.2.2中的 \(C_{\mathrm{D}}Re_{\mathrm{p}}^{2} - Re_{\mathrm{p}}\) 曲线,查出相应的 \(Re_{\mathrm{p}}\) 值,根据 \(Re_{\mathrm{p}}\) 的定义反算出 \(u_{\mathrm{t}}\) ,即  
+
+equation[[424, 116, 511, 159]]
+\[u_{\mathrm{t}} = \frac{Re_{\mathrm{p}}\mu}{d_{\mathrm{p}}\rho}\]  
+
+text[[34, 167, 901, 211]]
+若需要计算在一定流体介质中具有一定沉降速率的某种颗粒的直径,也可以采用类似的处理方法,将 \(C_{\mathrm{D}}\) 与 \(Re_{\mathrm{p}}^{- 1}\) 相乘,得  
+
+equation[[370, 220, 898, 264]]
+\[C_{\mathrm{D}}Re_{\mathrm{p}}^{-1} = \frac{4\mu(\rho_{\mathrm{p}} - \rho)g}{3\rho^{2}u_{\mathrm{t}}^{3}} \quad (6.2.10)\]  
+
+text[[34, 275, 571, 296]]
+式中: \(C_{\mathrm{D}}Re_{\mathrm{p}}^{- 1}\) ——不包含颗粒直径的摩擦数群,量纲为1。  
+
+text[[35, 298, 902, 341]]
+同理,可将图6.1.1中的 \(C_{\mathrm{D}}\) 与 \(Re_{\mathrm{p}}\) 的关系曲线转换成 \(C_{\mathrm{D}}Re_{\mathrm{p}}^{- 1}\) 与 \(Re_{\mathrm{p}}\) 的关系曲线,如图6.2.2所示,用以根据沉降速率图解计算颗粒直径。  
+
+sub_title[[77, 346, 244, 363]]
+## 3.无量纲判据K  
+
+text[[36, 366, 902, 410]]
+无量纲判据 \(K\) 用于判别沉降属于什么区域。因为层流区的上限是 \(Re_{\mathrm{p}} = 2\) ,根据式(6.2.6),得  
+
+equation[[336, 421, 601, 515]]
+\[Re_{\mathrm{p}} = \frac{\frac{d_{\mathrm{p}}\rho u_{\mathrm{t}}}{\mu} = \frac{d_{\mathrm{p}}\rho}{\mu}\frac{d_{\mathrm{p}}^{2}g(\rho_{\mathrm{p}} - \rho)}{18\mu}}{\frac{1}{18}\frac{d_{\mathrm{p}}^{3}g\rho(\rho_{\mathrm{p}} - \rho)}{\mu^{2}}}\leqslant 2\]  
+
+text[[79, 527, 105, 544]]
+令  
+
+equation[[395, 557, 545, 600]]
+\[\frac{d_{\mathrm{p}}^{3}g\rho(\rho_{\mathrm{p}} - \rho)}{\mu^{2}} = K\]  
+
+text[[37, 615, 228, 633]]
+作为无量纲判据,则  
+
+equation[[415, 647, 517, 682]]
+\[Re_{\mathrm{p}} = \frac{K}{18}\leqslant 2\]  
+
+equation[[416, 700, 901, 720]]
+\[K\leqslant 36 \quad (6.2.11)\]  
+
+text[[37, 733, 353, 752]]
+即当 \(K\leqslant 36\) 时,沉降属于层流区。  
+
+text[[78, 764, 536, 784]]
+湍流区的下限是 \(Re_{\mathrm{p}} = 1000\) ,根据式(6.2.8),得  
+
+equation[[330, 796, 610, 919]]
+\[Re_{\mathrm{p}} = \frac{d_{\mathrm{p}}\rho}{\mu}\times 1.74\sqrt{\frac{d_{\mathrm{p}}(\rho_{\mathrm{p}} - \rho)g}{\rho}}\] \[\qquad = 1.74\sqrt{\frac{d_{\mathrm{p}}^{3}g\rho(\rho_{\mathrm{p}} - \rho)}{\mu^{2}}}\] \[\qquad = 1.74\sqrt{K}\geqslant 1000\]

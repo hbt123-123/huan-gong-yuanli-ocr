@@ -1,0 +1,47 @@
+---
+primary_language: zh
+is_rotation_valid: True
+rotation_correction: 0
+is_table: False
+is_diagram: False
+---
+失的能量,称为阻力损失。
+设单位质量流体的阻力损失为 \( \sum h_t \), 其单位为 kJ/kg, 则
+\[
+Q'_e = Q_e + \sum h_t \tag{3.1.13}
+\]
+将式(3.1.12)和式(3.1.13)代入式(3.1.11), 得
+\[
+\frac{1}{2} \Delta (\alpha u_m^2) + g \Delta z + \Delta (pv) - \int_{r_1}^{r_2} p dv = -W_e - \sum h_t \tag{3.1.14}
+\]
+由于
+\[
+\Delta (pv) = \int_{r_1}^{r_2} p dv + \int_{p_1}^{p_2} v dp
+\]
+将上式代入式(3.1.14), 整理得
+\[
+\frac{1}{2} \Delta (\alpha u_m^2) + g \Delta z + \int_{p_1}^{p_2} v dp = -W_e - \sum h_t \tag{3.1.15}
+\]
+式(3.1.15)即为稳态流动过程中单位质量流体的机械能衡算方程, 对于不可压缩流体和可压缩流体均适用。
+对于不可压缩流体, 比体积 \( v \) 或密度 \( \rho \) 为常数, \( \int_{p_1}^{p_2} v dp = \frac{\Delta p}{\rho} \), 式(3.1.15)可简化为
+\[
+\frac{1}{2} \Delta (\alpha u_m^2) + g \Delta z + \frac{\Delta p}{\rho} = -W_e - \sum h_t \tag{3.1.16}
+\]
+在流体输送过程中, 流体的流态几乎都为湍流, 因此可令 \( \alpha = 1 \), 则式(3.1.16)变为
+\[
+\frac{1}{2} \Delta u_m^2 + g \Delta z + \frac{\Delta p}{\rho} = -W_e - \sum h_t \tag{3.1.17}
+\]
+或
+\[
+\frac{1}{2} u_{m1}^2 + gz_1 + \frac{p_1}{\rho} - W_e = \frac{1}{2} u_{m2}^2 + gz_2 + \frac{p_2}{\rho} + \sum h_t \tag{3.1.18}
+\]
+式(3.1.17)和式(3.1.18)的适用条件是连续、均质、不可压缩、处于稳态流动的流体。对于可压缩流体, 当所取系统两截面之间的绝对压力变化小于原来压力的 20% 时, 方程仍可使用, 此时流体密度应采用两截面之间流体的平均密度。
+对于理想流体的流动, 由于不存在因黏性引起的摩擦阻力, 故 \( \sum h_t = 0 \); 若无外功加入, \( W_e = 0 \), 则
+\[
+\frac{1}{2} \Delta u_m^2 + g \Delta z + \frac{\Delta p}{\rho} = 0 \tag{3.1.19}
+\]
+或
+\[
+\frac{1}{2} u_{m1}^2 + gz_1 + \frac{p_1}{\rho} = \frac{1}{2} u_{m2}^2 + gz_2 + \frac{p_2}{\rho} \tag{3.1.20}
+\]
+式(3.1.19)即为著名的伯努利(Bernoulli)方程, 式中各项依次表示单位质量流体具有的动能、位能和静压能之差。式(3.1.17)也称为拓展的伯努利方程。

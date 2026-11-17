@@ -1,0 +1,53 @@
+equation[[448, 85, 957, 125]]
+\[-\frac{\mathrm{d}\left(q_{V}c_{\mathrm{A}}\right)}{\mathrm{d}V} = -r_{\mathrm{A}} \quad (12.3.4b)\]  
+
+text[[89, 135, 510, 155]]
+式(12.3.4)为常用的微分形式的基本方程。  
+
+text[[90, 157, 960, 199]]
+为得到积分形式的基本方程(转化率与空间时间之间的关系式),将式(12.3.4a)积分,并逐步整理,可得  
+
+equation[[447, 208, 959, 240]]
+\[\int_{0}^{V}\frac{\mathrm{d}V}{q_{\mathrm{A}0}} = \int_{0}^{x_{\mathrm{A}}}\frac{\mathrm{d}x_{\mathrm{A}}}{-r_{\mathrm{A}}} \quad (12.3.5)\]  
+
+equation[[460, 247, 959, 287]]
+\[\frac{V}{q_{\mathrm{A}0}} = \int_{0}^{x_{\mathrm{A}}}\frac{\mathrm{d}x_{\mathrm{A}}}{-r_{\mathrm{A}}} \quad (12.3.6)\]  
+
+equation[[456, 292, 959, 332]]
+\[\frac{V}{c_{\mathrm{A}0}q_{V}} = \int_{0}^{x_{\mathrm{A}}}\frac{\mathrm{d}x_{\mathrm{A}}}{-r_{\mathrm{A}}} \quad (12.3.7)\]  
+
+equation[[464, 336, 959, 376]]
+\[\frac{\tau}{c_{\mathrm{A}0}} = \int_{0}^{x_{\mathrm{A}}}\frac{\mathrm{d}x_{\mathrm{A}}}{-r_{\mathrm{A}}} \quad (12.3.8)\]  
+
+equation[[464, 382, 959, 423]]
+\[\tau = c_{\mathrm{A}0}\int_{0}^{x_{\mathrm{A}}}\frac{\mathrm{d}x_{\mathrm{A}}}{-r_{\mathrm{A}}} \quad (12.3.9)\]  
+
+text[[90, 437, 646, 457]]
+式(12.3.6)和式(12.3.9)为常用的积分形式的基本方程。  
+
+sub_title[[135, 460, 366, 479]]
+## 2. 恒容反应的基本方程  
+
+text[[91, 481, 960, 526]]
+在恒容条件下, \(c_{\mathrm{A}} = c_{\mathrm{A}0}(1 - x_{\mathrm{A}})\) ,即 \(- c_{\mathrm{A}0}\mathrm{d}x_{\mathrm{A}} = \mathrm{d}c_{\mathrm{A}}\) 。将此式代入式(12.3.9),可得恒容反应的基本方程  
+
+equation[[465, 535, 959, 577]]
+\[\tau = -\int_{c_{\mathrm{A}0}}^{c_{\mathrm{A}}}\frac{\mathrm{d}c_{\mathrm{A}}}{-r_{\mathrm{A}}} \quad (12.3.10)\]  
+
+text[[91, 586, 961, 629]]
+值得一提的是,式(12.3.9)和式(12.3.10)与间歇反应器的基本方程式(12.1.7)和式(12.1.9)的形式相同。  
+
+sub_title[[138, 632, 330, 650]]
+### (三)设计计算方法  
+
+text[[91, 653, 961, 718]]
+平推流反应器设计的基本方程为式(12.3.4)、式(12.3.6)、式(12.3.9)和式(12.3.10),通过这些方程可以计算得到反应速率、转化率(或浓度)、反应器有效体积和进料量。当反应速率方程较为简单时,可以根据以上的基本方程进行直接解析。  
+
+text[[92, 719, 961, 762]]
+对于恒容恒温反应,其设计方程与间歇反应器的设计方程完全相同(参见表12.1.1)。一些气相反应在恒温恒压条件下平推流反应器的设计方程列于表12.3.1。  
+
+table[[92, 789, 962, 940]]
+table_caption[[253, 770, 798, 788]]
+表12.3.1 恒温恒压条件下平推流反应器的设计方程（气相反应）  
+
+<table>反应式反应速率方程设计方程A→αR-rA=kpAVq0=1kp[1+δA zA0]ln1-xA-δA zA0 xA]2A→αR-rA=kpA²Vq0=1kp[δA²zA0 xA+(1+δA zA0)²zA0(1-xA)-2δA(1+δA zA0)ln1-xA]</table>

@@ -1,0 +1,66 @@
+equation[[377, 62, 892, 82]]
+\[N_{\mathrm{A}} = \beta k_{\mathrm{L}}\Delta c = k_{\mathrm{L}}^{\prime}\Delta c \quad (8.3.22)\]  
+
+text[[70, 91, 695, 111]]
+同样,传质推动力不变,传质系数增加,总传质系数也会相应增加。  
+
+equation[[356, 120, 892, 160]]
+\[\frac{1}{K_{\mathrm{L}}^{\prime}} = \frac{H}{k_{\mathrm{G}}} +\frac{1}{\beta k_{\mathrm{L}}} = \frac{H}{k_{\mathrm{G}}} +\frac{1}{k_{\mathrm{L}}^{\prime}} \quad (8.3.23)\]  
+
+text[[27, 170, 296, 189]]
+所以总传质速率方程表示为  
+
+equation[[382, 199, 892, 220]]
+\[N_{\mathrm{A}} = K_{\mathrm{L}}^{\prime}(c_{\mathrm{A}}^{*} - c_{\mathrm{A}}) \quad (8.3.24)\]  
+
+text[[27, 233, 612, 253]]
+式中: \(k_{\mathrm{L}}^{\prime}\) ——增大后的液相传质系数, \(k_{\mathrm{L}}^{\prime} = \beta k_{\mathrm{L}}\) ( \(\beta\) 为增强系数);  
+
+text[[76, 256, 358, 274]]
+\(K_{\mathrm{L}}^{\prime}\) ——增大后的总传质系数。  
+
+text[[27, 277, 517, 362]]
+为了计算增强系数和相应增大的液相传质速率,需要把溶质A、活性组分B的扩散方程和化学反应速率方程结合起来,建立反应- 扩散微分方程式,然后根据具体的反应过程进行积分求解。  
+
+text[[27, 365, 517, 497]]
+如果液相中活性组分B的浓度足够大,而且具有足够快的扩散速率保证对反应消耗的补充,则溶质A在相界面处即与B完全反应,而在液膜内没有扩散,液相传质阻力可以忽略。在这种情况下,化学吸收就完全等同于气膜阻力控制的物理吸收,如图8.3.2所示。  
+
+image[[551, 291, 874, 416]]
+image_caption[[572, 424, 837, 461]]
+<center>图8.3.2 气膜控制的化学吸收过程两相浓度示意图</center>  
+
+text[[27, 500, 896, 543]]
+如果不是这种极端的情况,而是活性组分B的浓度较大,扩散速率也较快,那么化学反应发生在液膜中,此时的传质过程和反应过程就会相对复杂。  
+
+text[[34, 554, 888, 594]]
+【例题8.3.2】在例题8.2.2所给的条件中,如果分别采用清水和碱溶液吸收空气中的 \(\mathrm{SO}_{2}\) ,传质速率分别是多少?假设碱溶液吸收发生的是快速不可逆反应。  
+
+text[[72, 597, 861, 617]]
+解:(1)在清水吸收的条件下,气相总传质系数不变, \(K_{\mathrm{G}} = 1.11\times 10^{- 7}\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s}\cdot \mathrm{kPa})\) ,传质推动力为  
+
+equation[[278, 626, 654, 645]]
+\[\Delta p = p_{\mathrm{A}} - p_{\mathrm{A}}^{\ast} = (0.03\times 101.3 - 0)\mathrm{kPa} = 3.039\mathrm{kPa}\]  
+
+text[[37, 655, 175, 672]]
+所以传质速率为  
+
+equation[[181, 679, 744, 699]]
+\[N_{\mathrm{A}} = K_{\mathrm{G}}\Delta p = 1.11\times 10^{-7}\times 3.039\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s}) = 3.37\times 10^{-7}\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s})\]  
+
+text[[36, 708, 888, 769]]
+(2)在碱溶液吸收的条件下,由于发生快速不可逆反应,在相界面处, \(\mathrm{SO}_{2}\) 到达液膜即发生反应,不存在积累和向液相主体的传质过程,可以认为溶液中 \(\mathrm{SO}_{2}\) 浓度为0,而且不存在液相传质阻力。因此,气相总传质系数为  
+
+equation[[321, 778, 602, 797]]
+\[K_{\mathrm{G}} = k_{\mathrm{G}} = 1\times 10^{-6}\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s}\cdot \mathrm{kPa})\]  
+
+text[[77, 807, 214, 823]]
+传质总推动力为  
+
+equation[[271, 832, 655, 851]]
+\[\Delta p = p_{\mathrm{A}} - p_{\mathrm{A}}^{\ast} = (0.03\times 101.3 - 0)\mathrm{kPa} = 3.039\mathrm{kPa}\]  
+
+text[[77, 861, 176, 877]]
+传质速率为  
+
+equation[[189, 886, 735, 905]]
+\[N_{\mathrm{A}} = K_{\mathrm{G}}\Delta p = 1\times 10^{-6}\times 3.039\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s}) = 3.039\times 10^{-6}\mathrm{kmol} / (\mathrm{m}^{2}\cdot \mathrm{s})\]

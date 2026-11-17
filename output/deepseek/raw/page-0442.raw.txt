@@ -1,0 +1,68 @@
+sub_title[[71, 62, 415, 81]]
+## 2.球形催化剂内反应物的浓度分布  
+
+text[[29, 83, 895, 125]]
+由于催化剂内部各处的反应物浓度均不相同,只有掌握了浓度在颗粒内部的分布规律,才能对式(13.1.49)进行解析,得到宏观速率。下面介绍浓度分布的解析方法。  
+
+text[[71, 127, 464, 146]]
+对于 \(n\) 级不可逆反应,本征动力学方程为  
+
+equation[[415, 156, 894, 177]]
+\[-r_{\mathrm{A}} = k_{\mathrm{V}}c_{\mathrm{A}}^{\mathrm{n}} \quad (13.1.54)\]  
+
+text[[29, 185, 897, 228]]
+则球形催化剂颗粒的最大反应速率,即反应物A在催化剂颗粒内部各处的浓度与催化剂表面的浓度 \(c_{\mathrm{A}}\) 相等时的理想反应速率(即最大反应速率)为  
+
+equation[[408, 240, 517, 276]]
+\[\frac{4}{3}\pi R^{3}k_{\mathrm{V}}c_{\mathrm{A}_{\mathrm{s}}}^{\mathrm{n}}\]  
+
+text[[29, 281, 897, 325]]
+最大内部扩散速率,即催化剂内部球心处反应物A的浓度为0时(不存在反应物,浓度梯度为 \(c_{\mathrm{A}_{\mathrm{s}}} / R\) )的扩散速率为 \(4\pi R^{3}D_{\mathrm{e}}(c_{\mathrm{A}_{\mathrm{s}}} / R)\) 。  
+
+text[[73, 344, 896, 384]]
+令 \(\phi_{\mathrm{s}} = \frac{R}{3\sqrt{\frac{k_{\mathrm{V}}c_{\mathrm{A}_{\mathrm{s}}}^{\mathrm{n - 1}}}{D_{\mathrm{e}}}}}\) (13.1.55)  
+
+text[[29, 409, 56, 426]]
+则  
+
+equation[[225, 387, 895, 466]]
+\[\begin{array}{c c c}{{\frac{4}{3}\pi R^{3}k_{\mathrm{V}}c_{\mathrm{A}_{\mathrm{s}}}^{\mathrm{n}}}}\\ {{{\frac{4}{3}\pi R^{3}k_{\mathrm{V}}c_{\mathrm{A}_{\mathrm{s}}}^{\mathrm{n - 1}}}}\\ {{\frac{4\pi R^{2}D_{\mathrm{e}}\left(\frac{c_{\mathrm{A}_{\mathrm{s}}}}{R}\right)}{R}}}\end{array} = \frac{R^{2}}{3}\frac{k_{\mathrm{V}}c_{\mathrm{A}_{\mathrm{s}}}^{\mathrm{n - 1}}}{D_{\mathrm{e}}} = 3\phi_{\mathrm{s}}^{2}} \quad (13.1.56)\]  
+
+text[[29, 478, 433, 497]]
+式中: \(\phi_{\mathrm{s}}\) ——蒂勒(Thiele)模数,量纲为1。  
+
+text[[73, 500, 444, 518]]
+对于一级反应, \(n = 1\) ,式(13.1.55)变为  
+
+equation[[408, 529, 895, 575]]
+\[\phi_{\mathrm{s}} = \frac{R}{3\sqrt{\frac{k_{\mathrm{V}}}{D_{\mathrm{e}}}}}\] (13.1.57)  
+
+text[[31, 592, 79, 609]]
+于是  
+
+equation[[350, 577, 895, 618]]
+\[\frac{\mathrm{d}^{2}c_{\mathrm{A}}}{\mathrm{d}z^{2}} +\frac{2}{z}\frac{\mathrm{d}c_{\mathrm{A}}}{\mathrm{d}z} = (3\phi_{\mathrm{s}})^{2}c_{\mathrm{A}} \quad (13.1.58)\]  
+
+text[[75, 632, 510, 652]]
+令 \(\omega = c_{\mathrm{A}}z\) ,则上式可变为二阶齐次常微分方程  
+
+equation[[393, 662, 896, 701]]
+\[\frac{\mathrm{d}^{2}\omega}{\mathrm{d}z^{2}} = (3\phi_{\mathrm{s}})^{2}\omega \quad (13.1.59)\]  
+
+text[[31, 716, 123, 734]]
+其通解为  
+
+equation[[290, 745, 720, 765]]
+\[\omega = c_{\mathrm{A}}z = A_{1}\exp \left(3\phi_{\mathrm{s}}z\right) + A_{2}\exp \left(-3\phi_{\mathrm{s}}z\right)\]  
+
+text[[75, 773, 774, 794]]
+将边界条件式(13.1.52)和式(13.1.53)代入,可求出积分常数 \(A_{1}\) 和 \(A_{2}^{\prime}\)  
+
+equation[[390, 802, 896, 840]]
+\[A_{1} = \frac{c_{\mathrm{A}_{\mathrm{s}}}}{2\sinh\left(3\phi_{\mathrm{s}}\right)} \quad (13.1.60)\]  
+
+equation[[354, 846, 897, 884]]
+\[A_{2} = -A_{1} = -\frac{c_{\mathrm{A}_{\mathrm{s}}}}{2\sinh\left(3\phi_{\mathrm{s}}\right)} \quad (13.1.61)\]  
+
+text[[73, 895, 781, 915]]
+将 \(A_{1}\) 和 \(A_{2}\) 代入通解方程,可得到球形催化剂内反应物A的浓度分布方程

@@ -1,0 +1,65 @@
+---
+primary_language: en
+is_rotation_valid: True
+rotation_correction: 0
+is_table: False
+is_diagram: False
+---
+(1) 管垂直放置时,先假定为层流,则冷凝传热系数
+
+\[
+\alpha_{\text{垂直}} = 1.13 \left( \frac{r p^2 g \lambda^3}{\mu L \Delta T} \right)^{1/4} = 1.13 \times \left[ \frac{3.96 \times 10^5 \times 830^2 \times 9.81 \times 0.131^3}{0.34 \times 10^{-3} \times 3 \times (80-60)} \right]^{1/4} \text{ W/(m}^2 \cdot \text{K)}
+\]
+
+\[
+= 832.7 \text{ W/(m}^2 \cdot \text{K)}
+\]
+
+验算 \( Re \):
+
+\[
+Re = \frac{4M}{\mu} = \frac{4q_m}{\pi d_0 \mu} = \frac{4Q}{\pi d_0 \mu}
+\]
+
+因为 \( Q = \alpha A \Delta T \)
+
+所以 \( Re = \frac{4 \alpha \pi d_0 L \Delta T}{\pi d_0 \mu} = \frac{4 \alpha L \Delta T}{\mu} = \frac{4 \times 832.7 \times 3 \times (80-60)}{3.96 \times 10^5 \times 0.34 \times 10^{-3}} = 1484.3 < 2000 \)
+
+为层流,假定正确。
+
+(2) 管水平放置时,则
+
+\[
+\alpha_{\text{水平}} = 0.725 \left( \frac{r p^2 g \lambda^3}{\mu d_0 \Delta T} \right)^{1/4}
+\]
+
+\[
+\frac{\alpha_{\text{水平}}}{\alpha_{\text{垂直}}} = \frac{0.725}{1.13} \left( \frac{L}{d_0} \right)^{1/4} = \frac{0.725}{1.13} \left( \frac{3}{0.03} \right)^{1/4} = 2.03
+\]
+
+\[
+\alpha_{\text{水平}} = 2.03 \times \alpha_{\text{垂直}} = 1690.4 \text{ W/(m}^2 \cdot \text{K)}
+\]
+
+可见,当液膜流动为层流时,垂直放置时的冷凝传热系数小于水平放置时的冷凝传热系数。
+
+五、保温层的临界直径
+
+当设备或管道与环境存在温差时,为了保持其内部物料的温度,常需在设备或管道外部包裹保温材料。一般情况下,热损失随保温层厚度的增加而减小。但对于小直径的管道,则可能出现相反的情况,即随保温层厚度的增加,热损失加大。这是由对流传热的影响造成的。
+
+设保温层的内表面温度为 \( T_{c1} \),周围环境温度为 \( T_f \)。保温层的内、外径分别为 \( d_1 \) 和 \( d_2 \),保温层外表面对环境的对流传热系数为 \( \alpha \)。在稳态传热时,根据串联热阻叠加原则,传热的热阻为保温层的导热热阻和保温层与环境间对流传热热阻之和,管道的热损失可写成
+
+\[
+Q = \frac{T_{c1} - T_f}{\ln(d_2/d_1) + \frac{1}{2 \pi \lambda L} + \frac{1}{\pi d_2 L \alpha}} = \frac{T_{c1} - T_f}{R_1 + R_2}
+\]
+
+\[
+R_1 = \frac{\ln(d_2/d_1)}{2 \pi \lambda L}
+\]
+
+\[
+R_2 = \frac{1}{\pi d_2 L \alpha}
+\]
+
+式中: \( R_1 \)——保温层导热热阻, K/W;
+\( R_2 \)——保温层外表面对环境的对流传热热阻, K/W。

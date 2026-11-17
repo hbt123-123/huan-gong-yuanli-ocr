@@ -1,0 +1,68 @@
+text[[97, 81, 213, 99]]
+基本方程为  
+
+equation[[455, 107, 965, 147]]
+\[D_{\mathrm{LA}}\frac{\mathrm{d}^{2}c_{\mathrm{A}}}{\mathrm{d}z^{2}} = k c_{\mathrm{BL}}c_{\mathrm{A}} \quad (13.2.56)\]  
+
+text[[141, 163, 257, 181]]
+边界条件为  
+
+equation[[418, 191, 965, 227]]
+\[z = 0,\quad c_{\mathrm{A}} = c_{\mathrm{Ai}},\quad \frac{\mathrm{d}c_{\mathrm{B}}}{\mathrm{d}t} = 0 \quad (13.2.57)\]  
+
+equation[[294, 235, 965, 273]]
+\[z = \delta_{\mathrm{L}},\quad c_{\mathrm{B}}\equiv c_{\mathrm{BL}},\quad -D_{\mathrm{LA}}\alpha \frac{\mathrm{d}c_{\mathrm{A}}}{\mathrm{d}z} = k c_{\mathrm{A}}c_{\mathrm{B}}\left[\left(1 - \epsilon\right) - \alpha \delta_{\mathrm{L}}\right] \quad (13.2.58)\]  
+
+text[[97, 289, 935, 310]]
+式中: \(\epsilon\) ——单位气- 液相混合物体积中气相所占的体积,称气含率( \(\epsilon = V_{\mathrm{C}} / V\) ),量纲为1;  
+
+text[[144, 314, 494, 333]]
+\(V_{\mathrm{c}}\) ——反应混合物中气相的体积, \(\mathrm{m}^{3}\) ;  
+
+text[[150, 337, 558, 356]]
+\(V\) ——反应混合物的总体积, \(V = V_{\mathrm{C}} + V_{\mathrm{L}}, \mathrm{m}^{3}\) ;  
+
+text[[146, 361, 504, 380]]
+\(V_{\mathrm{L}}\) ——反应混合物中液体的体积, \(\mathrm{m}^{3}\) ;  
+
+text[[150, 385, 454, 406]]
+\(\alpha\) ——常数, \(\alpha = \sqrt{k c_{\mathrm{BL}} / D_{\mathrm{LA}}}, \mathrm{m}^{- 1}\) 。  
+
+text[[98, 408, 968, 450]]
+最后一个边界条件的物理意义是:以单位气- 液相混合物体积为基准,由液膜表面扩散进入液相主体的A的量等于在液相主体反应消耗的A量。  
+
+text[[142, 452, 537, 472]]
+在以上边界条件下,对方程进行积分可得  
+
+equation[[284, 483, 965, 568]]
+\[\frac{c_{\mathrm{A}}}{c_{\mathrm{Ai}}} = \cosh (\alpha \cdot z) - \frac{\left(\frac{1 - \epsilon}{\alpha \delta_{\mathrm{L}}} - 1\right)\alpha \delta_{\mathrm{L}} + \tanh (\alpha \delta_{\mathrm{L}})}{\left(\frac{1 - \epsilon}{\alpha \delta_{\mathrm{L}}} - 1\right)\alpha \delta_{\mathrm{L}}\tanh (\alpha \delta_{\mathrm{L}}) + 1} \sinh (\alpha \cdot z) \quad (13.2.59)\]  
+
+text[[142, 576, 847, 596]]
+根据 \(c_{\mathrm{A}}\) 的表达式,利用式(13.2.42)同样的方法,即可得到宏观速率方程。  
+
+sub_title[[144, 599, 263, 616]]
+## 4. 慢速反应  
+
+text[[100, 620, 968, 661]]
+(1) 慢速反应的特点及其反应区域与浓度分布: A 和 B 的反应很慢,在液膜中反应消耗的 A 的量较少,反应主要发生在液相主体,这种情况的浓度分布如图 13.2.3(g) 所示。  
+
+text[[100, 664, 968, 706]]
+若 A 和 B 的反应极慢,则 A 与 B 在液膜中的浓度与它们在液相主体中的浓度相同,此时扩散速率远远大于反应速率,近似于物理吸收,因此有  
+
+equation[[485, 717, 966, 737]]
+\[c_{\mathrm{AVL}} = p_{\mathrm{A}}H_{\mathrm{A}} \quad (13.2.60)\]  
+
+text[[100, 745, 968, 788]]
+(2) 慢速反应的宏观速率方程:对于慢速反应,在液膜中的反应可以忽略不计,从气相中扩散进入的 A 全部在液相主体反应掉。以液相体积为基准的反应速率方程为  
+
+equation[[423, 800, 966, 838]]
+\[-r_{\mathrm{AVL}} = \frac{1}{V_{\mathrm{L}}}\frac{\mathrm{d}n_{\mathrm{A}}}{\mathrm{d}t} = k c_{\mathrm{AL}}c_{\mathrm{BL}} \quad (13.2.61)\]  
+
+text[[144, 851, 634, 871]]
+\(- r_{\mathrm{AVL}}\) 与以相界面积为基准的反应速率 \(- r_{\mathrm{AS}}\) 的关系为  
+
+equation[[463, 882, 966, 902]]
+\[-r_{\mathrm{AVL}} = (-r_{\mathrm{AS}}) a_{i} \quad (13.2.62)\]  
+
+text[[100, 912, 925, 934]]
+式中: \(a_{i}\) ——单位液相体积所具有的气- 液相界面积, \(a_{i} = S / V_{\mathrm{L}}(S\) 为总的相界面积, \(\mathrm{m}^{2}\) )。

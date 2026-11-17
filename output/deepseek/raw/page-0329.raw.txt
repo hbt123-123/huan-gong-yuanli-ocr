@@ -1,0 +1,68 @@
+sub_title[[147, 83, 383, 101]]
+## 3.弱型树脂的交换反应  
+
+text[[104, 105, 975, 168]]
+弱型树脂是指弱酸性阳离子交换树脂和弱碱性阴离子交换树脂。这类树脂不能进行中性盐分解反应,这是由于弱酸性阳离子交换树脂和弱碱性阴离子交换树脂分别在 \(\mathrm{pH} > 4\) 和 \(\mathrm{pH}< 7\) 时才能进行交换反应。但弱型树脂可以进行以下反应:  
+
+text[[150, 171, 408, 189]]
+(1)非中性盐的分解反应:  
+
+equation[[276, 199, 972, 220]]
+\[\mathrm{R}\left(\mathrm{COOH}\right)_{2} + \mathrm{Ca}\left(\mathrm{HCO}_{3}\right)_{2} \rightleftharpoons \mathrm{R}\left(\mathrm{COO}\right)_{2}\mathrm{Ca} + 2\mathrm{H}_{2}\mathrm{CO}_{3} \quad (10.1.10)\]  
+
+equation[[280, 223, 972, 241]]
+\[\mathrm{R} = \mathrm{NH}_{2}\mathrm{OH} + \mathrm{NH}_{4}\mathrm{Cl} \rightleftharpoons \mathrm{R} = \mathrm{NH}_{2}\mathrm{Cl} + \mathrm{NH}_{4}\mathrm{OH} \quad (10.1.11)\]  
+
+text[[150, 252, 432, 271]]
+(2)强酸或弱碱的中和反应:  
+
+equation[[335, 280, 972, 324]]
+\[\begin{array}{r l} & {\mathrm{RCOOH + NaOH}\rightleftharpoons \mathrm{RCOONa + H_{2}O}}\\ & {\mathrm{R = NH_{2}OH + HCl}\rightleftharpoons \mathrm{R = NH_{2}Cl + H_{2}O}} \end{array} \quad (10.1.12)\]  
+
+text[[150, 334, 319, 352]]
+(3)复分解反应:  
+
+equation[[315, 362, 972, 404]]
+\[\begin{array}{r l} & {\mathrm{R}\left(\mathrm{COONa}\right)_{2} + \mathrm{CaCl}_{2} \rightleftharpoons \mathrm{R}\left(\mathrm{COO}\right)_{2}\mathrm{Ca} + 2\mathrm{NaCl}}\\ & {\mathrm{R} = \mathrm{NH}_{2}\mathrm{Cl} + \mathrm{NaNO}_{3} \rightleftharpoons \mathrm{R} = \mathrm{NH}_{2}\mathrm{NO}_{3} + \mathrm{NaCl}} \end{array} \quad (10.1.14)\]  
+
+sub_title[[150, 415, 476, 433]]
+### (二)离子交换平衡和选择性系数  
+
+sub_title[[149, 436, 383, 454]]
+## 1.一价离子之间的交换  
+
+text[[105, 458, 974, 499]]
+离子交换平衡是在一定温度下,经过一定时间,离子交换体系中固态的树脂相和溶液相之间的离子交换反应达到的平衡。  
+
+text[[149, 501, 600, 520]]
+一价离子对一价离子的交换反应通式可以写为  
+
+equation[[415, 529, 972, 549]]
+\[\mathrm{R}^{\mathrm{A}^{+}} + \mathrm{B}^{+} \rightleftharpoons \mathrm{R}^{\mathrm{B}^{+}} + \mathrm{A}^{+} \quad (10.1.16)\]  
+
+text[[150, 560, 497, 579]]
+当离子交换达到平衡时,平衡常数为  
+
+equation[[359, 588, 972, 630]]
+\[K_{\mathrm{A}^{+}}^{\mathrm{B}^{+}} = \frac{[\mathrm{R}^{\mathrm{B}^{+}}][\mathrm{A}^{+}]}{[\mathrm{R}^{\mathrm{A}^{+}}][\mathrm{B}^{+}]} = \frac{[\mathrm{R}^{\mathrm{B}^{+}}] / [\mathrm{R}^{\mathrm{A}^{+}}]}{[\mathrm{B}^{+}] / [\mathrm{A}^{+}]} \quad (10.1.17)\]  
+
+text[[105, 640, 671, 661]]
+式中: \([\mathrm{R}^{\mathrm{B}^{+}}], [\mathrm{R}^{\mathrm{A}^{+}}]\) ——树脂相中的离子浓度, \(\mathrm{kmol / m}^{3}\) ;  
+
+text[[210, 663, 650, 682]]
+\([\mathrm{B}^{+}], [\mathrm{A}^{+}]\) ——溶液中的离子浓度, \(\mathrm{kmol / m}^{3}\) 。  
+
+text[[105, 686, 974, 749]]
+平衡常数亦称为离子交换树脂的选择性系数,表示了离子交换树脂对溶液中 \(\mathbf{B}^{+}\) 的亲和程度和离子交换反应的进行方向。如果选择性系数大于1,说明树脂对 \(\mathbf{B}^{+}\) 的亲和力大于对 \(\mathbf{A}^{+}\) 的亲和力,离子交换反应向右进行。  
+
+text[[149, 752, 598, 771]]
+选择性系数亦可用离子摩尔分数来表示。若令  
+
+equation[[438, 780, 592, 879]]
+\[c_{0} = [\mathrm{A}^{+}] + [\mathrm{B}^{+}]\] \[c_{\mathrm{B}} = [\mathrm{B}^{+}]\] \[q_{0} = [\mathrm{R}^{\mathrm{A}^{+}}] + [\mathrm{R}^{\mathrm{B}^{+}}]\] \[q_{\mathrm{B}} = [\mathrm{R}^{\mathrm{B}^{+}}]\]  
+
+text[[105, 890, 615, 910]]
+式中: \(c_{0}\) ——溶液中两种交换离子的总浓度, \(\mathrm{kmol / m}^{3}\) ;  
+
+text[[157, 914, 554, 933]]
+\(c_{\mathrm{B}}\) ——溶液中 \(\mathbf{B}^{+}\) 离子的总浓度, \(\mathrm{kmol / m}^{3}\) ;

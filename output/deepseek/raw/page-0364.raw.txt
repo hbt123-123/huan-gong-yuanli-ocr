@@ -1,0 +1,62 @@
+text[[26, 63, 393, 81]]
+饼比阻可用 Kozeny-Carman 方程计算:  
+
+equation[[384, 90, 892, 134]]
+\[r_{\mathrm{c}} = 180 \frac{(1 - \epsilon)^{2}}{d_{\mathrm{p}}^{2} \epsilon^{3}} \quad (10.3.31)\]  
+
+text[[27, 143, 342, 162]]
+式中: \(d_{\mathrm{p}}\) ——溶质颗粒的直径, \(\mathbf{m}\) ;  
+
+text[[89, 166, 312, 184]]
+\(\epsilon\) ——滤饼层的空隙率。  
+
+text[[70, 187, 358, 205]]
+滤饼的厚度 \(L_{\mathrm{c}}\) 可用下式计算:  
+
+equation[[392, 217, 893, 259]]
+\[L_{\mathrm{c}} = \frac{m_{\mathrm{s}}}{\rho_{\mathrm{s}}(1 - \epsilon)A} \quad (10.3.32)\]  
+
+text[[28, 269, 284, 287]]
+式中: \(m_{\mathrm{s}}\) ——滤饼质量, \(\mathbf{kg}\) ;  
+
+text[[85, 292, 318, 311]]
+\(\rho_{\mathrm{s}}\) ——溶质密度, \(\mathbf{kg} / \mathbf{m}^{3}\) ;  
+
+text[[95, 315, 266, 332]]
+\(A\) ——膜面积, \(\mathbf{m}^{2}\) 。  
+
+text[[37, 345, 889, 406]]
+【例题10.3.2】已知某微滤膜在 \(0.1 \mathrm{MPa}\) 下纯水通量为 \(100 \mathrm{L} / (\mathrm{m}^{2} \cdot \mathrm{h})\) 。 \(0.15 \mathrm{MPa}\) 下,用该微滤膜过滤某悬浮液。由于悬浮液在膜面上形成滤饼层,通量降至 \(50 \mathrm{L} / (\mathrm{m}^{2} \cdot \mathrm{h})\) 。已知滤饼的比阻为 \(1.5 \times 10^{18} \mathrm{~m}^{- 2}\) ,计算滤饼层的厚度(假定悬浮液的黏度与水相同,取 \(\mu = 1.0 \times 10^{- 3} \mathrm{Pa} \cdot \mathrm{s}\) )。  
+
+text[[37, 408, 888, 450]]
+解:已知微滤膜的纯水通量 \(N_{\mathrm{w}} = 100 \mathrm{L} / (\mathrm{m}^{2} \cdot \mathrm{h})\) ,过滤压差 \(\Delta p = 0.1 \mathrm{MPa}\) ,水的黏度 \(\mu = 1.0 \times 10^{- 3} \mathrm{~Pa} \cdot \mathrm{s}\) ,则由阻力模型求出膜的阻力为  
+
+equation[[293, 457, 629, 512]]
+\[R_{\mathrm{m}} = \frac{\Delta p}{N_{\mathrm{w}}\mu} = \frac{1 \times 10^{5}}{0.1 \times 10^{-3}} \mathrm{~m}^{-1} = 3.6 \times 10^{12} \mathrm{~m}^{-1}\]  
+
+text[[39, 515, 888, 555]]
+已知微滤膜用于悬浮液过滤时的通量 \(N_{\mathrm{w}} = 50 \mathrm{L} / (\mathrm{m}^{2} \cdot \mathrm{h})\) ,过滤压差 \(\Delta p = 0.15 \mathrm{MPa}\) ,则滤饼层的阻力可用下式求得:  
+
+equation[[276, 561, 652, 617]]
+\[R_{\mathrm{c}} + R_{\mathrm{m}} = \frac{\Delta p}{N_{\mathrm{w}}\mu} = \frac{1.5 \times 10^{5}}{0.05 \times 10^{-3}} \mathrm{~m}^{-1} = 1.08 \times 10^{13} \mathrm{~m}^{-1}\]  
+
+text[[39, 620, 652, 639]]
+故 \(R_{\mathrm{c}} = (10.8 \times 10^{12} - 3.6 \times 10^{12}) \mathrm{~m}^{- 1} = 7.2 \times 10^{12} \mathrm{~m}^{- 1}\)  
+
+text[[74, 643, 562, 661]]
+已知滤饼层的比阻为 \(1.5 \times 10^{18} \mathrm{~m}^{- 2}\) ,可求得滤饼层的厚度为  
+
+equation[[284, 668, 641, 705]]
+\[L_{\mathrm{c}} = \frac{R_{\mathrm{c}}}{r_{\mathrm{c}}} = \frac{7.2 \times 10^{12}}{1.5 \times 10^{18}} \mathrm{~m} = 4.8 \times 10^{-6} \mathrm{~m} = 4.8 \mu \mathrm{m}\]  
+
+sub_title[[73, 728, 223, 750]]
+## 五、电渗析  
+
+sub_title[[76, 763, 355, 781]]
+### (一)电渗析过程的基本原理  
+
+text[[30, 784, 900, 869]]
+电渗析中使用的是离子交换膜。图10.3.10为电渗析过程示意图。如图10.3.10所示,在阴极和阳极之间交替地平行放置阳离子交换膜(简称阳膜,以符号CM表示)和阴离子交换膜(简称阴膜,以符号AM表示)。阴、阳离子交换膜具有带电的活性基团,能选择性地分别使阴离子或阳离子透过。  
+
+text[[32, 871, 900, 914]]
+当向电渗析器的各室引入含NaCl等电解质的盐水并通入直流电时,带正电荷的钠离子会向阴极迁移,带负电荷的氯离子会向阳极迁移。但氯离子不能通过带负电荷的阳膜,钠离

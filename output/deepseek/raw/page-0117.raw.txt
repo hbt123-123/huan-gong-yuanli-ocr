@@ -1,0 +1,50 @@
+text[[137, 94, 356, 112]]
+将已知条件代入式(1),得  
+
+equation[[342, 123, 710, 202]]
+\[W_{\mathrm{e}} = \left(9.81\times 37 + \frac{5\times10^{4}}{710} +0.038\times \frac{8}{0.1}\times \frac{0.86^{2}}{2} +\right.\] \[\left.0.038\times \frac{50}{0.07}\times \frac{1.1^{2}}{2} -9.81\times 5 - \frac{5\times10^{4}}{710}\right)\mathrm{J / kg}\]  
+
+text[[98, 207, 282, 224]]
+解得 \(W_{\mathrm{e}} = 331.5\mathrm{~J / kg}\) 。  
+
+text[[137, 229, 576, 247]]
+在截面 \(0 - 0^{\prime}\) 和截面 \(4 - 4^{\prime}\) 之间列机械能衡算方程,即  
+
+equation[[351, 255, 947, 301]]
+\[g z_{1} + \frac{p_{1}}{\rho} +W_{\mathrm{e}}^{\prime} = g z_{4} + \frac{p_{4}}{\rho} +\lambda \frac{l_{12}}{d_{12}}\frac{u_{12}^{2}}{2} +\lambda \frac{l_{24}}{d_{24}}\frac{u_{24}^{2}}{2} \quad (2)\]  
+
+text[[137, 310, 356, 327]]
+将已知条件代入式(2),得  
+
+equation[[342, 337, 732, 419]]
+\[W_{\mathrm{e}}^{\prime} = \left(9.81\times 30 + \frac{7\times10^{4}}{710} +0.038\times \frac{8}{0.1}\times \frac{0.86^{2}}{2} +\right.\] \[\left.0.038\times \frac{40}{0.07}\times \frac{0.65^{2}}{2} -9.81\times 5 - \frac{5\times10^{4}}{710}\right)\mathrm{J / kg}\]  
+
+text[[98, 422, 285, 439]]
+解得 \(W_{\mathrm{e}}^{\prime} = 279.1\mathrm{~J / kg}\) 。  
+
+text[[97, 444, 948, 482]]
+为了同时满足向设备A和B供应液体的要求,取 \(W_{\mathrm{e}}\) 和 \(W_{\mathrm{e}}^{\prime}\) 中较大者,即 \(W_{\mathrm{e}} = 331.5\mathrm{~J / kg}\) ,则泵的有效功率为  
+
+equation[[279, 492, 770, 511]]
+\[N_{\mathrm{e}} = W_{\mathrm{e}}q_{\mathrm{m}} = \left[ (331.5 / 3600)\times (10 800 + 6 400) \right] \mathrm{W} = 1584 \mathrm{~W}\]  
+
+text[[98, 536, 949, 600]]
+【例题3.5.3】有一如图3.5.6所示的并联管路,已知总管内水的流量为 \(2\mathrm{m}^{3} / \mathrm{s}\) ,各支管的长度 \((l_{1}, l_{2}, l_{3})\) 及管径 \((d_{1}, d_{2}, d_{3})\) 分别为 \(1200 \mathrm{~m}, 1500 \mathrm{~m}, 800 \mathrm{~m}\) 和 \(0.6 \mathrm{~m}, 0.5 \mathrm{~m}, 0.8 \mathrm{~m}\) 。求各支管中水的流量。已知:水的密度为 \(1000 \mathrm{~kg} / \mathrm{m}^{3}\) ,黏度为 \(1.0\times 10^{- 3} \mathrm{~Pa} \cdot \mathrm{s}\) ,管道绝对粗糙度取 \(0.2 \mathrm{~mm}\) 。  
+
+text[[138, 601, 319, 618]]
+解:对于并联管路,有  
+
+equation[[355, 629, 695, 675]]
+\[q_{v1}:q_{v2}:q_{v3} = \sqrt{\frac{d_{1}^{5}}{\lambda_{1}l_{1}}}:\sqrt{\frac{d_{2}^{5}}{\lambda_{2}l_{2}}}:\sqrt{\frac{d_{3}^{5}}{\lambda_{3}l_{3}}}\]  
+
+text[[138, 682, 423, 700]]
+先假设3根支管中的 \(\lambda\) 值相同,则  
+
+equation[[344, 711, 708, 771]]
+\[q_{v1}:q_{v2}:q_{v3} = \sqrt{\frac{0.6^{5}}{1200}}:\sqrt{\frac{0.5^{5}}{1500}}:\sqrt{\frac{0.8^{5}}{800}}\] \[\qquad = 1:0.567:2.514\]  
+
+text[[139, 781, 619, 799]]
+又 \(q_{v} = 2 \mathrm{~m}^{3} / \mathrm{s}\) ,因此可以分别求出各支管的流量和流速,即  
+
+equation[[395, 812, 660, 898]]
+\[q_{v1} = 0.49 \mathrm{~m}^{3} / \mathrm{s}, u_{1} = 1.73 \mathrm{~m} / \mathrm{s}\] \[q_{v2} = 0.28 \mathrm{~m}^{3} / \mathrm{s}, u_{2} = 1.42 \mathrm{~m} / \mathrm{s}\] \[q_{v3} = 1.23 \mathrm{~m}^{3} / \mathrm{s}, u_{3} = 2.45 \mathrm{~m} / \mathrm{s}\]

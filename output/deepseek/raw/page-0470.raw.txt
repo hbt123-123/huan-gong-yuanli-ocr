@@ -1,0 +1,56 @@
+table[[30, 83, 900, 214]]
+table_caption[[230, 63, 700, 81]]
+表14.2.2几种微生物干燥细胞的元素组成（ \(\mathbf{CH}_{3}\mathbf{O}_{3}\mathbf{N}_{2}\)   
+
+<table>微生物xyz产肮球拟酵母菌(Torulopsis ultitis)1.620.480.16肺炎克雷伯氏菌(Klebsiella pneumoniae)1.620.420.24白菜假丝酵母菌(Candida brassicae)1.780.510.15一般微生物1.65～1.740.52～0.530.17～0.20</table>  
+
+text[[31, 236, 901, 346]]
+在污水生物处理中,通常用Goover等人提出的 \(\mathrm{C}_{5}\mathrm{H}_{7}\mathrm{O}_{2}\mathrm{N}\) 来表示活性污泥微生物的平均元素组成,如果考虑磷,则可表示为 \(\mathrm{C}_{60}\mathrm{H}_{87}\mathrm{O}_{23}\mathrm{N}_{12}\mathrm{P}\) 。另外,Helmer等人根据多种工业废水处理系统中活性污泥的分析,得出活性污泥元素组成的实验式为 \(\mathrm{C}_{118}\mathrm{H}_{170}\mathrm{O}_{51}\mathrm{N}_{17}\mathrm{P}\) ,若省略磷的含量,可得 \(\mathrm{C}_{7}\mathrm{H}_{10}\mathrm{O}_{3}\mathrm{N}\) 。另外,由表14.2.1得出的大肠杆菌的元素组成近似为 \(\mathrm{C}_{4,2}\mathrm{H}_{8}\mathrm{O}_{1,3}\mathrm{N}\) ,该组成与上面的数据有较大的差别。  
+
+sub_title[[77, 349, 379, 367]]
+## （三）微生物反应的综合计量式  
+
+text[[31, 370, 900, 411]]
+把参与微生物反应的碳源、氮源及其他营养物质统一表示为基质S、微生物细胞表表示为X,反应产物表示为P,则微生物反应的综合方程可写为  
+
+equation[[373, 420, 898, 440]]
+\[\mathrm{S} \longrightarrow Y_{\mathrm{X}}\mathrm{X} + Y_{\mathrm{P}}\mathrm{P} \quad (14.2.1)\]  
+
+text[[31, 450, 720, 470]]
+式中: \(Y_{\mathrm{X}}\) ——生长系数(growth yield)或细胞产率系数(cell yield), \(\mathrm{kg / kg}\) ;  
+
+text[[80, 473, 508, 492]]
+\(Y_{\mathrm{P}}\) ——产物产率系数(product yield), \(\mathrm{kg / kg}\) 。  
+
+text[[31, 494, 901, 536]]
+对于好氧微生物反应,设碳源为 \(\mathrm{CH}_{m}\mathrm{O}_{n}\) ,氮源为 \(\mathrm{NH}_{3}\) ,反应产物是细胞( \(\mathrm{CH}_{x}\mathrm{O}_{y}\mathrm{N}_{z}\) )、代谢产物为( \(\mathrm{CH}_{x}\mathrm{O}_{z}\mathrm{N}_{w}\) )、 \(\mathrm{CO}_{2}\) 和 \(\mathrm{H}_{2}\mathrm{O}\) ,则反应计量方程可表示为  
+
+equation[[52, 543, 820, 565]]
+\[\mathrm{CH}_{m}\mathrm{O}_{n} + a\mathrm{NH}_{3} + b\mathrm{O}_{2} \longrightarrow Y_{\mathrm{X/C}}\mathrm{CH}_{x}\mathrm{O}_{y}\mathrm{N}_{z} + Y_{\mathrm{P/C}}\mathrm{CH}_{x}\mathrm{O}_{w}\mathrm{N}_{w} + (1 - Y_{\mathrm{X/C}} - Y_{\mathrm{P/C}})\mathrm{CO}_{2} + c\mathrm{H}_{2}\mathrm{O}\]  
+
+text[[806, 571, 898, 587]]
+(14.2.2)  
+
+text[[31, 598, 819, 618]]
+式中: \(Y_{\mathrm{X/C}}\) 和 \(Y_{\mathrm{P/C}}\) ——以碳元素为基准的细胞产率系数和产物产率系数, \(\mathrm{kg / kg(C)}\) 。  
+
+text[[72, 620, 581, 639]]
+根据 \(\mathrm{H}_{2}\mathrm{O}\) 和N的质量守恒关系,可得以下三个方程:  
+
+equation[[390, 650, 898, 670]]
+\[a = z Y_{\mathrm{X/C}} + w Y_{\mathrm{P/C}} \quad (14.2.3)\]  
+
+equation[[337, 674, 896, 713]]
+\[b = \left(1 - Y_{\mathrm{X/C}} - Y_{\mathrm{P/C}} + \frac{m}{4} -\frac{n}{2}\right) +\]  
+
+equation[[366, 715, 898, 751]]
+\[\frac{Y_{\mathrm{P/C}}}{4} (-u + 2v + 3w) + \frac{Y_{\mathrm{X/C}}}{4} (-x + 2y + 3z) \quad (14.2.4)\]  
+
+equation[[301, 756, 898, 798]]
+\[c = \frac{m}{2} +\frac{Y_{\mathrm{P/C}}}{2} (-u + 3w) + \frac{Y_{\mathrm{X/C}}}{2} (-x + 3z) \quad (14.2.5)\]  
+
+text[[33, 809, 901, 851]]
+化学计量数 \(a,b\) 对于计算代谢产物生成量和需氧量有重要的意义。由于一般情况下水大量过剩,化学计量数 \(c\) 的重要性不大。  
+
+text[[32, 853, 902, 917]]
+值得注意的是,在微生物反应系统中,营养物质的种类很多,在计算中不可能一一考虑,往往考虑某个或某些关键组分(限制性物质)。在计量学中通常把细胞生长过程中首先完全消耗掉的基质称为计量学限制性基质。同样,根据对细胞生长速率的影

@@ -1,0 +1,84 @@
+image[[240, 97, 760, 337]]
+image_caption[[275, 347, 728, 365]]
+<center>图1.10 “环境工程原理”分析问题的思路和基本方法</center>  
+
+text[[67, 387, 938, 452]]
+上看是一个“简单现象”,但它却包含了诸多复杂的环节。从这种意义上讲,微观过程解析可以形象地形容为“简单现象的复杂化”,同时它也是对物理量变化速率进行数学表达的必要环节。  
+
+text[[68, 453, 939, 562]]
+变化速率的数学表达的目的是实现宏观过程的定量计算,它是工程设计计算的基础。客观分析和掌握各个微观过程往往是建立数学表达的前提,但通常需要对微观过程进行科学、合理的简化,才能得到具体的数学表达式,同时大幅度简化计算过程,提高设计计算效率。从这个意义上讲,数学表达的过程可以形象地形容为“复杂过程的简单化”。但这种简单化是基于微观过程分析的科学、合理、有目的的简单化。  
+
+sub_title[[68, 586, 384, 617]]
+## 一木语中英文对照  
+
+text[[75, 639, 315, 655]]
+·清洁生产 cleaner production  
+
+text[[76, 662, 303, 677]]
+·循环经济 circular economy  
+
+text[[77, 684, 351, 700]]
+·环境规划 environmental planning  
+
+text[[78, 706, 363, 722]]
+·环境监测 environmental monitoring  
+
+text[[79, 728, 470, 744]]
+·环境质量评价 environmental quality assessment  
+
+text[[80, 750, 373, 765]]
+·环境修复 environmental remediation  
+
+text[[78, 772, 364, 787]]
+·水污染控制 water pollution control  
+
+text[[79, 793, 363, 809]]
+·大气污染控制 air pollution control  
+
+text[[80, 815, 368, 831]]
+·土壤污染控制 soil pollution control  
+
+text[[78, 837, 474, 853]]
+·固体废物资源化 resource recovery of solid waste  
+
+text[[79, 859, 278, 874]]
+·再生水 reclaimed water  
+
+text[[80, 881, 341, 897]]
+·点源污染 point source pollution  
+
+text[[78, 903, 496, 919]]
+·面源污染 diffused pollution/non- point source pollution  
+
+text[[522, 639, 814, 655]]
+·移动源污染 mobile source pollution  
+
+text[[523, 661, 780, 677]]
+·无机污染物 inorganic pollutants  
+
+text[[524, 683, 778, 699]]
+·有机污染物 organic pollutants  
+
+text[[525, 705, 905, 721]]
+·病原微生物 pathogenic microorganisms/pathogen  
+
+text[[526, 727, 925, 743]]
+·挥发性有机物 volatile organic compounds(VOCs)  
+
+text[[527, 749, 703, 764]]
+·重金属 heavy metals  
+
+text[[525, 770, 932, 786]]
+·持久性污染物 persistent organic pollutants(POPs)  
+
+text[[526, 792, 934, 808]]
+·内分泌干扰物 endocrine disrupting chemicals(EDCs)  
+
+text[[527, 814, 940, 849]]
+·药品和个人护理用品 pharmaceuticals and personal care products(PPCPs)  
+
+text[[525, 855, 897, 871]]
+·新污染物/新兴污染物 emerging contaminants  
+
+text[[526, 877, 853, 893]]
+·最佳管理措施 best management practice

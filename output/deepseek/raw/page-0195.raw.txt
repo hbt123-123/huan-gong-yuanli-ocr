@@ -1,0 +1,57 @@
+equation[[424, 81, 944, 127]]
+\[\frac{p - p_{\mathrm{A}}}{p - p_{\mathrm{A},i}} = \left(\frac{p - p_{\mathrm{A},0}}{p - p_{\mathrm{A},i}}\right)^{\frac{z}{L}} \quad (5.3.15a)\]  
+
+text[[77, 136, 148, 154]]
+或写成  
+
+equation[[449, 163, 944, 208]]
+\[\frac{p_{\mathrm{B}}}{p_{\mathrm{B},i}} = \left(\frac{p_{\mathrm{B},0}}{p_{\mathrm{B},i}}\right)^{\frac{z}{L}} \quad (5.3.15b)\]  
+
+text[[120, 216, 832, 236]]
+组分A通过停滞组分B扩散时,浓度分布曲线为对数型,如图5.3.1所示。  
+
+text[[78, 238, 948, 280]]
+以上讨论的单向扩散为气体中的分子扩散。对于双组分气体混合物,组分的扩散系数在低压下与浓度无关。在稳态扩散时,气体的扩散系数 \(D_{\mathrm{AB}}\) 及总浓度 \(c\) 或总压 \(p\) 均为常数。  
+
+text[[78, 280, 948, 346]]
+但对于液体中的分子扩散,组分A的扩散系数随浓度而变,且总浓度在整个液相中也并非到处保持一致。目前,液体中的扩散理论还不成熟,可仍采用式(5.3.6)求解,但在使用时,扩散系数需要采用平均扩散系数,总浓度采用平均总浓度。  
+
+text[[83, 357, 940, 377]]
+【例题5.3.1】用温克尔曼(Winkelman)方法测定气体在空气中的扩散系数,测定装置如图5.3.2  
+
+text[[85, 379, 610, 475]]
+所示。在 \(1.013\times 10^{5}\mathrm{Pa}\) 下,将此装置放在 \(328\mathrm{K}\) 的恒温箱内,立管中盛水,最初水面离上端管口的距离为 \(0.125\mathrm{m}\) ,迅速向上部横管中通入干燥的空气,使水蒸气在管口的分压接近于零。实验测得经 \(1.044\times 10^{6}\mathrm{s}\) 后,管中的水面离上端管口距离为 \(0.15\mathrm{m}\) 。求水蒸气在空气中的扩散系数。  
+
+text[[85, 478, 610, 537]]
+解:立管中水面下降是由于水蒸发并依靠分子扩散通过立管上部传递到流动的空气中。该扩散过程可视为单向扩散。当水面与上端管口距离为 \(z\) 时,水蒸气扩散的传质通量为  
+
+image[[622, 385, 920, 508]]
+image_caption[[660, 514, 886, 532]]
+<center>图5.3.2 例题5.3.1附图</center>  
+
+equation[[417, 546, 608, 586]]
+\[N_{\mathrm{A}} = \frac{D_{\mathrm{AB}}p}{RTz p_{\mathrm{B},m}}\left(p_{\mathrm{A},i} - p_{\mathrm{A},o}\right)\]  
+
+text[[125, 595, 677, 614]]
+水在空气中分子扩散的传质通量可用管中水面的下降速率表示,即  
+
+equation[[475, 623, 556, 660]]
+\[N_{\mathrm{A}} = \frac{c_{\mathrm{A}}\mathrm{d}z}{\mathrm{d}t}\]  
+
+text[[88, 672, 158, 689]]
+所以,有  
+
+equation[[410, 700, 615, 736]]
+\[\frac{c_{\mathrm{A}}\mathrm{d}z}{\mathrm{d}t} = \frac{D_{\mathrm{AB}}p}{RTz p_{\mathrm{B},m}}\left(p_{\mathrm{A},i} - p_{\mathrm{A},o}\right)\]  
+
+text[[88, 756, 926, 794]]
+即 \(z\mathrm{d}z = \frac{D_{\mathrm{AB}}p}{c_{\mathrm{A}}RTp_{\mathrm{B},m}}\left(p_{\mathrm{A},i} - p_{\mathrm{A},o}\right)\mathrm{d}t\) (1)  
+
+text[[88, 803, 652, 822]]
+其中 \(p_{\mathrm{A},i} = 15.73\mathrm{kPa}(328\mathrm{K}\) 下水的饱和蒸气压)  
+
+equation[[296, 833, 926, 880]]
+\[p_{\mathrm{A},o} = 0 \quad (1)\]  
+
+equation[[295, 861, 743, 915]]
+\[p_{\mathrm{B},m} = \frac{p_{\mathrm{B},o} - p_{\mathrm{B},i}}{\ln\frac{p_{\mathrm{B},o}}{p_{\mathrm{B},i}}} = \frac{101.3 - (101.3 - 15.73)}{\ln\frac{101.3}{101.3 - 15.73}}\mathrm{kPa} = 93.2\mathrm{kPa}\]

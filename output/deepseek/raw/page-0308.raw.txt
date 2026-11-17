@@ -1,0 +1,59 @@
+sub_title[[82, 67, 502, 93]]
+## 二、吸附剂颗粒内表面扩散速率  
+
+text[[38, 103, 907, 149]]
+考虑吸附剂内的微孔扩散。在半径为 \(r_{0}(\mathrm{m})\) 的颗粒中以有效扩散系数 \(D_{\mathrm{e}}(\mathrm{m}^{2} / \mathrm{s})\) 扩散时,从颗粒中心到 \(r\) 距离的吸附量为 \(q\) ,设该处流体中吸附质浓度为 \(\rho\) ,则下列关系成立  
+
+equation[[361, 155, 904, 199]]
+\[\rho_{\mathrm{p}}\frac{\partial q}{\partial\theta} = D_{\mathrm{e}}\left(\frac{\partial^{2}\rho}{\partial r^{2}} +\frac{2}{r}\frac{\partial\rho}{\partial r}\right) \quad (9.4.2)\]  
+
+text[[38, 208, 573, 228]]
+这里可以认为 \(q\) 和 \(\rho\) 处于平衡关系,用直线方程近似,得  
+
+equation[[442, 239, 904, 258]]
+\[q = m\rho \quad (9.4.3)\]  
+
+text[[38, 266, 531, 286]]
+式中: \(m\) ——吸附平衡常数, \(\mathrm{m}^{3}\) (溶剂) \(\mathrm{kg}\) (吸附剂)。  
+
+text[[37, 287, 907, 351]]
+将式(9.4.3)代入式(9.4.2),并设定: \(\theta = 0\) 时, \(q = 0;r = 0\) 时, \(\partial \rho /\partial r = 0;r = r_{0}\) 时, \(D_{\mathrm{e}}\partial \rho /\partial r = k(\rho - \rho_{\mathrm{i}})\) 。求解 \(q\) ,进一步求颗粒的积分平均吸附量 \(q_{\mathrm{m}}\) 。设对应于浓度 \(\rho\) 的平衡吸附量为 \(q_{\mathrm{e}}\) ,则可得  
+
+equation[[305, 361, 904, 413]]
+\[\frac{q_{\mathrm{e}} - q_{\mathrm{m}}}{q_{\mathrm{e}}} = \frac{6\sum_{n = 1}^{\infty}\mathrm{e}^{-\beta_{n}\phi /(m\rho_{\mathrm{p}})}}{B_{\mathrm{n}}^{2}[(\beta_{\mathrm{n}} / f)^{2} + (1 - 1 / f)]} \quad (9.4.4)\]  
+
+equation[[306, 433, 634, 474]]
+\[f = \frac{\rho_{\mathrm{p}}k r_{0}m}{D_{\mathrm{e}}} = \frac{\rho_{\mathrm{p}}m r_{0} / D_{\mathrm{e}}}{1 / k} = \frac{\text{内表面阻力}}{\text{外表面阻力}}\]  
+
+equation[[437, 485, 511, 528]]
+\[\phi = \frac{D_{\mathrm{e}}\theta}{r_{0}^{2}}\]  
+
+text[[37, 537, 367, 557]]
+\(\beta_{\mathrm{n}}\) 是 \(\beta_{\mathrm{n}}\cot \beta_{\mathrm{n}} = 1 - f\) 的第 \(n\) 个正根。  
+
+sub_title[[82, 568, 470, 592]]
+## 三、吸附扩散速率的计算方法  
+
+sub_title[[85, 603, 476, 622]]
+### (一)内表面扩散阻力控制时的吸附过程  
+
+text[[84, 625, 407, 643]]
+当 \(f \gg 1\) 时,式(9.4.4)可以整理为  
+
+equation[[323, 652, 904, 697]]
+\[\frac{q_{\mathrm{e}} - q_{\mathrm{m}}}{q_{\mathrm{e}}} = \frac{6}{\pi^{2}}\sum_{n = 1}^{\infty}\frac{1}{n^{2}}\mathrm{exp}\left(-\frac{n^{2}\pi^{2}\phi}{m\rho_{\mathrm{p}}}\right) \quad (9.4.5)\]  
+
+text[[38, 705, 907, 747]]
+当 \(\theta\) 较大时,式(9.4.5)可以迅速收敛,但该级数高次项的总和值很小,当吸附率大于 \(70\%\) 时,取第一项已足够,相对误差小于 \(2\%\) ,即  
+
+equation[[358, 754, 905, 800]]
+\[\frac{q_{\mathrm{e}} - q_{\mathrm{m}}}{q_{\mathrm{e}}} = \frac{6}{\pi^{2}}\mathrm{exp}\left(-\frac{\pi^{2}D_{\mathrm{e}}r_{0}^{2}}{r_{0}^{2}m\rho_{\mathrm{p}}}\right) \quad (9.4.6)\]  
+
+text[[38, 809, 543, 829]]
+对上式微分,可以得到吸附剂颗粒的吸附速率方程为  
+
+equation[[376, 835, 905, 883]]
+\[\frac{\mathrm{d}q_{\mathrm{m}}}{\mathrm{d}\theta} \approx \frac{\pi^{2}D_{\mathrm{e}}}{\rho_{\mathrm{p}}m r_{0}^{2}} (q_{\mathrm{e}} - q_{\mathrm{m}}) \quad (9.4.7)\]  
+
+text[[38, 892, 562, 912]]
+设与 \(q_{\mathrm{m}}\) 平衡的流体中的吸附质浓度为 \(\rho^{*}\) ,可以表示为

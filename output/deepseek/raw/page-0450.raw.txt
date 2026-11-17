@@ -1,0 +1,65 @@
+text[[71, 62, 670, 83]]
+单位体积气- 液混合物中气相所占的体积定义为气含率 \((\epsilon)\) ,即  
+
+equation[[431, 92, 893, 131]]
+\[\epsilon = \frac{V_{\mathrm{G}}}{V} \quad (13.2.5)\]  
+
+text[[70, 145, 448, 165]]
+根据以上定义, \(a\) 、 \(a_{\mathrm{L}}\) 和 \(\epsilon\) 之间的关系为  
+
+equation[[414, 174, 893, 195]]
+\[a_{\mathrm{L}}V_{\mathrm{L}} = a V \quad (13.2.6)\]  
+
+equation[[371, 199, 894, 236]]
+\[a = \frac{a_{\mathrm{L}}V_{\mathrm{L}}}{V} = (1 - \epsilon)a_{\mathrm{L}} \quad (13.2.7)\]  
+
+text[[70, 250, 463, 269]]
+所以,不同基准的反应速率之间的关系为  
+
+equation[[160, 278, 893, 346]]
+\[\begin{array}{r l} & {(-r_{\mathrm{A}})V = (-r_{A V_{\mathrm{L}}})V_{\mathrm{L}} = (-r_{A S})S}\\ & {\qquad -r_{\mathrm{A}} = a(-r_{A S})}\\ & {\qquad -r_{A V_{\mathrm{L}}} = a_{\mathrm{L}}(-r_{A S})} \end{array} \quad (13.2.8)\]  
+
+sub_title[[70, 363, 386, 387]]
+## 三、气-液相反应动力学  
+
+text[[29, 397, 898, 485]]
+气- 液相反应过程是包括传质和反应的多个步骤的综合过程,其宏观反应速率取决于多个步骤中最慢的一步。若反应速率远小于传质速率,则宏观反应速率取决于本征反应速率,称为反应控制。相反,若反应速率远大于传质速率,则宏观反应速率取决于传质速率,称为传质控制。对于两者速率相差不大的情况,则应综合考虑两个步骤的影响。  
+
+sub_title[[73, 488, 366, 505]]
+### (一)气-液相反应的基本方程  
+
+text[[70, 508, 801, 529]]
+对于二级不可逆气- 液相反应 \(\mathrm{A}(\mathrm{g}) + \alpha_{\mathrm{B}}\mathrm{B}(1)\longrightarrow \mathrm{P}\) ,其本征反应速率方程为  
+
+equation[[412, 542, 513, 560]]
+\[-r_{\mathrm{A}} = k c_{\mathrm{A}}c_{\mathrm{B}}\]  
+
+text[[29, 564, 570, 584]]
+式中: \(c_{\mathrm{A}}, c_{\mathrm{B}}\) ——A,B在液相中的物质的量浓度, \(\mathrm{kmol} / \mathrm{m}^{3}\) 。  
+
+text[[30, 587, 898, 630]]
+反应物A在图13.2.1所示的液膜微单元内的物料衡算为(A在液相中的扩散系数表示为 \(D_{\mathrm{LA}}\) )  
+
+text[[73, 635, 445, 670]]
+单位时间内A的扩散进入量:- DLA \(\frac{\mathrm{d}c_{\mathrm{A}}}{\mathrm{d}z}\)  
+
+text[[72, 680, 427, 716]]
+A的扩散出去量:- \(D_{\mathrm{LA}}\frac{\mathrm{d}}{\mathrm{d}z}\bigg(c_{\mathrm{A}} + \frac{\mathrm{d}c_{\mathrm{A}}}{\mathrm{d}z}\mathrm{d}z\bigg)\)  
+
+text[[73, 723, 241, 741]]
+反应量: \((- r_{\mathrm{A}})\mathrm{d}z\)  
+
+text[[72, 745, 380, 763]]
+积累量:反应达到定常态时为0。  
+
+text[[71, 766, 421, 785]]
+根据物料衡算的一般方程,整理可得  
+
+equation[[234, 795, 895, 832]]
+\[-D_{\mathrm{LA}}\frac{\mathrm{d}c_{\mathrm{A}}}{\mathrm{d}z} = (-r_{\mathrm{A}})\mathrm{d}z - D_{\mathrm{LA}}\frac{\mathrm{d}}{\mathrm{d}z}\bigg(c_{\mathrm{A}} + \frac{\mathrm{d}c_{\mathrm{A}}}{\mathrm{d}z}\mathrm{d}z\bigg) \quad (13.2.11)\]  
+
+equation[[398, 839, 895, 881]]
+\[D_{\mathrm{LA}}\frac{\mathrm{d}^{2}c_{\mathrm{A}}}{\mathrm{d}z^{2}} = -r_{\mathrm{A}} \quad (13.2.12)\]  
+
+text[[29, 894, 554, 915]]
+式中: \(- r_{\mathrm{A}}\) ——以体积为基准的反应速率, \(\mathrm{kmol} / (\mathrm{m}^{3}\cdot \mathrm{s})\) ;

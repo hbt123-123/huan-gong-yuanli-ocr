@@ -1,0 +1,110 @@
+text[[32, 71, 550, 90]]
+联立以上两个方程,求得 \(Y_{2} = 2.23 \times 10^{- 4}\) ,所以,氨气的吸收率为  
+
+equation[[271, 100, 642, 138]]
+\[\phi = \frac{Y_{1} - Y_{2}}{Y_{1}} = \frac{0.015 - 2.23 \times 10^{-4}}{0.015} = 0.985 = 98.5\%\]  
+
+text[[70, 146, 619, 164]]
+以上计算需求解非线性方程,比较复杂,下面采用吸收因子法计算。  
+
+text[[72, 167, 170, 182]]
+吸收因子为  
+
+equation[[342, 194, 575, 229]]
+\[S = \frac{q_{\mathrm{el}}}{m q_{\mathrm{nG}}} = \frac{0.023}{0.8 \times 0.024} = 1.198\]  
+
+text[[33, 233, 199, 250]]
+因此,传质单元数为  
+
+equation[[302, 254, 604, 305]]
+\[N_{\mathrm{OG}} = \frac{1}{1 - \frac{1}{S}}\ln \left[\left(1 - \frac{1}{S}\right)\frac{Y_{1} - m X_{2}}{Y_{2} - m X_{2}} +\frac{1}{S}\right]\]  
+
+equation[[274, 310, 640, 347]]
+\[\frac{1}{1 - 0.835}\ln \left[(1 - 0.835)\times \frac{0.015}{Y_{2}} +0.835\right] = 15\]  
+
+text[[33, 354, 368, 372]]
+求得 \(Y_{2} = 2.24 \times 10^{- 4}\) ,所以,氨气吸收率为  
+
+equation[[271, 382, 642, 419]]
+\[\phi = \frac{Y_{1} - Y_{2}}{Y_{1}} = \frac{0.015 - 2.24 \times 10^{-4}}{0.015} = 0.985 = 98.5\%\]  
+
+text[[70, 427, 725, 446]]
+以上计算涉及吸收塔的设计型和操作型计算,以及平均推动力法和吸收因子法。  
+
+sub_title[[90, 477, 338, 503]]
+## 一木语中英文对照  
+
+text[[33, 525, 310, 541]]
+·相间传质 interphase mass transfer  
+
+text[[32, 547, 183, 561]]
+·吸收剂 absorbent  
+
+text[[30, 568, 134, 581]]
+·溶质 solute  
+
+text[[31, 588, 256, 601]]
+·惰性组分 inert constituents  
+
+text[[32, 608, 369, 622]]
+·湿式烟气脱硫 wet flue gas desulfurization  
+
+text[[30, 628, 286, 641]]
+·等温吸收 isothermal absorption  
+
+text[[31, 647, 220, 661]]
+·亨利定律 Henry's law  
+
+text[[32, 667, 298, 681]]
+·气液平衡 gas- liquid equilibrium  
+
+text[[30, 687, 300, 701]]
+·饱和浓度 saturated concentration  
+
+text[[31, 707, 263, 721]]
+·溶解度曲线 solubility curve  
+
+text[[474, 525, 686, 540]]
+·相平衡 phase equilibrium  
+
+text[[475, 546, 685, 560]]
+·双膜理论 two- film theory  
+
+text[[476, 566, 670, 580]]
+·相界面 phase interface  
+
+text[[474, 586, 711, 600]]
+·主体浓度 bulk concentration  
+
+text[[475, 606, 671, 620]]
+·扩散速率 diffusion rate  
+
+text[[476, 626, 666, 639]]
+·反应速率 reaction rate  
+
+text[[474, 645, 675, 659]]
+·化学吸收 chemisorption  
+
+text[[475, 665, 772, 679]]
+·逆/并流 countercurrent/parallel flow  
+
+text[[476, 685, 774, 700]]
+·填料塔 packed tower,packed column  
+
+sub_title[[108, 746, 305, 770]]
+## 思考题与习题  
+
+sub_title[[62, 794, 172, 809]]
+### 8.1 思考题  
+
+text[[65, 815, 440, 831]]
+(1)利用吸收法净化气态污染物有哪些特点?  
+
+text[[26, 835, 895, 873]]
+(2)相际传质过程的推动力有几种表示方法?推动力受哪些因素影响?若要增加推动力可以采取哪些措施?  
+
+text[[65, 878, 518, 894]]
+(3)描述吸收过程时为什么一般采用总传质速率方程?  
+
+text[[64, 900, 765, 917]]
+(4)化学吸收与物理吸收的主要区别是什么?如何解释化学吸收中传质速率的增加?

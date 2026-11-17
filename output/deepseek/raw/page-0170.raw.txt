@@ -1,0 +1,68 @@
+equation[[330, 61, 607, 107]]
+\[\epsilon = \frac{q_{m c} c_{p c}\left(T_{\mathrm{c2}} - T_{\mathrm{c1}}\right)}{q_{m c} c_{p c}\left(T_{\mathrm{h1}} - T_{\mathrm{c1}}\right)} = \frac{T_{\mathrm{c2}} - T_{\mathrm{c1}}}{T_{\mathrm{h1}} - T_{\mathrm{c1}}}\]  
+
+text[[78, 114, 771, 135]]
+若已知传热效率,则可根据两流体的进口温度确定换热器的传热速率,即  
+
+equation[[322, 142, 900, 165]]
+\[Q = \epsilon Q_{\mathrm{max}} = \epsilon (q_{m}c_{p})_{\min}(T_{\mathrm{h1}} - T_{\mathrm{c1}}) \quad (4.4.18)\]  
+
+text[[36, 172, 902, 215]]
+求得 \(Q\) ,即可根据热量衡算方程计算两流体的出口温度。为了确定换热器的传热效率,引入传热单元数的概念。  
+
+sub_title[[78, 218, 222, 235]]
+## 2. 传热单元数  
+
+text[[79, 239, 492, 259]]
+由换热器的热量衡算及总传热速率方程,得  
+
+equation[[251, 271, 686, 295]]
+\[Q = -q_{m h}c_{p h}\left(T_{\mathrm{h}_{2}} - T_{\mathrm{h}1}\right) = q_{m c}c_{p c}\left(T_{\mathrm{c}1} - T_{\mathrm{c}2}\right) = K A\Delta T_{\mathrm{m}}\]  
+
+text[[79, 305, 227, 323]]
+对于冷流体,有  
+
+equation[[394, 336, 901, 380]]
+\[\frac{T_{\mathrm{c2}} - T_{\mathrm{c1}}}{\Delta T_{\mathrm{m}}} = \frac{K A}{q_{m c}c_{p c}} \quad (4.4.19)\]  
+
+text[[35, 391, 599, 411]]
+式中: \(\Delta T_{\mathrm{m}}\) ——平均温差,即换热器两端温差的对数平均值。  
+
+text[[80, 432, 105, 449]]
+令  
+
+equation[[359, 423, 901, 466]]
+\[\mathrm{NTU}_{\mathrm{c}} = \frac{T_{\mathrm{c2}} - T_{\mathrm{c1}}}{\Delta T_{\mathrm{m}}} = \frac{K A}{q_{m c}c_{p c}} \quad (4.4.20)\]  
+
+text[[36, 479, 392, 498]]
+\(\mathrm{NTU}_{\mathrm{c}}\) 称为以冷流体计的传热单元数。  
+
+text[[80, 511, 305, 529]]
+同理,对于热流体,可得  
+
+equation[[358, 543, 901, 586]]
+\[\mathrm{NTU}_{\mathrm{h}} = \frac{T_{\mathrm{h1}} - T_{\mathrm{h2}}}{\Delta T_{\mathrm{m}}} = \frac{K A}{q_{m h}c_{p h}} \quad (4.4.21)\]  
+
+text[[36, 596, 392, 615]]
+\(\mathrm{NTU}_{\mathrm{h}}\) 称为以热流体计的传热单元数。  
+
+text[[37, 618, 905, 682]]
+传热单元数是温度的无量纲函数,在数值上等于单位传热推动力引起流体温度变化的大小,表明换热器传热能力的强弱。传热推动力越大,所要求的温度变化越小,则所需要的传热单元数越少。  
+
+text[[37, 684, 905, 727]]
+使用传热单元数方法进行传热计算时,应以热容流量小的流体为基准。因此,可以将式(4.4.20)或式(4.4.21)写成  
+
+equation[[392, 740, 901, 781]]
+\[\mathrm{NTU} = \frac{K A}{(q_{m}c_{p})_{\min}} \quad (4.4.22)\]  
+
+text[[79, 790, 771, 811]]
+若换热器中换热管的直径为 \(d\) ,长度为 \(L\) ,管数为 \(n\) ,则式(4.4.22)可写为  
+
+equation[[392, 823, 549, 862]]
+\[\mathrm{NTU} = \frac{K(n\pi d L)}{(q_{m}c_{p})_{\min}}\]  
+
+text[[37, 886, 64, 904]]
+或  
+
+equation[[313, 876, 902, 915]]
+\[L = \frac{(q_{m}c_{p})_{\min}}{n\pi d K} (\mathrm{NTU}) = H_{\min}(\mathrm{NTU}) \quad (4.4.23)\]

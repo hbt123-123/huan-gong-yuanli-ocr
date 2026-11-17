@@ -1,0 +1,59 @@
+text[[80, 82, 394, 101]]
+式中: \(k^{\prime} = k c_{\mathrm{B}}^{b} \approx k c_{\mathrm{B0}}^{b}\) , 可视为常数。  
+
+text[[81, 104, 360, 122]]
+根据式(16.2.8)可以确定 \(a\) 。  
+
+text[[80, 126, 950, 167]]
+让反应在A大量过剩的情况下进行,在反应过程中A的浓度变化微小,可以忽略不计,则反应速率方程可改写为  
+
+equation[[471, 175, 948, 199]]
+\[-r_{\mathrm{A}} = k^{\prime \prime}c_{\mathrm{B}}^{b} \quad (16.2.9)\]  
+
+text[[80, 207, 394, 226]]
+式中: \(k^{\prime \prime} = k c_{\mathrm{A}}^{a} \approx k c_{\mathrm{A0}}^{a}\) , 可视为常数。  
+
+text[[81, 229, 358, 247]]
+根据式(16.2.9)可以确定 \(b\) 。  
+
+text[[80, 251, 950, 292]]
+当反应速率方程的形式较复杂时,可以采用回归的方法求出动力学参数。如对于反应速率方程 \(- r_{\mathrm{A}} = k c_{\mathrm{A}}^{a} c_{\mathrm{B}}^{b}\) ,两边取对数,得  
+
+equation[[379, 302, 947, 321]]
+\[\ln \left(-r_{\mathrm{A}}\right) = \ln k + a\ln c_{\mathrm{A}} + b\ln c_{\mathrm{B}} \quad (16.2.10)\]  
+
+text[[125, 332, 555, 352]]
+令 \(y = \ln \left(- r_{\mathrm{A}}\right), \alpha = \ln k, x_{1} = \ln c_{\mathrm{A}}, x_{2} = \ln c_{\mathrm{B}}\) , 则  
+
+equation[[450, 362, 947, 381]]
+\[y = \alpha + a x_{1} + b x_{2} \quad (16.2.11)\]  
+
+text[[125, 384, 948, 406]]
+令 \(\Delta = \sum \left(\alpha + a x_{1} + b x_{2} - y_{\mathrm{实测}}\right)^{2}\) (16.2.12)  
+
+text[[80, 414, 926, 435]]
+式中的 \(x_{1}, x_{2}, y_{\mathrm{实测}}\) 为实验获得的 \(\ln c_{\mathrm{A}}, \ln c_{\mathrm{B}}, \ln \left(- r_{\mathrm{A}}\right)\) 。 \(\alpha , a\) 和 \(b\) 的最佳值为使 \(\Delta\) 最小,即  
+
+equation[[392, 444, 947, 481]]
+\[\frac{\partial \Delta}{\partial \alpha} = 0, \quad \frac{\partial \Delta}{\partial a} = 0, \quad \frac{\partial \Delta}{\partial b} = 0 \quad (16.2.13)\]  
+
+text[[87, 503, 941, 541]]
+【例题16.2.1】污染物A在某间歇反应器中发生分解反应,于不同时间测得反应器中A的浓度如下表所示。试分别利用积分解析法和微分解析法求出A的反应速率方程式。  
+
+table[[88, 548, 943, 600]]
+
+<table>t/min07.51522.530ρA/(mg·L-1)50.832.019.712.37.6</table>  
+
+text[[88, 617, 941, 658]]
+解:(1)积分解析法:假设该反应为零级反应 \(- r_{\mathrm{A}} = k\) ,即 \(\mathrm{d}\rho_{\mathrm{A}} / \mathrm{d}t = - k, \rho_{\mathrm{A}} = - k t + \rho_{\mathrm{A0}}\) 。根据已知数据绘制 \(\rho_{\mathrm{A}} - t\) 曲线,如图16.2.5所示,发现没有线性关系,假设错误!  
+
+text[[88, 662, 941, 722]]
+假设该反应为一级反应 \(- r_{\mathrm{A}} = k \rho_{\mathrm{A}}\) ,即 \(\mathrm{d}\rho_{\mathrm{A}} / \mathrm{d}t = - k \rho_{\mathrm{A}}, \ln \rho_{\mathrm{A}} = - k t + \ln \rho_{\mathrm{A0}}\) 。根据已知数据绘制 \(\ln \rho_{\mathrm{A}} - t\) 曲线,如图16.2.6所示,发现有线性关系 \(\ln \rho_{\mathrm{A}} = 3.934 - 0.06341t\) ,假设正确!且 \(k = 0.06341\) ,即 \(- r_{\mathrm{A}} = 0.06341 \rho_{\mathrm{A}}\) 。  
+
+image[[163, 728, 470, 904]]
+image_caption[[187, 911, 447, 927]]
+<center>图16.2.5 例题16.2.1附图1</center>  
+
+image[[565, 730, 870, 903]]
+image_caption[[590, 910, 847, 926]]
+<center>图16.2.6 例题16.2.1附图2</center>

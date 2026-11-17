@@ -1,0 +1,77 @@
+text[[72, 59, 518, 79]]
+一价阳离子: \(\mathrm{Ti}^{+} > \mathrm{Ag}^{+} > \mathrm{Cs}^{+} > \mathrm{Rb}^{+} > \mathrm{NH}_{4}^{+} \approx \mathrm{Na}^{+} > \mathrm{Li}^{+}\)  
+
+text[[72, 83, 620, 103]]
+二价阳离子: \(\mathrm{Ba}^{2 + } > \mathrm{Pb}^{2 + } > \mathrm{Sr}^{2 + } > \mathrm{Co}^{2 + } > \mathrm{Ni}^{2 + } \approx \mathrm{Cu}^{2 + } > \mathrm{Zn}^{2 + } \approx \mathrm{Mg}^{2 + }\)  
+
+text[[72, 106, 575, 125]]
+一价阴离子: \(\mathrm{ClO}_{4}^{- } > \mathrm{I}^{- } > \mathrm{NO}_{3}^{- } > \mathrm{Br}^{- } > \mathrm{HSO}_{3}^{- } > \mathrm{Cl}^{- } > \mathrm{HCO}_{3}^{- } > \mathrm{F}^{- }\)  
+
+text[[29, 129, 898, 191]]
+\(\mathrm{H}^{+}\) 和 \(\mathrm{OH}^{- }\) 对树脂的亲和力的大小与树脂的性质有关。对于强酸型树脂, \(\mathrm{H}^{+}\) 与树脂的亲和力很弱,相当于 \(\mathrm{Li}^{+}\) 的位置。而对于弱酸型树脂, \(\mathrm{H}^{+}\) 与树脂的亲和力最强。同样, \(\mathrm{OH}^{- }\) 与碱性树脂的亲和力也类似。  
+
+text[[29, 194, 898, 258]]
+(2)离子的化合价:离子的化合价越高,其与树脂的亲和力越强,越易被树脂交换。因此,在高价离子和一价离子共存时,高价离子容易被离子交换树脂置换。如在水处理的软化工艺中,水中的钙、镁离子容易被离子交换树脂置换,从而达到去除水中硬度的目的。  
+
+sub_title[[72, 271, 369, 294]]
+## 二、离子交换基本原理  
+
+sub_title[[73, 308, 264, 325]]
+### (一)离子交换反应  
+
+sub_title[[74, 330, 193, 347]]
+## 1.可逆反应  
+
+text[[29, 350, 898, 392]]
+离子交换反应是可逆的,但是这种可逆反应并不是在均相溶液中进行的,而是在固态树脂和溶液接触的界面间发生的。  
+
+text[[72, 395, 782, 415]]
+例如,含有 \(\mathrm{Ca}^{2 + }\) 的硬水通过RNA型离子交换树脂时,会发生下列交换反应:  
+
+equation[[312, 424, 895, 444]]
+\[2\mathrm{RNa} + \mathrm{Ca}^{2 + }\longrightarrow \mathrm{R}_{2}\mathrm{Ca} + 2\mathrm{Na}^{+} \quad (10.1.1)\]  
+
+text[[30, 454, 898, 519]]
+上述反应过程不断消耗RNA型树脂,并使其转化为 \(\mathrm{R}_{2}\mathrm{Ca}\) 型树脂。当树脂饱和后,为恢复树脂的交换能力,可用一定浓度的食盐水通过已失效的树脂层,使树脂由 \(\mathrm{R}_{2}\mathrm{Ca}\) 型树脂恢复为具有交换能力的RNA型树脂,此过程称为再生,其再生反应为  
+
+equation[[312, 528, 895, 548]]
+\[\mathrm{R}_{2}\mathrm{Ca} + 2\mathrm{Na}^{+}\longrightarrow 2\mathrm{RNa} + \mathrm{Ca}^{2 + } \quad (10.1.2)\]  
+
+text[[74, 558, 533, 577]]
+上述两个反应实质上是可逆的,故反应式可写为  
+
+equation[[312, 587, 895, 620]]
+\[2\mathrm{RNa} + \mathrm{Ca}^{2 + }\xrightarrow{\mathrm{交换}}\mathrm{R}_{2}\mathrm{Ca} + 2\mathrm{Na}^{+} \quad (10.1.3)\]  
+
+sub_title[[74, 633, 305, 651]]
+## 2.强型树脂的交换反应  
+
+text[[73, 655, 679, 675]]
+强型树脂是指强酸性阳离子交换树脂和强碱性阴离子交换树脂。  
+
+text[[76, 678, 287, 697]]
+(1)中性盐分解反应:  
+
+equation[[293, 707, 895, 727]]
+\[\mathrm{RSO}_{3}\mathrm{H} + \mathrm{NaCl} \rightleftharpoons \mathrm{RSO}_{3}\mathrm{Na} + \mathrm{HCl} \quad (10.1.4)\]  
+
+equation[[295, 730, 895, 749]]
+\[\mathrm{R}_{4}\mathrm{NOH} + \mathrm{NaCl} \rightleftharpoons \mathrm{R}_{4}\mathrm{NCl} + \mathrm{NaOH} \quad (10.1.5)\]  
+
+text[[76, 760, 220, 778]]
+(2)中和反应:  
+
+equation[[287, 788, 895, 808]]
+\[\mathrm{RSO}_{3}\mathrm{H} + \mathrm{NaOH} \rightleftharpoons \mathrm{RSO}_{3}\mathrm{Na} + \mathrm{H}_{2}\mathrm{O} \quad (10.1.6)\]  
+
+equation[[305, 811, 895, 829]]
+\[\mathrm{R}_{4}\mathrm{NOH} + \mathrm{HCl} \rightleftharpoons \mathrm{R}_{4}\mathrm{NCl} + \mathrm{H}_{2}\mathrm{O} \quad (10.1.7)\]  
+
+text[[76, 840, 242, 858]]
+(3)复分解反应:  
+
+equation[[244, 869, 895, 889]]
+\[\mathrm{R}(\mathrm{SO}_{3}\mathrm{Na})_{2} + \mathrm{CaCl}_{2} \rightleftharpoons \mathrm{R}(\mathrm{SO}_{3})_{2}\mathrm{Ca} + 2\mathrm{NaCl} \quad (10.1.8)\]  
+
+equation[[264, 892, 895, 912]]
+\[2\mathrm{R}_{4}\mathrm{NCl} + \mathrm{Na}_{2}\mathrm{SO}_{4} \rightleftharpoons (\mathrm{R}_{4}\mathrm{N})_{2}\mathrm{SO}_{4} + 2\mathrm{NaCl} \quad (10.1.9)\]

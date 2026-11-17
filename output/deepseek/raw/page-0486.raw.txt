@@ -1,0 +1,59 @@
+equation[[121, 72, 477, 156]]
+\[\phi_{\mathrm{m}} = \delta \left(\frac{k X_{t}}{D_{\mathrm{s}t}}\right)^{1 / 2}\] \[\qquad = \delta \left(\frac{1.2\times10^{-2}\times2.0\times10^{4}}{1.06\times10^{-6}}\right)^{1 / 2} = 1.50\times 10^{4}\delta\]  
+
+text[[46, 161, 220, 178]]
+所以 \(\delta = 10 \mu \mathrm{m}\) 时,有  
+
+equation[[305, 185, 596, 203]]
+\[\phi_{\mathrm{m}} = 1.50\times 10^{4}\times 10\times 10^{-6} = 0.15\]  
+
+equation[[304, 208, 636, 228]]
+\[K_{s} = (D_{\mathrm{s}t}k X_{t})^{1 / 2}\cdot \tanh \phi_{\mathrm{m}} = 2.4\times 10^{-3} \mathrm{m / h}\]  
+
+text[[46, 237, 235, 254]]
+同理, \(\delta = 100 \mu \mathrm{m}\) 时,有  
+
+equation[[350, 263, 594, 281]]
+\[\phi_{\mathrm{m}} = 1.50\times 10^{4}\times 10\times 10^{-5} = 1.5\]  
+
+equation[[302, 285, 644, 305]]
+\[K_{s} = (D_{\mathrm{s}t}k X_{t})^{1 / 2}\cdot \tanh \phi_{\mathrm{m}} = 14.5\times 10^{-3} \mathrm{m / h}\]  
+
+sub_title[[80, 327, 644, 352]]
+## 三、微生物生长速率与基质消耗速率的关系  
+
+text[[81, 363, 320, 382]]
+将式(14.3.16)变形可得  
+
+equation[[358, 392, 903, 412]]
+\[r_{\mathrm{x}} = Y_{\mathrm{x} / \mathrm{S}}^{*}(-r_{\mathrm{s}}) - m_{\mathrm{X}}Y_{\mathrm{x} / \mathrm{S}}^{*}X \quad (14.3.59)\]  
+
+text[[39, 424, 64, 441]]
+即  
+
+equation[[353, 413, 903, 451]]
+\[\frac{\mathrm{d}X}{\mathrm{d}t} = Y_{\mathrm{x} / \mathrm{S}}^{*}\left(-\frac{\mathrm{d}S}{\mathrm{d}t}\right) - m_{\mathrm{X}}Y_{\mathrm{x} / \mathrm{S}}^{*}X \quad (14.3.60)\]  
+
+text[[80, 462, 771, 484]]
+对于同一个系统, \(Y_{\mathrm{x} / \mathrm{S}}^{*}\) 和 \(m_{\mathrm{X}}\) 均为常数,令 \(Y_{\mathrm{x} / \mathrm{S}}^{*}m_{\mathrm{X}} = b\) ,则式(14.3.59)变形为  
+
+equation[[390, 492, 903, 530]]
+\[\frac{\mathrm{d}X}{\mathrm{d}t} = -Y_{\mathrm{x} / \mathrm{S}}^{*}\frac{\mathrm{d}S}{\mathrm{d}t} -bX \quad (14.3.61)\]  
+
+text[[39, 541, 907, 604]]
+式(14.3.61)是在污水生物处理领域中常用的污泥增长速率方程,在污水生物处理中 \(Y_{\mathrm{x} / \mathrm{S}}^{*}\) 称为污泥真实转化率或污泥真实产率, \(b\) 称为活性污泥微生物的自身氧化率,也称衰减系数。污水的活性污泥法处理系统的 \(b\) 值为 \(0.003 \sim 0.008 \mathrm{~h}^{- 1}\) 。  
+
+sub_title[[81, 616, 408, 640]]
+## 四、代谢产物的生成速率  
+
+text[[38, 650, 907, 781]]
+微生物反应的产物种类繁多,生成途径和合成机制也各不相同,很难用一个统一的方程式表示代谢产物的生成速率,但从宏观上可以把代谢产物的生成途径概括为两大类:一类是与细胞生长有关的产物,称细胞生长偶联产物(growth associated products),该类产物主要是第一类产物,如乙醇、乙酸等;另一类是与细胞生长无关的产物,称非生长偶联产物(non- growth associated products)。前者的生成速率正比于细胞生长速率,而后者正比于细胞浓度,故代谢产物的生成速率可表示为这两种生成速率之和,即  
+
+equation[[416, 791, 903, 811]]
+\[r_{\mathrm{p}} = \alpha r_{\mathrm{x}} + \beta X \quad (14.3.62)\]  
+
+text[[38, 821, 442, 841]]
+式中: \(r_{\mathrm{p}}\) ——产物的生成速率, \(\mathrm{kg} / (\mathrm{m}^{3}\cdot \mathrm{h})\) ;  
+
+text[[73, 844, 211, 862]]
+\(\alpha , \beta\) ——常数。

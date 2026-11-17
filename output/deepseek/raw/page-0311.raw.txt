@@ -1,0 +1,60 @@
+text[[101, 78, 464, 98]]
+式中: \(S\) ——1 kg 吸附剂的表面积, \(\mathrm{m}^{2}\) ;  
+
+text[[142, 100, 887, 122]]
+\(K_{\mathrm{F}}\) ——总传质系数, \(\mathrm{m} / \mathrm{s}\) 。吸附剂颗粒总量较少时,与液膜传质系数几乎相等。  
+
+text[[146, 123, 607, 143]]
+式(9.5.4a)可以由图9.5.1通过图线积分计算。  
+
+text[[108, 154, 962, 239]]
+【例题9.5.1】向 \(1 \mathrm{~m}^{3}\) 的着色溶液中投入 \(3 \mathrm{~kg}\) 粒径 \(d_{\mathrm{p}} = 300 \mu \mathrm{m}\) 的活性炭进行吸附脱色。该体系的平衡关系如图9.5.2所示,溶液的初始浓度(色度)为 \(0.2 \mathrm{kg} / \mathrm{m}^{3}\) 。试求达到吸附平衡时溶液的浓度及达到平衡脱色度 \(95\%\) 所需的接触时间。吸附剂颗粒外部液膜的 \(Sh\) 数为2,溶液中色素物质的扩散系数为 \(10^{-5} \mathrm{~cm}^{2} / \mathrm{s}\) ,活性炭的颗粒密度为 \(0.6 \mathrm{~g} / \mathrm{cm}^{3}\) 。  
+
+image[[352, 245, 718, 408]]
+image_caption[[422, 412, 650, 430]]
+<center>图9.5.2 例题9.5.1附图</center>  
+
+text[[147, 458, 293, 475]]
+解:由式(9.5.1)  
+
+equation[[446, 485, 621, 503]]
+\[G(\rho_{0} - \rho_{1}) = L(x_{1} - x_{0})\]  
+
+text[[108, 511, 553, 531]]
+将 \(G = 1 \mathrm{~m}^{3}, L = 3 \mathrm{~kg}, \rho_{0} = 0.2 \mathrm{~kg} / \mathrm{m}^{3}, x_{0} = 0\) 代入上式,得  
+
+equation[[435, 539, 635, 558]]
+\[1 \times (0.2 - \rho_{1}) = 3 \times (x_{1} - 0)\]  
+
+text[[146, 566, 947, 586]]
+从点 \((\rho_{0} = 0.2, x_{0} = 0)\) 作一条斜率为 \(-(L / G) = -3\) 的直线交于平衡线,得到平衡浓度 \(\rho_{1} = 0.038 \mathrm{~kg} / \mathrm{m}^{3}\) 。  
+
+text[[147, 589, 380, 606]]
+已知 \(Sh = k \times 0.03 \times 10^{5} = 2\) ,则  
+
+equation[[375, 616, 695, 650]]
+\[k = \frac{2}{3} \times 10^{-3} \mathrm{~cm} / \mathrm{s} = \frac{2}{3} \times 10^{-5} \times 3600 \mathrm{~m} / \mathrm{h}\]  
+
+equation[[350, 653, 722, 690]]
+\[S = \frac{1}{\rho_{\mathrm{p}}} \times \frac{6}{d_{\mathrm{p}}} = \frac{1}{600} \times \frac{6}{3 \times 10^{-4}} \mathrm{~m}^{2} / \mathrm{kg} = 33.33 \mathrm{~m}^{2} / \mathrm{kg}\]  
+
+text[[147, 697, 563, 717]]
+由 \((\rho_{0} - \rho_{1}^{\prime}) / (\rho_{0} - \rho_{1}) = 0.95\) ,得 \(\rho_{1}^{\prime} = 0.0461 \mathrm{~kg} / \mathrm{m}^{3}\) 。  
+
+text[[147, 720, 505, 738]]
+由式(9.5.4b),吸附接触时间 \(\theta\) 可以表示为  
+
+equation[[442, 746, 622, 784]]
+\[\theta = \frac{G}{K_{\mathrm{F}} S L} \int_{\rho_{0}}^{\rho_{1}^{\prime}}\left(-\frac{\mathrm{d}\rho}{\rho - \rho^{*}}\right)\]  
+
+text[[108, 792, 283, 809]]
+由图9.5.2可以求得  
+
+equation[[451, 819, 613, 856]]
+\[\int_{\rho_{0}}^{\rho_{1}^{\prime}}\left(-\frac{\mathrm{d}\rho}{\rho - \rho^{*}}\right) = 2.1\]  
+
+text[[108, 858, 217, 874]]
+代入上式,得  
+
+equation[[494, 885, 571, 919]]
+\[\theta = \frac{2.1 G}{K_{\mathrm{F}} S L}\]

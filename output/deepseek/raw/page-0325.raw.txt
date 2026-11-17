@@ -1,0 +1,17 @@
+sub_title[[140, 102, 455, 128]]
+## 本章主要符号说明  
+
+sub_title[[137, 149, 230, 166]]
+## 拉丁字母  
+
+text[[100, 170, 523, 704]]
+A——颗粒表面积, \(\mathrm{m}^{2}\) ; \(\Delta G\) ——吸附位势, \(\mathrm{J} / \mathrm{mol}\) ; \(G\) ——溶液中溶剂的容积, \(\mathrm{m}^{3}\) ; 溶液流入填充层的速率, \(\mathrm{m}^{3} / (\mathrm{s}\cdot \mathrm{m}^{2})\) ; [HTU] \(_0\) ——传质单元高度, \(\mathrm{m}\) ; \(k\) ——界膜传质系数, \(\mathrm{m} / \mathrm{s}\) ; 常数; \(k_{1}\) ——朗缪尔平衡常数; \(k_{\mathrm{a}}\) ——吸附速率常数; \(k_{\mathrm{b}}\) ——常数,其值与温度、吸附热和冷凝热有关; \(k_{\mathrm{d}}\) ——脱附速率常数; \(K_{\mathrm{F}}\) ——总括传质系数; \(L\) ——吸附剂质量, \(\mathrm{kg}\) ; 吸附剂的供给速率, \(\mathrm{kg} / (\mathrm{s}\cdot \mathrm{m}^{2})\) ; \(m\) ——吸附平衡常数, \(\mathrm{m}^{3}\) (溶剂) / \(\mathrm{kg}\) (吸附剂); \(M_{\mathrm{A}}\) ——吸附质的相对分子质量; \(n\) ——常数, \(n \geqslant 1\) ; \(N_{\mathrm{t}}\) ——总传质单元数; \(N_{\mathrm{A}}\) ——传质速率, \(\mathrm{kg} / \mathrm{s}\) ; \(p\) ——吸附质的吸附平衡分压, \(\mathrm{Pa}\) ; \(p_{0}\) ——吸附质组分的饱和蒸气压, \(\mathrm{Pa}\) ; \(Q_{\mathrm{d}}\) ——微分吸附热, \(\mathrm{kJ} / \mathrm{kmol}\) ; \(Q_{\mathrm{i}}\) ——积分吸附热, \(\mathrm{kJ} / \mathrm{kg}\) ; \(q\) ——平衡吸附量, \(\mathrm{kg}\) (吸附质) / \(\mathrm{kg}\) (吸附剂)或 \(\mathrm{kmol}\) (吸附质) / \(\mathrm{kg}\) (吸附剂); \(q_{\mathrm{m}}\) ——饱和吸附量, \(\mathrm{kg}\) (吸附质) / \(\mathrm{kg}\) (吸附剂)或 \(\mathrm{kmol}\) (吸附质) / \(\mathrm{kg}\) (吸附剂); 吸附剂颗粒内的平均吸附量, \(\mathrm{kg}\) (吸附质) / \(\mathrm{kg}\) (吸附剂); 摩尔气体常数, \(R = 8.314 \mathrm{~J} / (\mathrm{mol}\cdot \mathrm{K})\) ; \(S\) ——1 kg 吸附剂的表面积, \(\mathrm{m}^{2} / \mathrm{kg}\) ; \(T\) ——热力学温度; \(t_{\mathrm{b}}\) ——穿透时间, \(\mathrm{h}\) ; \(V\) ——颗粒体积, \(\mathrm{m}^{3}\) ; \(v\) ——空床线速率, \(\mathrm{m} / \mathrm{h}\) ; \(x\) ——吸附剂中溶质的浓度, \(\mathrm{kg}\) (溶质) / \(\mathrm{kg}\) (吸附剂); \(z\) ——固定床吸附塔填充高度, \(\mathrm{m}\) 。  
+
+text[[617, 149, 968, 385]]
+剂)或 \(\mathrm{kmol}\) (吸附质) / \(\mathrm{kg}\) (吸附剂); 吸附剂颗粒内的平均吸附量, \(\mathrm{kg}\) (吸附质) / \(\mathrm{kg}\) (吸附剂); \(R\) ——摩尔气体常数, \(R = 8.314 \mathrm{~J} / (\mathrm{mol}\cdot \mathrm{K})\) ; \(S\) ——1 kg 吸附剂的表面积, \(\mathrm{m}^{2} / \mathrm{kg}\) ; \(T\) ——热力学温度; \(t_{\mathrm{b}}\) ——穿透时间, \(\mathrm{h}\) ; \(V\) ——颗粒体积, \(\mathrm{m}^{3}\) ; \(v\) ——空床线速率, \(\mathrm{m} / \mathrm{h}\) ; \(x\) ——吸附剂中溶质的浓度, \(\mathrm{kg}\) (溶质) / \(\mathrm{kg}\) (吸附剂); \(z\) ——固定床吸附塔填充高度, \(\mathrm{m}\) 。  
+
+sub_title[[592, 389, 684, 406]]
+## 希腊字母  
+
+text[[610, 411, 968, 696]]
+\(\alpha\) ——吸附质的相对挥发度; 任意时间不含溶质的溶剂流量, \(\mathrm{m}^{3} / \mathrm{m}^{2}\) ; \(\alpha_{\mathrm{a}}\) ——吸附区移动了吸附区高度 \(z_{\mathrm{a}}\) 区间的流量; \(\alpha_{\beta}\) ——出口处溶质浓度达到 \(\rho_{\beta}\) 时的流量; \(\rho\) ——溶液中溶质浓度, \(\mathrm{kg} / \mathrm{m}^{3}\) ; \(\rho_{\beta}\) ——穿透点浓度, \(\mathrm{kg} / \mathrm{m}^{3}\) ; \(\rho_{\epsilon}\) ——穿透曲线的终点浓度, \(\mathrm{kg} / \mathrm{m}^{3}\) ; \(\rho^{*}\) ——对应操作线的浓度 \(\rho\) 的平衡浓度, \(\mathrm{kg} / \mathrm{m}^{3}\) ; \(\rho_{\mathrm{p}}\) ——颗粒密度, \(\mathrm{kg} / \mathrm{m}^{3}\) ; \(\rho_{\mathrm{b}}\) ——床层的填充密度, \(\mathrm{kg} / \mathrm{m}^{3}\) ; \(\lambda\) ——蒸发潜热, \(\mathrm{kJ} / \mathrm{mol}\) ; \(\theta\) ——覆盖率。

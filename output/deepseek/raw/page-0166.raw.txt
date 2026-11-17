@@ -1,0 +1,62 @@
+equation[[305, 65, 901, 103]]
+\[\mathrm{d}Q = -q_{m c}c_{p c}\mathrm{d}T_{\mathrm{c}}\qquad \mathrm{d}T_{\mathrm{c}} = -\frac{\mathrm{d}Q}{q_{m c}c_{p c}} \quad (4.4.11)\]  
+
+text[[80, 112, 287, 131]]
+对(4.4.8)式微分,得  
+
+equation[[386, 142, 901, 162]]
+\[\mathrm{d}(\Delta T) = \mathrm{d}T_{\mathrm{h}} - \mathrm{d}T_{\mathrm{c}} \quad (4.4.12)\]  
+
+text[[78, 172, 548, 192]]
+将式(4.4.10)和式(4.4.11)代入式(4.4.12),得  
+
+equation[[337, 204, 602, 245]]
+\[\mathrm{d}(\Delta T) = \left(\frac{1}{q_{m c}c_{p c}} -\frac{1}{q_{m h}c_{p h}}\right)\mathrm{d}Q\]  
+
+text[[37, 263, 64, 281]]
+或  
+
+equation[[381, 254, 901, 316]]
+\[\mathrm{d}Q = \frac{\mathrm{d}(\Delta T)}{\frac{1}{q_{m c}c_{p c}} - \frac{1}{q_{m h}c_{p h}}} \quad (4.4.13)\]  
+
+text[[78, 324, 802, 346]]
+用 \(\Delta T_{1}\) 和 \(\Delta T_{2}\) 分别表示换热器两端两流体的温差,并对(4.4.13)式积分,得  
+
+equation[[388, 356, 553, 422]]
+\[Q = \frac{\Delta T_{2} - \Delta T_{1}}{\frac{1}{q_{m c}c_{p c}} - \frac{1}{q_{m h}c_{p h}}}\]  
+
+text[[37, 429, 107, 448]]
+或写成  
+
+equation[[348, 459, 901, 503]]
+\[\frac{1}{q_{m c}c_{p c}} -\frac{1}{q_{m h}c_{p h}} = \frac{\Delta T_{2} - \Delta T_{1}}{Q} \quad (4.4.14)\]  
+
+text[[78, 510, 400, 530]]
+联立式(4.4.9)和式(4.4.13),得  
+
+equation[[361, 542, 580, 604]]
+\[K\Delta T\mathrm{d}A = \frac{\mathrm{d}(\Delta T)}{1 - \frac{1}{q_{m c}c_{p c}} - \frac{1}{q_{m h}c_{p h}}}\]  
+
+text[[37, 611, 64, 628]]
+或  
+
+equation[[328, 641, 608, 682]]
+\[\left(\frac{1}{q_{m c}c_{p c}} -\frac{1}{q_{m h}c_{p h}}\right)K\mathrm{d}A = \frac{\mathrm{d}(\Delta T)}{\Delta T}\]  
+
+text[[78, 690, 442, 710]]
+对上式积分,并将式(4.4.14)代入,得  
+
+equation[[371, 721, 596, 762]]
+\[\frac{\Delta T_{2} - \Delta T_{1}}{Q} KA = \ln \frac{\Delta T_{2}}{\Delta T_{1}}\]  
+
+text[[37, 786, 64, 803]]
+或  
+
+equation[[350, 775, 590, 838]]
+\[Q = KA\frac{\Delta T_{2} - \Delta T_{1}}{\ln\frac{\Delta T_{2}}{\Delta T_{1}}} = KA\Delta T_{\mathrm{m}}\]  
+
+text[[37, 862, 84, 879]]
+其中  
+
+equation[[394, 850, 901, 913]]
+\[\Delta T_{\mathrm{m}} = \frac{\Delta T_{2} - \Delta T_{1}}{\ln\frac{\Delta T_{2}}{\Delta T_{1}}} \quad (4.4.15)\]

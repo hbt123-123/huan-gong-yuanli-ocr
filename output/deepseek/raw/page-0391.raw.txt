@@ -1,0 +1,53 @@
+text[[146, 83, 426, 101]]
+组分A的浓度可由下式求得  
+
+equation[[427, 112, 969, 133]]
+\[c_{\mathrm{A}} = c_{\mathrm{total},0}(1 + \delta_{\mathrm{A}}z_{\mathrm{A}0}x_{\mathrm{A}})z_{\mathrm{A}} \quad (11.2.33)\]  
+
+text[[146, 142, 525, 161]]
+将式(11.2.27)代入式(11.2.33),可得  
+
+equation[[445, 170, 969, 260]]
+\[\begin{array}{c}{{c_{\mathrm{A}}=c_{\mathrm{total},0}z_{\mathrm{A}0}(1-x_{\mathrm{A}})}}\\ {{c_{\mathrm{A}}=c_{\mathrm{A}0}(1-x_{\mathrm{A}})}}\\ {{x_{\mathrm{A}}=\frac{c_{\mathrm{A}0}-c_{\mathrm{A}}}{c_{\mathrm{A}0}}}}\end{array} \quad (11.2.34)\]  
+
+text[[102, 268, 464, 288]]
+式中: \(c_{\mathrm{A}0}\) ——A的初始浓度, \(\mathrm{kmol / m}^{3}\) 。  
+
+text[[146, 291, 790, 310]]
+由于反应体积不变,由式(11.2.20)也可以直接推导出(11.2.35b)。  
+
+text[[147, 313, 660, 332]]
+其他各成分的浓度与A的转化率的关系见表11.2.2。  
+
+table[[102, 363, 972, 533]]
+table_caption[[189, 343, 885, 361]]
+表11.2.2 恒容反应系统 \(\left(\alpha_{\mathrm{A}}A + \alpha_{\mathrm{B}}B\right.\) —→ \(\alpha_{P}\mathbf{P}\) )中各组分浓度与A的转化率的关系  
+
+<table>组分初始浓度转化率为x A时的浓度Ac A0c A = c A0(1-x A)Bc B0c B = c B0-αB/αA(c A0-c A)=c B0-αB/αAPc P0c P = c P0+αP/αA(c A0-c A)=c P0+αP/αAMc M0c M = c M0</table>
+
+table_footnote[[138, 535, 275, 550]]
+注：M为惰性物质。  
+
+text[[103, 562, 972, 626]]
+另外,表11.2.2中的各关系式也可以由表11.2.1中的物质的量的关系式简单地推导出来。因为恒容系统的体积不发生变化,将物质的量除以体积即可得到浓度与 \(x_{\mathrm{A}}\) 的关系式。  
+
+text[[103, 628, 972, 671]]
+(2)恒温恒压气相反应(非恒容反应):对于恒温恒压气相反应,反应体系中的总浓度 \((c_{\mathrm{total}})\) 可根据理想气体方程求得,计算式为  
+
+equation[[476, 683, 969, 720]]
+\[c_{\mathrm{total}} = \frac{n_{i}}{V} = \frac{p}{RT} \quad (11.2.36)\]  
+
+text[[103, 734, 339, 752]]
+式中: \(p\) ——总压力, \(\mathrm{kPa}\) ;  
+
+text[[157, 756, 306, 774]]
+\(V\) ——体积, \(\mathrm{m}^{3}\) ;  
+
+text[[155, 778, 538, 797]]
+\(R\) ——摩尔气体常数,8.314J/(mol·K)。  
+
+text[[103, 805, 972, 861]]
+将表11.2.1中摩尔分数与 \(x_{\mathrm{A}}\) 的关系式两边同乘以 \(\frac{p}{RT}\) ,即可得到恒温恒压气相反应系统中各组分浓度与反应物A的转化率 \(x_{\mathrm{A}}\) 之间的关系式。例如,反应物A的浓度与 \(x_{\mathrm{A}}\) 的关系为  
+
+equation[[437, 874, 969, 935]]
+\[z_{\mathrm{A}}\frac{p}{RT}\frac{RT}{1 + \delta_{\mathrm{A}}z_{\mathrm{A}0}x_{\mathrm{A}}} = \frac{p}{RT}\frac{1 - x_{\mathrm{A}}}{1 + \delta_{\mathrm{A}}z_{\mathrm{A}0}x_{\mathrm{A}}} \quad (11.2.37)\]

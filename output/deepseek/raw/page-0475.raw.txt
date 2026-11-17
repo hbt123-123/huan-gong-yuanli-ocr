@@ -1,0 +1,65 @@
+equation[[336, 78, 959, 117]]
+\[Y_{\mathrm{X / av.e}} = \frac{\mathrm{细胞生长量}}{\mathrm{消耗基质的有效电子数}} = \frac{\Delta X}{\Delta n_{\mathrm{av.e}}} \quad (14.2.18)\]  
+
+text[[92, 127, 620, 147]]
+式中: \(\Delta n_{\mathrm{av.e}}\) ——消耗基质的有效电子数, \(\mathrm{kmol}(\mathrm{av.e}^{- })\) 。  
+
+text[[93, 149, 959, 191]]
+基质的有效电子数可由每千摩尔的基质完全燃烧时需要的氧的千摩尔数 \(\Delta n_{0_{2}}\) (kmol)计算  
+
+equation[[444, 201, 958, 238]]
+\[\Delta n_{\mathrm{av.e}} = \frac{\Delta S}{M_{\mathrm{s}}} 4\Delta n_{0_{2}} \quad (14.2.19)\]  
+
+equation[[455, 243, 959, 281]]
+\[Y_{\mathrm{X / av.e}} = \frac{Y_{\mathrm{X / s}}M_{\mathrm{s}}}{4\Delta n_{0_{2}}} \quad (14.2.20)\]  
+
+text[[139, 303, 948, 322]]
+【例题14.2.3】已知某细菌在以葡萄糖为基质时的 \(Y_{\mathrm{X / s}} = 0.404 \mathrm{~g}(\text{细胞}) / \mathrm{g}(\text{葡萄糖})\) ,试求 \(Y_{\mathrm{X / av.e}}\) 。  
+
+text[[139, 326, 371, 342]]
+解:葡萄糖的相对分子质量  
+
+equation[[405, 351, 651, 368]]
+\[M_{\mathrm{s}} = 12 \times 16 + 1 \times 12 + 16 \times 6 = 180\]  
+
+text[[140, 377, 665, 397]]
+葡萄糖完全燃烧时的需要量 \(\Delta n_{0_{2}} = 6 \mathrm{~mol}(\mathrm{O}_{2}) / \mathrm{mol}(\text{葡萄糖})\) ,故  
+
+equation[[295, 408, 758, 445]]
+\[Y_{\mathrm{X / av.e}} = \frac{Y_{\mathrm{X / s}}M_{\mathrm{s}}}{4\Delta n_{0_{2}}} = \frac{0.404 \times 180}{4 \times 6} = 3.03 \mathrm{~g}(\text{细胞}) / \mathrm{mol}(\mathrm{av.e}^{-})\]  
+
+sub_title[[135, 471, 465, 495]]
+## 三、代谢产物的产率系数  
+
+text[[93, 506, 959, 550]]
+代谢产物的产率系数( \(Y_{\mathrm{P / S}}\) )定义为单位质量的基质消耗量所生成的代谢产物的量,可表示为  
+
+equation[[368, 560, 958, 602]]
+\[Y_{\mathrm{P / S}} = \frac{\text{代谢产物生成量}}{\text{基质消耗量}} = \frac{\Delta P}{-\Delta S} = \frac{r_{\mathrm{p}}}{-r_{\mathrm{s}}} \quad (14.2.21)\]  
+
+text[[93, 611, 425, 630]]
+式中: \(\Delta P\) ——代谢产物生成量, \(\mathrm{kg}\) 。  
+
+text[[137, 632, 629, 652]]
+以碳元素为基准的代谢产物的产率系数 \(Y_{\mathrm{P / C}}\) 定义为  
+
+equation[[320, 662, 958, 703]]
+\[Y_{\mathrm{P / C}} = \frac{\text{代谢产物生成量} \times \text{产物含碳率}}{\text{基质消耗量} \times \text{基质含碳率}} = Y_{\mathrm{P / S}} \frac{\gamma_{\mathrm{P}}}{\gamma_{\mathrm{S}}} \quad (14.2.22)\]  
+
+text[[93, 712, 503, 731]]
+式中: \(\gamma_{\mathrm{p}}\) ——代谢产物的含碳率,量纲为 \(1\) 。  
+
+sub_title[[323, 752, 733, 778]]
+## 第三节 微生物反应动力学  
+
+sub_title[[135, 807, 407, 829]]
+## 一、微生物生长速率  
+
+sub_title[[139, 841, 419, 859]]
+### (一)微生物生长速率的定义  
+
+text[[138, 863, 394, 882]]
+微生物生长速率 \(r_{\mathrm{x}}\) 定义为  
+
+equation[[473, 892, 959, 927]]
+\[r_{\mathrm{x}} = \frac{\mathrm{d}X}{\mathrm{d}t} = \mu X \quad (14.3.1)\]

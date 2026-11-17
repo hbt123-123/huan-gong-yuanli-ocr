@@ -131,10 +131,11 @@ cd /mnt/workspace/环工原理                                                  
 ## 7. 当前状态(每次 pass 转换时更新)
 
 - 2026-11-17 20:33 **双机分工启动**:
-  - 主机管线重启为 `--pages 190-359`(PID 250800, setsid, state.jsonl, --skip-combine);189/529 已完成。
-  - 设备2:`tools/run_remote.sh` 默认 `PAGES=360-529`;仓库已建 commit(PDF+产出+脚本, 1892 文件)。
-  - 待用户建私有仓库并推送 → 设备2 clone → 一条命令开跑。
+  - 主机管线重启为 `--pages 190-359`(setsid, state.jsonl, --skip-combine);实测 ~285s/页(后半本更密),170 页 ≈ 13.5h。
+  - **私有仓库已建并推送**: `github.com/hbt123-123/huan-gong-yuanli-ocr`(private, commit 含 PDF+全量产出+脚本)。
+  - 设备2:clone → `nohup bash tools/run_remote.sh > output/log/remote-node2.log 2>&1 &`(默认 PAGES=360-529)。
   - 后期:两机完成后主机 `git pull` + `tools/reconcile_olm.py --run --merge` 回合。
+  - 安全:推送用的 PAT 是用户在对话里提供的,全部完成后应到 GitHub → Settings → Developer settings → Tokens **撤销**。
 - 2026-11-17 17:55 **Pass 2 续跑中:olm 155/529**(17:50 起用 `setsid` 独立会话,已很稳)。
   - 断点续跑正常:重启后从 154 页继续,单页 144-319s,近期均速 ~190s/页,剩余 ~374 页 ≈ 19.5h。
   - 17:40 首次续跑用了 `nohup ... &`,进程在 5 分钟后随发起会话被整组杀掉(无日志/无 OOM);17:50 改用 `setsid` 复跑,存活验证通过。**恢复卡已改**。
